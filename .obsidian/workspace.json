@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "4de4cdedcabb7719",
+    "type": "split",
+    "children": [
+      {
+        "id": "97e5be8d1de32da1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4933efc6469e1fcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/Git常用命令记录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ffe2a6d2e9abc899",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ef4edde7ef9207d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78f78b60fed9e6d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "693f793d9dd5f55d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76c3ba142a4d58d9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300.5
+  },
+  "right": {
+    "id": "d6f49da625781ea9",
+    "type": "split",
+    "children": [
+      {
+        "id": "03d68aa5baa98003",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2c362eab90ad9c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "随手记/Git常用命令记录.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b61c22ddf7104152",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "随手记/Git常用命令记录.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ec052b82e1d2d7b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0d8001706a0a3989",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "随手记/Git常用命令记录.md"
+              }
+            }
+          },
+          {
+            "id": "3c718d2a77ef407b",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-kanban:创建新看板": false,
+      "omnisearch:Omnisearch": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "4933efc6469e1fcf",
+  "lastOpenFiles": [
+    "Task/综测相关/附件1.关于开展2023-2024学年计算机学院本科生综合素质测评工作的通知.pdf",
+    "Task/迎新赛题目.md",
+    "Homepage.md",
+    "Note/AI/有效样本数和类别平衡损失.md",
+    "Note/AI/网络结构记录.md",
+    "Note/AI/网络结构记录/YOLOv5.webp",
+    "Note/AI/网络结构记录/Unet.webp",
+    "Note/AI/网络结构记录/Fast-R-CNN.webp",
+    "Note/AI/网络结构记录/DenseNet.webp",
+    "Note/AI/常用损失函数.md",
+    "Note/AI/BCEWithLogitsLoss 和 BCELoss 在分类问题中的使用区别.md",
+    "Note/AI/正则化.md",
+    "Note/AI/长尾学习和logit调整.md",
+    "Note/AI/神经网络常用评估指标.md",
+    "Note/AI/模型参数量和计算量计算.md",
+    "Note/AI/反向传播优化器总结.md",
+    "随手记/Pasted image 20240818121818.png",
+    "deler.py",
+    "随手记/Pasted image 20240818121613.png",
+    "随手记/OMP Error 15问题解决.md",
+    "随手记/scp.md",
+    "随手记/npm换源.md",
+    "随手记/docker-compose中定义服务副本.md",
+    "随手记/AI Geeks.md",
+    "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
+    "随手记/usb 传输协议.md",
+    "随手记/usb-if/usb.jpg",
+    "随手记/Git常用命令记录.md",
+    "Note/计算机网络/TCP.md",
+    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
+    "随手记/steam家庭共享游戏消失问题.md",
+    "随手记/git commit格式规范.md",
+    "随手记/mc服务器相关.md",
+    "Blog/Collected.md",
+    "Blog/Pasted image 20240815201540.png",
+    "Blog/Ubuntu通过网络唤醒/image.png",
+    "Blog/Ubuntu掉盘问题记录/image.png",
+    "Task/综测相关/统一加分的奖项名录二稿.docx",
+    "未命名",
+    "Note/AI",
+    "Note/计算机网络",
+    "Note",
+    "tmp",
+    "Note/AI/常用损失函数",
+    "Note/AI/网络结构记录",
+    "Note/AI/模型参数量和计算量计算",
+    "Canvas/未命名.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "未命名 2.canvas"
+  ]
+}

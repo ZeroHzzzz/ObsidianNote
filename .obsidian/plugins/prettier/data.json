@@ -1,0 +1,12 @@
+{
+  "formatOnSave": true,
+  "formatCodeBlock": true,
+  "removeExtraSpaces": false,
+  "addTrailingSpaces": false,
+  "formatOptions": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true
+  }
+}
