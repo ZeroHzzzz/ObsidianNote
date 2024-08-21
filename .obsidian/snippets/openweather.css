@@ -14,3 +14,35 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: #333;
 }
+
+h2.city {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 1.5em;
+    transform: translateZ(30px);
+}
+
+h1.temp {
+    margin: 0;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0.1em;
+    transform: translateZ(30px);
+}
+
+.flex {
+    display: flex;
+    justify-content: left;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+.other {
+    font-size: 1.2em;
+    font-weight: 500;
+    transform: translateZ(30px);
+}
