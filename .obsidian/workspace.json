@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "887a837761edd9b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TUN和TAP模式的区别.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TUN和TAP模式的区别.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TUN和TAP模式的区别.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TUN和TAP模式的区别.md"
+                "file": "Homepage.md"
               }
             }
           },
@@ -174,35 +160,35 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "887a837761edd9b9",
+  "active": "78f78b60fed9e6d4",
   "lastOpenFiles": [
-    "Homepage.md",
-    "TUN和TAP模式的区别.md",
-    "随手记/python-magic导入报错问题.md",
-    "随手记/Git常用命令记录.md",
-    "随手记/quote.md",
-    "Task/迎新赛题目.md",
-    "Task/README.md",
-    "Task/Task.md",
-    "随手记/mc服务器相关.md",
-    "随手记/git commit格式规范.md",
-    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
-    "随手记/conda.md",
-    "随手记/使用qq邮箱群发邮件.md",
-    "随手记/精小弘prompt.md",
-    "随手记/pipreqs生成requirements.txt文件.md",
     "HomePage-LEFT.md",
-    "Note/计算机网络/DDoS 攻击.md",
-    "随手记/OMP Error 15问题解决.md",
-    "随手记/docker-compose中定义服务副本.md",
-    "随手记/Pytorch fbgemm.dll依赖问题.md",
-    "随手记/Obsidian + PicList + alist.md",
-    "随手记/npm换源.md",
-    "Blog/Something-Useful.md",
-    "Note/计算机网络/SMTP.md",
+    "Task/Task.md",
+    "Homepage.md",
+    "Note/计算机网络/TLD.md",
     "Note/计算机网络/边缘计算.md",
+    "Note/计算机网络/动态DNS.md",
+    "Note/计算机网络/代理.md",
+    "Note/计算机网络/反向代理.md",
+    "Note/计算机网络/缓存.md",
+    "Note/计算机网络/路由.md",
+    "Note/计算机网络/循环DNS.md",
+    "Note/计算机网络/源站.md",
+    "Note/计算机网络/域名.md",
+    "Note/计算机网络/正向代理.md",
+    "Note/计算机网络/A记录.md",
+    "Note/计算机网络/Anycast.md",
+    "Note/计算机网络/BGP.md",
+    "Note/计算机网络/CDN.md",
+    "Note/计算机网络/DDoS 攻击.md",
+    "Note/计算机网络/DNS.md",
+    "Note/计算机网络/DNS服务器.md",
+    "Note/计算机网络/DNS记录.md",
+    "Note/计算机网络/HTTP.md",
+    "Note/计算机网络/IP.md",
+    "Note/计算机网络/SMTP.md",
+    "Note/计算机网络/TCP.md",
     "未命名",
-    "随手记/wandb相关.md",
     "HomePage/view.css",
     "HomePage/~建 Microsoft Excel 工作表.tmp",
     "HomePage/新建 Microsoft Excel 工作表.xlsx",
