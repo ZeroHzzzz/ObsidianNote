@@ -6,4 +6,4 @@ cssclasses:
 > [!dictum]
 > 假设1：
 
-<div class="weather_current_4"></div>
+<div class="weather_current_1"></div>

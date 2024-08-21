@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "656e876745d90120",
+        "id": "c0f9ab129a39d898",
         "type": "tabs",
         "children": [
           {
-            "id": "51ac9b7820ec10e6",
+            "id": "f6e97c33cbbccfd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "test.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "93691b610ecc104b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homepage.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -182,11 +169,11 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "51ac9b7820ec10e6",
+  "active": "f6e97c33cbbccfd7",
   "lastOpenFiles": [
-    "Homepage.md",
-    "test.md",
     "HomePage-LEFT.md",
+    "test.md",
+    "Homepage.md",
     "随手记/qqbot相关.md",
     "随手记/AI Geeks.md",
     "随手记/test.md",

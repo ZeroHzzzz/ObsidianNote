@@ -1,5 +1,5 @@
 ---
-banner: '![[wallhaven-7pv11v.jpg]]'
+banner: "![[wallhaven-7pv11v.jpg]]"
 banner_y: 0.55334
 banner_x: 0.5
 ---
