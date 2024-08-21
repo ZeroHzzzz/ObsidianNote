@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "7bbce721d95e57e0",
+        "id": "d6fb8cc8b8c7ee3d",
         "type": "tabs",
         "children": [
           {
-            "id": "4355e7f26b3f0398",
+            "id": "3c94949a0536df67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/AI Geeks.md",
+                "file": "test.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69f4acf238b3571c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/AI Geeks.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/AI Geeks.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/AI Geeks.md"
+                "file": "test.md"
               }
             }
           },
@@ -135,6 +148,14 @@
             "type": "leaf",
             "state": {
               "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "dfa2508f86c17958",
+            "type": "leaf",
+            "state": {
+              "type": "tenki",
               "state": {}
             }
           }
@@ -161,12 +182,14 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "4355e7f26b3f0398",
+  "active": "3c94949a0536df67",
   "lastOpenFiles": [
-    "随手记/test.md",
-    "随手记/AI Geeks.md",
     "HomePage-LEFT.md",
+    "test.md",
     "Homepage.md",
+    "随手记/qqbot相关.md",
+    "随手记/AI Geeks.md",
+    "随手记/test.md",
     "随手记/使用qq邮箱群发邮件.md",
     "随手记/Nginx负载均衡.md",
     "随手记/使用OpenWeather获取天气信息.md",
@@ -190,8 +213,6 @@
     "Note/计算机网络/循环DNS.md",
     "Note/计算机网络/源站.md",
     "Note/计算机网络/域名.md",
-    "Note/计算机网络/正向代理.md",
-    "Note/计算机网络/Anycast.md",
     "HomePage/view.css",
     "HomePage/~建 Microsoft Excel 工作表.tmp",
     "HomePage/新建 Microsoft Excel 工作表.xlsx",
