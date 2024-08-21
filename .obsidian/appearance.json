@@ -1,5 +1,8 @@
 {
   "cssTheme": "Tokyo Night",
   "accentColor": "#beaa60",
-  "baseFontSize": 20
+  "baseFontSize": 20,
+  "enabledCssSnippets": [
+    "openweather"
+  ]
 }

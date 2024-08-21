@@ -1,0 +1,16 @@
+{
+  "location": "Hangzhou City",
+  "latitude": "30.2489634",
+  "longitude": "120.2052342",
+  "key": "fb06c5c52a817fe5675f2e519ddb204f",
+  "units": "metric",
+  "language": "zh_cn",
+  "excludeFolder": "",
+  "weatherFormat1": "%desc% • Current Temp: %temp%°C • Feels Like: %feels%°C\n",
+  "weatherFormat2": "%name%: %dateMonth4% %dateDay2% - %timeH2%:%timeM% %ampm1%\nCurrent Temp: %temp%°C • Feels Like: %feels%°C\nWind: %wind-speed% km/h from the %wind-dir%^ with gusts up to %wind-gust% km/h^\nSunrise: %sunrise% • Sunset: %sunset%\n",
+  "weatherFormat3": "%icon%&nbsp;%dateMonth4% %dateDay2% %dateYear1% • %timeH2%:%timeM% %ampm1% • %desc%<br>&nbsp;Recorded Temp: %temp% • Felt like: %feels%<br>&nbsp;Wind: %wind-speed% km/h from the %wind-dir%^ with gusts up to %wind-gust% km/h^<br>&nbsp;Sunrise: %sunrise% • Sunset: %sunset%",
+  "weatherFormat4": "%icon%&nbsp;%dateMonth4% %dateDay2% %dateYear1% • %timeH2%:%timeM% %ampm1% • %desc%<br>&nbsp;Current Temp: %temp% • Feels like: %feels%<br>&nbsp;Wind: %wind-speed% km/h from the %wind-dir%^ with gusts up to %wind-gust% km/h^<br>&nbsp;Sunrise: %sunrise% • Sunset: %sunset%",
+  "statusbarActive": true,
+  "weatherFormatSB": "%dateYear1%/%dateMonth2%/%dateDay2%/ |天气: %desc% %desc-em% | 温度: %temp%°C  |  日落: %sunset%\n",
+  "statusbarUpdateFreq": "5"
+}

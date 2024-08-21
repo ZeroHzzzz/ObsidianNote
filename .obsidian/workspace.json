@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/scp.md",
+                "file": "随手记/AI Geeks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3b1e9e72902ae64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HomePage-LEFT.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/scp.md",
+                "file": "HomePage-LEFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/scp.md",
+                "file": "HomePage-LEFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/scp.md"
+                "file": "HomePage-LEFT.md"
               }
             }
           },
@@ -157,19 +171,27 @@
       "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "open-weather:OpenWeather": false
     }
   },
-  "active": "4355e7f26b3f0398",
+  "active": "f3b1e9e72902ae64",
   "lastOpenFiles": [
     "Homepage.md",
+    "HomePage-LEFT.md",
+    "随手记/test.md",
+    "随手记/AI Geeks.md",
+    "随手记/使用qq邮箱群发邮件.md",
+    "随手记/Nginx负载均衡.md",
+    "随手记/使用OpenWeather获取天气信息.md",
+    "Task/Task.md",
+    "Task/未命名.md",
+    "随手记/scp.md",
     "Note/计算机网络/TCP.md",
     "Note/计算机网络/HTTP.md",
     "Note/计算机网络/A记录.md",
     "Note/计算机网络/IP.md",
-    "HomePage-LEFT.md",
     "Note/计算机网络/TLD.md",
-    "Task/Task.md",
     "Config/Banner/wallhaven-7pv11v.jpg",
     "Config/Banner",
     "Config",
@@ -184,13 +206,6 @@
     "Note/计算机网络/域名.md",
     "Note/计算机网络/正向代理.md",
     "Note/计算机网络/Anycast.md",
-    "Note/计算机网络/BGP.md",
-    "Note/计算机网络/CDN.md",
-    "Note/计算机网络/DDoS 攻击.md",
-    "Note/计算机网络/DNS.md",
-    "Note/计算机网络/DNS服务器.md",
-    "Note/计算机网络/DNS记录.md",
-    "Note/计算机网络/SMTP.md",
     "HomePage/view.css",
     "HomePage/~建 Microsoft Excel 工作表.tmp",
     "HomePage/新建 Microsoft Excel 工作表.xlsx",
