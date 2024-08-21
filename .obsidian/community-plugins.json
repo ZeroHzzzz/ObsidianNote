@@ -10,5 +10,6 @@
   "obsidian-checklist-plugin",
   "obsidian-search-everywhere-plugin",
   "obsidian-image-auto-upload-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "contribution-graph"
 ]

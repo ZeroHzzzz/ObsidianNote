@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "97e5be8d1de32da1",
+        "id": "1d53f63e427093ac",
         "type": "tabs",
         "children": [
           {
-            "id": "4933efc6469e1fcf",
+            "id": "0104f91db1748211",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/Git常用命令记录.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "040d9dfb887b926e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homepage.md",
+                "file": "HomePage-LEFT.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "HomePage-LEFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "HomePage-LEFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md"
+                "file": "HomePage-LEFT.md"
               }
             }
           },
@@ -174,12 +160,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "040d9dfb887b926e",
+  "active": "0104f91db1748211",
   "lastOpenFiles": [
+    "HomePage/view.js.md",
+    "HomePage/view.css",
+    "HomePage/~建 Microsoft Excel 工作表.tmp",
+    "HomePage/新建 Microsoft Excel 工作表.xlsx",
+    "HomePage/view.js",
+    "HomePage-LEFT.md",
+    "HomePage",
+    "Homepage.md",
+    "Blog/Vscode中c编译器配置（mingw64）.md",
     "随手记/Git常用命令记录.md",
     "Task/综测相关/附件1.关于开展2023-2024学年计算机学院本科生综合素质测评工作的通知.pdf",
     "Task/迎新赛题目.md",
-    "Homepage.md",
     "Note/AI/有效样本数和类别平衡损失.md",
     "Note/AI/网络结构记录.md",
     "Note/AI/网络结构记录/YOLOv5.webp",
@@ -207,20 +201,12 @@
     "Note/计算机网络/TCP.md",
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "随手记/steam家庭共享游戏消失问题.md",
-    "随手记/git commit格式规范.md",
-    "随手记/mc服务器相关.md",
-    "Blog/Collected.md",
     "Blog/Pasted image 20240815201540.png",
     "Blog/Ubuntu通过网络唤醒/image.png",
     "Blog/Ubuntu掉盘问题记录/image.png",
     "Task/综测相关/统一加分的奖项名录二稿.docx",
-    "未命名",
     "Note/AI",
     "Note/计算机网络",
-    "Note",
-    "tmp",
-    "Note/AI/常用损失函数",
-    "Note/AI/网络结构记录",
     "Canvas/未命名.canvas",
     "未命名 1.canvas",
     "未命名.canvas",

@@ -1,10 +1,3 @@
----
-title: git常用命令
-date: 2024-05-02 17:59:00
-categories:
-    - Technologies_exploration
----
-
 ![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210020685.png)
 
 放一些git常用命令

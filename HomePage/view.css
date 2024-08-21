@@ -1,0 +1,25 @@
+/* view.css */
+.recent-note-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recent-note-card h3 {
+    margin: 0;
+}
+
+.recent-note-card a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+.recent-note-card p {
+    margin: 5px 0;
+    color: #666;
+}
