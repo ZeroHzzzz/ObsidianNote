@@ -1,6 +1,5 @@
 ---
-cssclasses:
-    - callout
+cssclasses: []
 ---
 
 > [!dictum]

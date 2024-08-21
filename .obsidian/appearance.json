@@ -5,6 +5,7 @@
   "enabledCssSnippets": [
     "openweather",
     "callout",
-    "custom-admonitions.1b78cc"
+    "custom-admonitions.1b78cc",
+    "a"
   ]
 }

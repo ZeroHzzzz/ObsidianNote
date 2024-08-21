@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d6fb8cc8b8c7ee3d",
+        "id": "a995b6585e2c590d",
         "type": "tabs",
         "children": [
           {
-            "id": "3c94949a0536df67",
+            "id": "a8271e86abdd1749",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,19 +21,20 @@
             }
           },
           {
-            "id": "69f4acf238b3571c",
+            "id": "0a5233de23ec455f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "Homepage.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "Homepage.md"
               }
             }
           },
@@ -178,15 +179,14 @@
       "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "open-weather:OpenWeather": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3c94949a0536df67",
+  "active": "0a5233de23ec455f",
   "lastOpenFiles": [
-    "HomePage-LEFT.md",
     "test.md",
     "Homepage.md",
+    "HomePage-LEFT.md",
     "随手记/qqbot相关.md",
     "随手记/AI Geeks.md",
     "随手记/test.md",
