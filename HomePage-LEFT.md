@@ -1,3 +1,9 @@
+---
+banner: '![[wallhaven-7pv11v.jpg]]'
+banner_y: 0.52669
+banner_x: 0.5
+---
+
 ```contributionGraph
 title: Writings in the last few months
 graphType: default
@@ -17,7 +23,7 @@ dataSource:
   filters: []
   countField:
     type: DEFAULT
-fillTheScreen: false
+fillTheScreen: true
 enableMainContainerShadow: false
 cellStyleRules:
   - id: default_b
@@ -39,13 +45,45 @@ cellStyleRules:
 cellStyle:
   minWidth: 15px
   minHeight: 15px
+mainContainerStyle:
+  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px
 
 ```
+
+--- start-multi-column: ID_47k0
+
+```column-settings
+Number of Columns: 2
+Largest Column: standard
+border:off
+Shadow:on
+```
+
+### 最近修改
 
 ```dataviewjs
+// 获取并排序最近修改的笔记
+let pages = dv.pages().sort(p => p.file.mtime, 'desc');
+
+// 显示前10个最近修改的笔记标题并居中
+dv.list(
+    pages.slice(0, 10).map(p => dv.span(`**${p.file.name}**`, { style: "display: block; text-align: center;" }))
+);
 
 ```
+
+--- column-break ---
+
+### 未完成
 
 ```dataviewjs
-await dv.view("views/recent");
+// 获取带有 #uncompleted 标签的笔记
+let pages = dv.pages("#uncompleted");
+
+// 创建一个居中的列表
+dv.list(
+    pages.map(p => dv.span(`**${p.file.name}**`, { style: "display: block; text-align: center;" }))
+);
 ```
+
+--- end-multi-column

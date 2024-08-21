@@ -4,8 +4,8 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
-  "collapse-color-groups": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:Note/计算机网络  ",
@@ -25,6 +25,6 @@
   "repelStrength": 16.4359861591696,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.163483705672207,
+  "scale": 0.6316046762907571,
   "close": true
 }

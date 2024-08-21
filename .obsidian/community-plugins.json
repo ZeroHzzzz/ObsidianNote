@@ -11,5 +11,9 @@
   "obsidian-search-everywhere-plugin",
   "obsidian-image-auto-upload-plugin",
   "obsidian-git",
-  "contribution-graph"
+  "contribution-graph",
+  "obsidian-banners",
+  "multi-column-markdown",
+  "mousewheel-image-zoom",
+  "virtual-linker"
 ]
