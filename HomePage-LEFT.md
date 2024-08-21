@@ -10,7 +10,7 @@ titleStyle:
   fontSize: 20px
   fontWeight: normal
 dataSource:
-  type: ALL_TASK
+  type: PAGE
   value: ""
   dateField:
     type: FILE_MTIME
