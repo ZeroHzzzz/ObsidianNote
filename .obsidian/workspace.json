@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "85e1ff584bc27d7a",
+        "id": "7303099be5456b68",
         "type": "tabs",
         "children": [
           {
-            "id": "bb54e74462ca4342",
+            "id": "5082ef5e8f1efde7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/OMP Error 15问题解决.md",
+                "file": "随手记/使用qq邮箱群发邮件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/OMP Error 15问题解决.md",
+                "file": "随手记/使用qq邮箱群发邮件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/OMP Error 15问题解决.md",
+                "file": "随手记/使用qq邮箱群发邮件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/OMP Error 15问题解决.md"
+                "file": "随手记/使用qq邮箱群发邮件.md"
               }
             }
           },
@@ -160,20 +160,21 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bb54e74462ca4342",
+  "active": "5082ef5e8f1efde7",
   "lastOpenFiles": [
-    "随手记/prompt.md",
+    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
+    "Note/计算机网络/DDoS 攻击.md",
+    "Homepage.md",
+    "HomePage-LEFT.md",
     "随手记/OMP Error 15问题解决.md",
+    "随手记/docker-compose中定义服务副本.md",
+    "随手记/conda.md",
+    "随手记/prompt.md",
     "随手记/Pytorch fbgemm.dll依赖问题.md",
     "随手记/Obsidian + PicList + alist.md",
     "随手记/npm换源.md",
-    "HomePage-LEFT.md",
-    "Homepage.md",
     "Blog/Something-Useful.md",
     "随手记/使用qq邮箱群发邮件.md",
-    "随手记/docker-compose中定义服务副本.md",
-    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
-    "随手记/conda.md",
     "随手记/quote.md",
     "Note/计算机网络/SMTP.md",
     "Note/计算机网络/边缘计算.md",
@@ -194,7 +195,6 @@
     "HomePage",
     "Blog/Vscode中c编译器配置（mingw64）.md",
     "Task/综测相关/附件1.关于开展2023-2024学年计算机学院本科生综合素质测评工作的通知.pdf",
-    "Task/迎新赛题目.md",
     "Note/AI/网络结构记录/YOLOv5.webp",
     "Note/AI/网络结构记录/Unet.webp",
     "Note/AI/网络结构记录/Fast-R-CNN.webp",
