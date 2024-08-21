@@ -6,7 +6,7 @@
   "units": "metric",
   "language": "zh_cn",
   "excludeFolder": "",
-  "weatherFormat1": "<p><strong>%name%</strong>: %dateMonth4% %dateDay2%, %timeH2%:%timeM% %ampm1%</p>\n<p>当前温度: <strong>%temp%°C</strong> • 体感温度: <strong>%feels%°C</strong></p>\n<p>\n  风力: <strong>%wind-speed% km/h</strong><br>\n  风向: <strong>%wind-dir%</strong><br>\n  最大阵风: <strong>%wind-gust% km/h</strong>\n</p>\n<p>日升: <strong>%sunrise%</strong> • 日落: <strong>%sunset%</strong></p>\n",
+  "weatherFormat1": "<p><strong>%name%</strong>: %dateMonth4% %dateDay2%, %timeH2%:%timeM% %ampm1% %icon%</p>\n<p>当前温度: <strong>%temp%°C</strong> • 体感温度: <strong>%feels%°C</strong></p>\n<p>\n  风力: <strong>%wind-speed% km/h</strong><br>\n  风向: <strong>%wind-dir%</strong><br>\n  最大阵风: <strong>%wind-gust% km/h</strong>\n</p>\n<p>日升: <strong>%sunrise%</strong> • 日落: <strong>%sunset%</strong></p>\n",
   "weatherFormat2": "%name%: %dateMonth4% %dateDay2% - %timeH2%:%timeM% %ampm1%\nCurrent Temp: %temp%°C • Feels Like: %feels%°C\nWind: %wind-speed% km/h from the %wind-dir%^ with gusts up to %wind-gust% km/h^\nSunrise: %sunrise% • Sunset: %sunset%\n",
   "weatherFormat3": "%icon%&nbsp;%dateMonth4% %dateDay2% %dateYear1% • %timeH2%:%timeM% %ampm1% • %desc%<br>&nbsp;Recorded Temp: %temp% • Felt like: %feels%<br>&nbsp;Wind: %wind-speed% km/h from the %wind-dir%^ with gusts up to %wind-gust% km/h^<br>&nbsp;Sunrise: %sunrise% • Sunset: %sunset%",
   "weatherFormat4": "%icon%&nbsp;%dateMonth4% %dateDay2% %dateYear1% • %timeH2%:%timeM% %ampm1% • %desc%<br>&nbsp;Current Temp: %temp% • Feels like: %feels%<br>&nbsp;Wind: %wind-speed% km/h from the %wind-dir%^ with gusts up to %wind-gust% km/h^<br>&nbsp;Sunrise: %sunrise% • Sunset: %sunset%",
