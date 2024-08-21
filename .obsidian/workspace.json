@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage-LEFT.md",
+                "file": "Blog/Something-Useful.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8da742d84b1414ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/使用qq邮箱群发邮件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage-LEFT.md",
+                "file": "随手记/使用qq邮箱群发邮件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage-LEFT.md",
+                "file": "随手记/使用qq邮箱群发邮件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage-LEFT.md"
+                "file": "随手记/使用qq邮箱群发邮件.md"
               }
             }
           },
@@ -160,18 +174,32 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0104f91db1748211",
+  "active": "8da742d84b1414ae",
   "lastOpenFiles": [
+    "Blog/Something-Useful.md",
+    "随手记/使用qq邮箱群发邮件.md",
+    "未命名",
+    "随手记/mc服务器相关.md",
+    "随手记/conda.md",
+    "随手记/wandb相关.md",
+    "随手记/usb 传输协议.md",
+    "随手记/Ubuntu常用.md",
+    "随手记/Pytorch fbgemm.dll依赖问题.md",
+    "随手记/pytorch flash attention安装.md",
+    "随手记/prompt.md",
+    "随手记/OMP Error 15问题解决.md",
+    "随手记/Nginx代理转发请求方法改变问题解决.md",
+    "随手记/Nginx负载均衡.md",
+    "随手记/Git常用命令记录.md",
+    "HomePage-LEFT.md",
     "HomePage/view.js.md",
     "HomePage/view.css",
     "HomePage/~建 Microsoft Excel 工作表.tmp",
     "HomePage/新建 Microsoft Excel 工作表.xlsx",
     "HomePage/view.js",
-    "HomePage-LEFT.md",
     "HomePage",
     "Homepage.md",
     "Blog/Vscode中c编译器配置（mingw64）.md",
-    "随手记/Git常用命令记录.md",
     "Task/综测相关/附件1.关于开展2023-2024学年计算机学院本科生综合素质测评工作的通知.pdf",
     "Task/迎新赛题目.md",
     "Note/AI/有效样本数和类别平衡损失.md",
@@ -185,28 +213,15 @@
     "Note/AI/正则化.md",
     "Note/AI/长尾学习和logit调整.md",
     "Note/AI/神经网络常用评估指标.md",
-    "Note/AI/模型参数量和计算量计算.md",
-    "Note/AI/反向传播优化器总结.md",
     "随手记/Pasted image 20240818121818.png",
     "deler.py",
     "随手记/Pasted image 20240818121613.png",
-    "随手记/OMP Error 15问题解决.md",
-    "随手记/scp.md",
-    "随手记/npm换源.md",
-    "随手记/docker-compose中定义服务副本.md",
-    "随手记/AI Geeks.md",
-    "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
-    "随手记/usb 传输协议.md",
     "随手记/usb-if/usb.jpg",
-    "Note/计算机网络/TCP.md",
-    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
-    "随手记/steam家庭共享游戏消失问题.md",
     "Blog/Pasted image 20240815201540.png",
     "Blog/Ubuntu通过网络唤醒/image.png",
     "Blog/Ubuntu掉盘问题记录/image.png",
     "Task/综测相关/统一加分的奖项名录二稿.docx",
     "Note/AI",
-    "Note/计算机网络",
     "Canvas/未命名.canvas",
     "未命名 1.canvas",
     "未命名.canvas",
