@@ -21,6 +21,7 @@ git checkout -- <file> //撤销对文件的修改，将其恢复到最后一次�
 git branch <name>    // 新建
 git branch -b <name> // 新建并切换
 git branch -d <name> // 删除分支
+git branch -m        // 重命名分支
 git merge <name>     // 将分支合并到当前分支
 git tag <text>       // 标签
 git tag -a <text>    // 带注解的标签

@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "7303099be5456b68",
+        "id": "32b50d276cc8e379",
         "type": "tabs",
         "children": [
           {
-            "id": "5082ef5e8f1efde7",
+            "id": "b7af04bd82a1a290",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/python-magic导入报错问题.md",
-                "mode": "preview",
+                "file": "Homepage.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "887a837761edd9b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TUN和TAP模式的区别.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/python-magic导入报错问题.md",
+                "file": "TUN和TAP模式的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/python-magic导入报错问题.md",
+                "file": "TUN和TAP模式的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/python-magic导入报错问题.md"
+                "file": "TUN和TAP模式的区别.md"
               }
             }
           },
@@ -160,11 +174,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5082ef5e8f1efde7",
+  "active": "887a837761edd9b9",
   "lastOpenFiles": [
-    "Task/Task.md",
     "Homepage.md",
+    "TUN和TAP模式的区别.md",
     "随手记/python-magic导入报错问题.md",
+    "随手记/Git常用命令记录.md",
+    "随手记/quote.md",
+    "Task/迎新赛题目.md",
+    "Task/README.md",
+    "Task/Task.md",
     "随手记/mc服务器相关.md",
     "随手记/git commit格式规范.md",
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
@@ -180,15 +199,10 @@
     "随手记/Obsidian + PicList + alist.md",
     "随手记/npm换源.md",
     "Blog/Something-Useful.md",
-    "随手记/quote.md",
     "Note/计算机网络/SMTP.md",
     "Note/计算机网络/边缘计算.md",
     "未命名",
     "随手记/wandb相关.md",
-    "随手记/usb 传输协议.md",
-    "随手记/Ubuntu常用.md",
-    "随手记/pytorch flash attention安装.md",
-    "随手记/Nginx代理转发请求方法改变问题解决.md",
     "HomePage/view.css",
     "HomePage/~建 Microsoft Excel 工作表.tmp",
     "HomePage/新建 Microsoft Excel 工作表.xlsx",
