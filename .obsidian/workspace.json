@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d9a5b437daac84ef",
+        "id": "b266a3682dd629cd",
         "type": "tabs",
         "children": [
           {
-            "id": "88738d31619f399f",
+            "id": "7c78bfb7cb1dd37a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4f82e9571ad29dc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homepage.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 298.5
   },
   "right": {
     "id": "d6f49da625781ea9",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage-LEFT.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage-LEFT.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage-LEFT.md"
+                "file": "Homepage.md"
               }
             }
           },
@@ -151,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,11 +184,17 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "88738d31619f399f",
+  "active": "4f82e9571ad29dc8",
   "lastOpenFiles": [
-    "test.md",
-    "Homepage.md",
     "HomePage-LEFT.md",
+    "Homepage.md",
+    "230114.jpg",
+    "wallhaven-d5ojdj.jpg",
+    "wallhaven-l8xe5r.jpg",
+    "Task/Task.md",
+    "test.md",
+    "Config/Banner/wallhaven-7pv11v.jpg",
+    "Blog/Something-Useful.md",
     "未命名 1",
     "未命名",
     "Note/Academic_Note/高数/空间几何.md",
@@ -186,21 +207,18 @@
     "随手记/使用qq邮箱群发邮件.md",
     "随手记/Nginx负载均衡.md",
     "随手记/使用OpenWeather获取天气信息.md",
-    "Task/Task.md",
     "Task/未命名.md",
     "随手记/scp.md",
     "Note/计算机网络/HTTP.md",
     "Note/计算机网络/A记录.md",
     "Note/计算机网络/IP.md",
     "Note/计算机网络/TLD.md",
-    "Config/Banner/wallhaven-7pv11v.jpg",
     "Config/Banner",
     "Config",
     "Note/计算机网络/边缘计算.md",
     "Note/计算机网络/动态DNS.md",
     "Note/计算机网络/代理.md",
     "Note/计算机网络/反向代理.md",
-    "Note/计算机网络/缓存.md",
     "HomePage/view.css",
     "HomePage/~建 Microsoft Excel 工作表.tmp",
     "HomePage/新建 Microsoft Excel 工作表.xlsx",
@@ -213,9 +231,6 @@
     "Note/AI/网络结构记录/DenseNet.webp",
     "随手记/Pasted image 20240818121818.png",
     "随手记/Pasted image 20240818121613.png",
-    "随手记/usb-if/usb.jpg",
-    "Blog/Pasted image 20240815201540.png",
-    "Blog/Ubuntu通过网络唤醒/image.png",
     "Canvas/未命名.canvas",
     "未命名 1.canvas",
     "未命名.canvas",
