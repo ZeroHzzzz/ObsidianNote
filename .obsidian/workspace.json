@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "b0e71add281e03e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/steam家庭共享游戏消失问题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage/HomePage.md",
+                "file": "随手记/steam家庭共享游戏消失问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage/HomePage.md",
+                "file": "随手记/steam家庭共享游戏消失问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage/HomePage.md"
+                "file": "随手记/steam家庭共享游戏消失问题.md"
               }
             }
           },
@@ -172,16 +186,22 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "c2cfb77e902c8975",
+  "active": "b0e71add281e03e6",
   "lastOpenFiles": [
+    "随手记/TUN和TAP模式的区别.md",
+    "随手记/steam家庭共享游戏消失问题.md",
+    "随手记/scp.md",
+    "随手记/quote.md",
+    "随手记/pytorch杂记.md",
+    "随手记/qqbot相关.md",
+    "随手记/pytorch flash attention安装.md",
+    "随手记/Pytorch fbgemm.dll依赖问题.md",
+    "随手记/python-magic导入报错问题.md",
+    "随手记/pipreqs生成requirements.txt文件.md",
+    "随手记/OMP Error 15问题解决.md",
     "HomePage/HomePage.md",
     "随手记/使用qq邮箱群发邮件.md",
-    "随手记/pytorch杂记.md",
     "随手记/Obsidian粘贴图片自动上传到图床.md",
-    "随手记/OMP Error 15问题解决.md",
-    "随手记/pipreqs生成requirements.txt文件.md",
-    "随手记/python-magic导入报错问题.md",
-    "随手记/Pytorch fbgemm.dll依赖问题.md",
     "随手记/screen使用方法.md",
     "随手记/docker-compose中定义服务副本.md",
     "随手记/AI Geeks.md",
@@ -192,14 +212,9 @@
     "随手记/npm换源.md",
     "随手记/Nginx负载均衡.md",
     "随手记/conda.md",
-    "随手记/qqbot相关.md",
     "随手记/Git常用命令记录.md",
     "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
-    "随手记/pytorch flash attention安装.md",
     "HomePage/wallhaven-7pv11v.jpg",
-    "Blog/Ubuntu上使用Todesk.md",
-    "Blog/Voicemeeter使用记录.md",
-    "Blog/Vscode中c编译器配置（mingw64）.md",
     "HomePage/wallhaven-l8xe5r.jpg",
     "230114.jpg",
     "wallhaven-d5ojdj.jpg",
