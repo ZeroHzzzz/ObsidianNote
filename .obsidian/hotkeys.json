@@ -1,1 +1,11 @@
-{}
+{
+  "quote-of-the-day:qotd-random": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     "custom-admonitions.1b78cc",
     "a",
     "openweather",
-    "callout",
     "noprop"
-  ]
+  ],
+  "theme": "system"
 }

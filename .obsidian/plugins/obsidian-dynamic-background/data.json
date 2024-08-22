@@ -1,7 +1,7 @@
 {
-  "dynamicEffect": 2,
+  "dynamicEffect": 1,
   "digitalRainBrightness": 0.7,
-  "enableDynamicEffect": false,
-  "backgroundImageFile": "wallhaven-l8xe5r.jpg",
-  "blur": 2
+  "enableDynamicEffect": true,
+  "backgroundImageFile": "HomePage/wallhaven-l8xe5r.jpg",
+  "blur": 8
 }

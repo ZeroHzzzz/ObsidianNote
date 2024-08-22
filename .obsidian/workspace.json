@@ -4,16 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "b266a3682dd629cd",
+        "id": "ff17205b599a337e",
         "type": "tabs",
         "children": [
           {
-            "id": "7c78bfb7cb1dd37a",
+            "id": "bbcf06ceb7920b60",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HomePage/HomePage.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "75085e6225c52403",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage-LEFT.md",
+                "file": "随手记/pytorch杂记.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,20 +36,35 @@
             }
           },
           {
-            "id": "4f82e9571ad29dc8",
+            "id": "03e6419af9e82922",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage.md",
+                "file": "随手记/Obsidian粘贴图片自动上传到图床.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "1ae206cac69818b6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HomePage/HomePage.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "HomePage/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "HomePage/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md"
+                "file": "HomePage/HomePage.md"
               }
             }
           },
@@ -184,41 +214,41 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "4f82e9571ad29dc8",
+  "active": "1ae206cac69818b6",
   "lastOpenFiles": [
-    "HomePage-LEFT.md",
-    "Homepage.md",
+    "随手记/Obsidian粘贴图片自动上传到图床.md",
+    "随手记/OMP Error 15问题解决.md",
+    "随手记/pipreqs生成requirements.txt文件.md",
+    "随手记/python-magic导入报错问题.md",
+    "随手记/pytorch杂记.md",
+    "随手记/Pytorch fbgemm.dll依赖问题.md",
+    "HomePage/HomePage.md",
+    "随手记/screen使用方法.md",
+    "随手记/docker-compose中定义服务副本.md",
+    "随手记/使用qq邮箱群发邮件.md",
+    "随手记/AI Geeks.md",
+    "随手记/使用OpenWeather获取天气信息.md",
+    "随手记/精小弘prompt.md",
+    "随手记/mc服务器相关.md",
+    "随手记/Nginx代理转发请求方法改变问题解决.md",
+    "随手记/npm换源.md",
+    "随手记/Nginx负载均衡.md",
+    "随手记/conda.md",
+    "随手记/qqbot相关.md",
+    "随手记/Git常用命令记录.md",
+    "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
+    "随手记/pytorch flash attention安装.md",
+    "HomePage/wallhaven-7pv11v.jpg",
+    "Blog/Ubuntu上使用Todesk.md",
+    "Blog/Voicemeeter使用记录.md",
+    "Blog/Vscode中c编译器配置（mingw64）.md",
+    "HomePage/wallhaven-l8xe5r.jpg",
     "230114.jpg",
     "wallhaven-d5ojdj.jpg",
-    "wallhaven-l8xe5r.jpg",
-    "Task/Task.md",
-    "test.md",
-    "Config/Banner/wallhaven-7pv11v.jpg",
-    "Blog/Something-Useful.md",
     "未命名 1",
     "未命名",
-    "Note/Academic_Note/高数/空间几何.md",
-    "Note/Academic_Note/高数/矩阵.md",
-    "Note/计算机网络/TCP.md",
-    "Note/计算机网络/SMTP.md",
-    "随手记/qqbot相关.md",
-    "随手记/AI Geeks.md",
-    "随手记/test.md",
-    "随手记/使用qq邮箱群发邮件.md",
-    "随手记/Nginx负载均衡.md",
-    "随手记/使用OpenWeather获取天气信息.md",
-    "Task/未命名.md",
-    "随手记/scp.md",
-    "Note/计算机网络/HTTP.md",
-    "Note/计算机网络/A记录.md",
-    "Note/计算机网络/IP.md",
-    "Note/计算机网络/TLD.md",
     "Config/Banner",
     "Config",
-    "Note/计算机网络/边缘计算.md",
-    "Note/计算机网络/动态DNS.md",
-    "Note/计算机网络/代理.md",
-    "Note/计算机网络/反向代理.md",
     "HomePage/view.css",
     "HomePage/~建 Microsoft Excel 工作表.tmp",
     "HomePage/新建 Microsoft Excel 工作表.xlsx",

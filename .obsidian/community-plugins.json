@@ -4,7 +4,6 @@
   "prettier",
   "omnisearch",
   "text-extractor",
-  "homepage",
   "pdf-plus",
   "docxer",
   "obsidian-checklist-plugin",
@@ -18,5 +17,5 @@
   "virtual-linker",
   "open-weather",
   "quick-latex",
-  "beautitab"
+  "homepage"
 ]
