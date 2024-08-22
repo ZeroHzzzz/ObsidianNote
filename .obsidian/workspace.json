@@ -28,7 +28,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/steam家庭共享游戏消失问题.md",
+                "file": "随手记/使用qq邮箱群发邮件.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1852c872df7edb28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/迎新赛公告.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -36,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/steam家庭共享游戏消失问题.md",
+                "file": "随手记/迎新赛公告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/steam家庭共享游戏消失问题.md",
+                "file": "随手记/迎新赛公告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/steam家庭共享游戏消失问题.md"
+                "file": "随手记/迎新赛公告.md"
               }
             }
           },
@@ -186,10 +199,12 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "b0e71add281e03e6",
+  "active": "1852c872df7edb28",
   "lastOpenFiles": [
-    "随手记/TUN和TAP模式的区别.md",
+    "随手记/使用qq邮箱群发邮件.md",
+    "随手记/迎新赛公告.md",
     "随手记/steam家庭共享游戏消失问题.md",
+    "随手记/TUN和TAP模式的区别.md",
     "随手记/scp.md",
     "随手记/quote.md",
     "随手记/pytorch杂记.md",
@@ -200,7 +215,6 @@
     "随手记/pipreqs生成requirements.txt文件.md",
     "随手记/OMP Error 15问题解决.md",
     "HomePage/HomePage.md",
-    "随手记/使用qq邮箱群发邮件.md",
     "随手记/Obsidian粘贴图片自动上传到图床.md",
     "随手记/screen使用方法.md",
     "随手记/docker-compose中定义服务副本.md",
@@ -213,7 +227,6 @@
     "随手记/Nginx负载均衡.md",
     "随手记/conda.md",
     "随手记/Git常用命令记录.md",
-    "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
     "HomePage/wallhaven-7pv11v.jpg",
     "HomePage/wallhaven-l8xe5r.jpg",
     "230114.jpg",
