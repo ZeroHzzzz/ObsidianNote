@@ -3,9 +3,10 @@
   "accentColor": "#beaa60",
   "baseFontSize": 20,
   "enabledCssSnippets": [
+    "custom-admonitions.1b78cc",
+    "a",
     "openweather",
     "callout",
-    "custom-admonitions.1b78cc",
-    "a"
+    "noprop"
   ]
 }

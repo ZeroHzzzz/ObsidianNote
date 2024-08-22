@@ -1,6 +1,8 @@
 ---
 cssclasses:
     - weather
+    - background
+    - noprop
 ---
 
 > [!dictum]

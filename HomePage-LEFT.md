@@ -2,8 +2,10 @@
 banner: "![[wallhaven-7pv11v.jpg]]"
 banner_y: 0.55334
 banner_x: 0.5
+cssclasses:
+    - weather
+    - noprop
 ---
-
 ```contributionGraph
 title: Writings in the last few months
 graphType: default
@@ -49,6 +51,8 @@ mainContainerStyle:
   boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px
 
 ```
+
+<div class="weather_current_1"></div>
 
 --- start-multi-column: ID_47k0
 

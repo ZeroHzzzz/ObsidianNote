@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aac40a213fa6f6b0",
+        "id": "d9a5b437daac84ef",
         "type": "tabs",
         "children": [
           {
-            "id": "f05986085d1944e6",
+            "id": "88738d31619f399f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "HomePage-LEFT.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "HomePage-LEFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
+                "file": "HomePage-LEFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "HomePage-LEFT.md"
               }
             }
           },
@@ -169,11 +169,17 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "f05986085d1944e6",
+  "active": "88738d31619f399f",
   "lastOpenFiles": [
-    "Homepage.md",
     "test.md",
+    "Homepage.md",
     "HomePage-LEFT.md",
+    "未命名 1",
+    "未命名",
+    "Note/Academic_Note/高数/空间几何.md",
+    "Note/Academic_Note/高数/矩阵.md",
+    "Note/计算机网络/TCP.md",
+    "Note/计算机网络/SMTP.md",
     "随手记/qqbot相关.md",
     "随手记/AI Geeks.md",
     "随手记/test.md",
@@ -183,7 +189,6 @@
     "Task/Task.md",
     "Task/未命名.md",
     "随手记/scp.md",
-    "Note/计算机网络/TCP.md",
     "Note/计算机网络/HTTP.md",
     "Note/计算机网络/A记录.md",
     "Note/计算机网络/IP.md",
@@ -196,10 +201,6 @@
     "Note/计算机网络/代理.md",
     "Note/计算机网络/反向代理.md",
     "Note/计算机网络/缓存.md",
-    "Note/计算机网络/路由.md",
-    "Note/计算机网络/循环DNS.md",
-    "Note/计算机网络/源站.md",
-    "Note/计算机网络/域名.md",
     "HomePage/view.css",
     "HomePage/~建 Microsoft Excel 工作表.tmp",
     "HomePage/新建 Microsoft Excel 工作表.xlsx",
@@ -211,12 +212,10 @@
     "Note/AI/网络结构记录/Fast-R-CNN.webp",
     "Note/AI/网络结构记录/DenseNet.webp",
     "随手记/Pasted image 20240818121818.png",
-    "deler.py",
     "随手记/Pasted image 20240818121613.png",
     "随手记/usb-if/usb.jpg",
     "Blog/Pasted image 20240815201540.png",
     "Blog/Ubuntu通过网络唤醒/image.png",
-    "Task/综测相关/统一加分的奖项名录二稿.docx",
     "Canvas/未命名.canvas",
     "未命名 1.canvas",
     "未命名.canvas",
