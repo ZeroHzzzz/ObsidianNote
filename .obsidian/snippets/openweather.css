@@ -1,48 +1,115 @@
-.weather .metadata-container {
-    display: none !important;
-}
-
-.weather_current_1,
-.weather_current_2,
-.weather_current_3,
-.weather_current_4 {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 500px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+body {
     color: #333;
-}
-
-h2.city {
-    margin-top: 0.5em;
-    text-align: center;
-    font-size: 1.5em;
-    transform: translateZ(30px);
-}
-
-h1.temp {
+    font-family: "Arial", sans-serif;
+    background: #e0f7fa; /* 轻柔的浅蓝色背景 */
     margin: 0;
-    font-size: 2em;
-    align-items: center;
+    padding: 20px;
+    display: flex;
     justify-content: center;
-    text-align: center;
-    margin-left: 0.1em;
-    transform: translateZ(30px);
+    align-items: center;
+    min-height: 100vh;
 }
 
-.flex {
+.weather-current {
+    position: relative;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* 优雅的阴影效果 */
+    border-radius: 15px;
+    background: #ffffff; /* 纯白色背景 */
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.city {
+    color: #00796b;
+    margin: 0.5em 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.temp {
+    color: #d32f2f;
+    margin: 0.25em 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.weather-details {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.icon-container {
+    flex: 0.5;
+    text-align: center;
+}
+
+.description-container {
+    flex: 1.5;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.icon {
+    font-size: 4em;
+    color: #0288d1; /* 天蓝色图标 */
 }
 
 .description {
+    font-size: 1.5em;
+    font-weight: 600;
     text-transform: capitalize;
-    margin-left: 8px;
+    color: #424242;
 }
-.other {
+
+.humidity {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #757575;
+}
+
+.humidity-key {
     font-size: 1.2em;
-    font-weight: 500;
-    transform: translateZ(30px);
+    font-weight: bold;
+    color: #00796b;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.info-block {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.other {
+    margin: 0.75em 0;
+    font-size: 1.2em;
+    color: #424242;
+}
+
+.label {
+    font-weight: 600;
+    color: #616161;
+}
+
+.key {
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+@keyframes rotates {
+    from {
+        transform: translateX(-0.4em);
+    }
+    to {
+        transform: translateX(0.4em);
+    }
 }
