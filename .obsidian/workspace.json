@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "526f5a803552f618",
+        "id": "7dd82fc81598f701",
         "type": "tabs",
         "children": [
           {
-            "id": "ef868f4f8e79e04d",
+            "id": "a66a453174fb3c16",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -23,12 +23,25 @@
             }
           },
           {
-            "id": "98fb6c2f55b48281",
+            "id": "a2abde2f5fc9013a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/SQL注入.md",
+                "file": "随手记/G++、GCC 和 GDB.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "205a26307687732b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/Android系统分区.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -36,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/SQL注入.md",
+                "file": "随手记/Android系统分区.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/SQL注入.md",
+                "file": "随手记/Android系统分区.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/SQL注入.md"
+                "file": "随手记/Android系统分区.md"
               }
             }
           },
@@ -186,8 +199,14 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "98fb6c2f55b48281",
+  "active": "205a26307687732b",
   "lastOpenFiles": [
+    "随手记/G++、GCC 和 GDB.md",
+    "随手记/Android系统分区.md",
+    "随手记/Git常用命令记录.md",
+    "随手记/Nginx代理转发请求方法改变问题解决.md",
+    "随手记/Ubuntu常用.md",
+    "随手记/TUN和TAP模式的区别.md",
     "HomePage/HomePage.md",
     "随手记/SQL注入.md",
     "HomePage/wallhaven-7pv11v.jpg",
@@ -207,17 +226,11 @@
     "随手记/使用qq邮箱群发邮件.md",
     "随手记/AI Geeks.md",
     "随手记/未命名看板.md",
-    "随手记/G++、GCC 和 GDB.md",
     "随手记/CMake.md",
     "随手记/mc服务器相关.md",
     "随手记/docker-compose中定义服务副本.md",
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
-    "随手记/使用OpenWeather获取天气信息.md",
-    "随手记/精小弘prompt.md",
-    "随手记/vim使用.md",
-    "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
-    "Blog/Hexo添加图片方式记录.md",
     "Temp",
     "230114.jpg",
     "wallhaven-d5ojdj.jpg",
