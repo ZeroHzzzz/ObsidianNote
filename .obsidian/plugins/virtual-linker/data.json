@@ -11,7 +11,7 @@
   "glossarySuffix": "🔗",
   "applyDefaultLinkStyling": true,
   "includeHeaders": true,
-  "matchCaseSensitive": false,
+  "matchCaseSensitive": true,
   "tagToIgnoreCase": "linker-ignore-case",
   "tagToMatchCase": "linker-match-case",
   "tagToExcludeFile": "linker-exclude",

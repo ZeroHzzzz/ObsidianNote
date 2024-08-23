@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "008c9df3ea05acc9",
+        "id": "526f5a803552f618",
         "type": "tabs",
         "children": [
           {
-            "id": "e060d72d70e86260",
+            "id": "ef868f4f8e79e04d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,6 +20,19 @@
                 "source": false
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "b4a922124be16fa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/MingGW和MSVC.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -172,13 +185,14 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "e060d72d70e86260",
+  "active": "ef868f4f8e79e04d",
   "lastOpenFiles": [
-    "Note/计算机网络/IP.md",
+    "随手记/MingGW和MSVC.md",
     "HomePage/HomePage.md",
+    "随手记/G++、GCC 和 GDB.md",
+    "Note/计算机网络/IP.md",
     "Temp/std.md",
     "随手记/git commit格式规范.md",
-    "随手记/未命名.md",
     "Temp",
     "随手记/使用qq邮箱群发邮件.md",
     "随手记/qqbot相关.md",
@@ -199,8 +213,6 @@
     "Note/计算机网络/反向代理.md",
     "Note/计算机网络/动态DNS.md",
     "Note/计算机网络/代理.md",
-    "Note/计算机网络/边缘计算.md",
-    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "HomePage/wallhaven-7pv11v.jpg",
     "HomePage/wallhaven-l8xe5r.jpg",
     "230114.jpg",
