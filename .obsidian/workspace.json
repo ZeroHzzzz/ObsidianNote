@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "4b25dbba5d765ae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/Something-Useful.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage/HomePage.md",
+                "file": "随手记/Something-Useful.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage/HomePage.md",
+                "file": "随手记/Something-Useful.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage/HomePage.md"
+                "file": "随手记/Something-Useful.md"
               }
             }
           },
@@ -172,12 +186,16 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "ef868f4f8e79e04d",
+  "active": "4b25dbba5d765ae9",
   "lastOpenFiles": [
+    "随手记/conda.md",
+    "随手记/python-magic导入报错问题.md",
+    "随手记/pytorch杂记.md",
+    "HomePage/HomePage.md",
+    "随手记/正则表达式.md",
     "随手记/MingGW和MSVC.md",
     "随手记/Pytorch fbgemm.dll依赖问题.md",
     "随手记/pytorch flash attention安装.md",
-    "随手记/pytorch杂记.md",
     "随手记/qqbot相关.md",
     "Note/计算机网络/反向代理.md",
     "随手记/使用qq邮箱群发邮件.md",
@@ -192,14 +210,10 @@
     "随手记/使用OpenWeather获取天气信息.md",
     "随手记/精小弘prompt.md",
     "随手记/vim使用.md",
-    "HomePage/HomePage.md",
     "随手记/Something-Useful.md",
     "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
     "Blog/Hexo添加图片方式记录.md",
     "Blog/CV-PIL-Read-Photos.md",
-    "随手记/Ubuntu常用.md",
-    "Blog/Ubuntu.md",
-    "随手记/Nginx代理转发请求方法改变问题解决.md",
     "Temp",
     "HomePage/wallhaven-7pv11v.jpg",
     "HomePage/wallhaven-l8xe5r.jpg",

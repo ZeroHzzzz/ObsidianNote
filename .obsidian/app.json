@@ -1,8 +1,9 @@
 {
   "promptDelete": false,
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "newFileFolderPath": "随手记",
   "attachmentFolderPath": "./",
   "alwaysUpdateLinks": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "showUnsupportedFiles": false
 }
