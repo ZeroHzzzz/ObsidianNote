@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "6e308cedd38bd2a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "随手记/MingGW和MSVC.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/MingGW和MSVC.md",
+                "file": "HomePage/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/MingGW和MSVC.md",
+                "file": "HomePage/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/MingGW和MSVC.md"
+                "file": "HomePage/HomePage.md"
               }
             }
           },
@@ -186,8 +172,26 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "6e308cedd38bd2a5",
+  "active": "ef868f4f8e79e04d",
   "lastOpenFiles": [
+    "随手记/MingGW和MSVC.md",
+    "随手记/Pytorch fbgemm.dll依赖问题.md",
+    "随手记/pytorch flash attention安装.md",
+    "随手记/pytorch杂记.md",
+    "随手记/qqbot相关.md",
+    "Note/计算机网络/反向代理.md",
+    "随手记/使用qq邮箱群发邮件.md",
+    "随手记/AI Geeks.md",
+    "随手记/未命名看板.md",
+    "随手记/G++、GCC 和 GDB.md",
+    "随手记/CMake.md",
+    "随手记/mc服务器相关.md",
+    "随手记/docker-compose中定义服务副本.md",
+    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
+    "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
+    "随手记/使用OpenWeather获取天气信息.md",
+    "随手记/精小弘prompt.md",
+    "随手记/vim使用.md",
     "HomePage/HomePage.md",
     "随手记/Something-Useful.md",
     "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
@@ -195,26 +199,8 @@
     "Blog/CV-PIL-Read-Photos.md",
     "随手记/Ubuntu常用.md",
     "Blog/Ubuntu.md",
-    "随手记/G++、GCC 和 GDB.md",
-    "随手记/MingGW和MSVC.md",
     "随手记/Nginx代理转发请求方法改变问题解决.md",
-    "随手记/Nginx负载均衡.md",
-    "随手记/mc服务器相关.md",
-    "Note/计算机网络/IP.md",
-    "Temp/std.md",
-    "随手记/git commit格式规范.md",
     "Temp",
-    "随手记/使用qq邮箱群发邮件.md",
-    "随手记/qqbot相关.md",
-    "Note/计算机网络/TLD.md",
-    "Note/计算机网络/TCP.md",
-    "Note/计算机网络/SMTP.md",
-    "Note/计算机网络/HTTP.md",
-    "Note/计算机网络/DNS记录.md",
-    "Note/计算机网络/Anycast.md",
-    "Note/计算机网络/BGP.md",
-    "Note/计算机网络/A记录.md",
-    "Note/计算机网络/正向代理.md",
     "HomePage/wallhaven-7pv11v.jpg",
     "HomePage/wallhaven-l8xe5r.jpg",
     "230114.jpg",

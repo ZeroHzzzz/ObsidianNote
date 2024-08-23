@@ -1,6 +1,6 @@
 ## MinGW
 
-**MinGW** 是一个开源的编译器工具集，基于 [[G++、GCC 和 GDB#GCC (GNU Compiler Collection)|GCC]]（GNU Compiler Collection），用于在 Windows 平台上编译 C、C++ 以及其他语言的代码。MinGW 提供了一套 Windows 兼容的头文件和库，使得开发者可以在 Windows 上使用 GCC 编译器。
+**MinGW** 是一个编译器工具链，主要提供在 Windows 平台上使用的 [[G++、GCC 和 GDB#什么是GNU|GNU]] 编译器（GCC）及其相关工具，用于在 Windows 平台上编译 C、C++ 以及其他语言的代码。MinGW 提供了一套 Windows 兼容的头文件和库，使得开发者可以在 Windows 上使用 GCC 编译器。MinGW 的核心是 [[G++、GCC 和 GDB#GCC (GNU Compiler Collection)|GCC]]，它负责将源代码编译成机器代码。
 
 **特点**：
 
