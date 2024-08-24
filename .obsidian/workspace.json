@@ -34,9 +34,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8311326f8e88157c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/wsl2更新记录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/虚拟机网络模式.md",
+                "file": "随手记/wsl2更新记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/虚拟机网络模式.md",
+                "file": "随手记/wsl2更新记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/虚拟机网络模式.md"
+                "file": "随手记/wsl2更新记录.md"
               }
             }
           },
@@ -186,10 +199,11 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "c8e7cf8c63112cbf",
+  "active": "8311326f8e88157c",
   "lastOpenFiles": [
-    "随手记/wsl网络模式.md",
     "随手记/虚拟机网络模式.md",
+    "随手记/wsl2更新记录.md",
+    "随手记/wsl网络模式.md",
     "HomePage/HomePage.md",
     "Task/综测相关/综测.md",
     "Task/综测相关/IMG20240821181414.jpg",
@@ -228,7 +242,6 @@
     "随手记/Pytorch fbgemm.dll依赖问题.md",
     "随手记/pytorch flash attention安装.md",
     "随手记/qqbot相关.md",
-    "Note/计算机网络/反向代理.md",
     "230114.jpg",
     "wallhaven-d5ojdj.jpg",
     "Note/AI/网络结构记录/YOLOv5.webp",
