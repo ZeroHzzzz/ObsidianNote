@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "638a0326839a03d3",
+        "id": "a6c05b5cb7deca7c",
         "type": "tabs",
         "children": [
           {
-            "id": "66ea588283089995",
+            "id": "ca6ae0bc5e8067a2",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -21,23 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "42b51a4a4632c3a7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Task/综测相关/附件2.浙江工业大学计算机科学与技术学院、软件学院本科学生综合素质测评办法（2024年修订版）.pdf",
-                "page": 8,
-                "left": -9,
-                "top": 414,
-                "zoom": 1.6550420168067228
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Task/综测相关/附件2.浙江工业大学计算机科学与技术学院、软件学院本科学生综合素质测评办法（2024年修订版）.pdf",
+                "file": "HomePage/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Task/综测相关/附件2.浙江工业大学计算机科学与技术学院、软件学院本科学生综合素质测评办法（2024年修订版）.pdf",
+                "file": "HomePage/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Task/综测相关/附件2.浙江工业大学计算机科学与技术学院、软件学院本科学生综合素质测评办法（2024年修订版）.pdf"
+                "file": "HomePage/HomePage.md"
               }
             }
           },
@@ -187,22 +172,21 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "42b51a4a4632c3a7",
+  "active": "ca6ae0bc5e8067a2",
   "lastOpenFiles": [
-    "Task/综测相关/附件1.关于开展2023-2024学年计算机学院本科生综合素质测评工作的通知.pdf",
-    "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
-    "Task/综测相关/工时证明材料/2024080211545399.pdf",
-    "Task/综测相关/~WRL1028.tmp",
-    "Task/综测相关/~WRD1000.tmp",
-    "Task/综测相关/~WRD1306.tmp",
-    "HomePage/HomePage.md",
-    "Task/综测相关/附件2.浙江工业大学计算机科学与技术学院、软件学院本科学生综合素质测评办法（2024年修订版）.pdf",
-    "Task/综测相关/~WRL3920.tmp",
-    "Task/综测相关/~WRD3908.tmp",
-    "Task/综测相关/~WRL3705.tmp",
-    "Task/综测相关/~WRD3682.tmp",
     "Task/综测相关/综测.md",
     "Task/综测相关/IMG20240821181414.jpg",
+    "Task/综测相关/统一加分的奖项名录二稿.docx",
+    "Task/综测相关/关于开展计算机学院2023-2024学年工时公示与核对的通知.pdf",
+    "Task/综测相关/附件3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
+    "Task/综测相关/附件2.浙江工业大学计算机科学与技术学院、软件学院本科学生综合素质测评办法（2024年修订版）.pdf",
+    "HomePage/HomePage.md",
+    "Task/综测相关/~WRL2394.tmp",
+    "Task/综测相关/~WRD2382.tmp",
+    "Task/综测相关/~WRL1409.tmp",
+    "Task/综测相关/~WRD1390.tmp",
+    "Task/综测相关/~WRL0601.tmp",
+    "Task/综测相关/~WRD0593.tmp",
     "Task/Task.md",
     "随手记/精小弘prompt.md",
     "随手记/使用OpenWeather获取天气信息.md",
