@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/Android系统分区.md",
+                "file": "HomePage/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/Android系统分区.md",
+                "file": "HomePage/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/Android系统分区.md"
+                "file": "HomePage/HomePage.md"
               }
             }
           },
@@ -199,11 +198,11 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "205a26307687732b",
+  "active": "a66a453174fb3c16",
   "lastOpenFiles": [
+    "随手记/Android系统分区.md",
     "HomePage/HomePage.md",
     "随手记/G++、GCC 和 GDB.md",
-    "随手记/Android系统分区.md",
     "随手记/ROM固件.md",
     "随手记/Git常用命令记录.md",
     "随手记/Nginx代理转发请求方法改变问题解决.md",
