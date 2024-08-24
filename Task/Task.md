@@ -13,7 +13,7 @@
 - [x] 校车爬虫接口分析
 - [x] 迎新赛题目
 - [ ] 内网vpn
-- [ ] ob整理
+- [x] ob整理
 - [x] [天池Better Synth多模态大模型数据合成挑战赛_算法大赛_天池大赛-阿里云天池的团队 (aliyun.com)](https://tianchi.aliyun.com/competition/entrance/532251/information)
 - [ ] quote 生成器
 - [ ] [深入理解交叉熵损失 CrossEntropyLoss - 最大似然估计_crossentropyloss 通俗易懂-CSDN博客](https://blog.csdn.net/flyfish1986/article/details/139558728)
