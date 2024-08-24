@@ -47,8 +47,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a8a6e73c6cdec6a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/vim使用.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -77,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +108,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage/HomePage.md",
+                "file": "随手记/vim使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage/HomePage.md",
+                "file": "随手记/vim使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage/HomePage.md"
+                "file": "随手记/vim使用.md"
               }
             }
           },
@@ -198,15 +213,15 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "a66a453174fb3c16",
+  "active": "a8a6e73c6cdec6a2",
   "lastOpenFiles": [
-    "随手记/Android系统分区.md",
+    "随手记/Ubuntu常用.md",
     "HomePage/HomePage.md",
+    "随手记/Android系统分区.md",
     "随手记/G++、GCC 和 GDB.md",
     "随手记/ROM固件.md",
     "随手记/Git常用命令记录.md",
     "随手记/Nginx代理转发请求方法改变问题解决.md",
-    "随手记/Ubuntu常用.md",
     "随手记/TUN和TAP模式的区别.md",
     "随手记/SQL注入.md",
     "HomePage/wallhaven-7pv11v.jpg",
