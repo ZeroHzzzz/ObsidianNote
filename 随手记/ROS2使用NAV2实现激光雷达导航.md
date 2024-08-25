@@ -1,4 +1,4 @@
-## NAV2主要组件
+## NAV2架构
 
 ### BT Navigator Server（导航行为树服务器）
 
