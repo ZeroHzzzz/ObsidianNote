@@ -34,9 +34,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ab2df2afba385e93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/ROS2使用NAV2实现激光雷达导航.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/CV-PIL-Read-Photos.md",
+                "file": "随手记/ROS2使用NAV2实现激光雷达导航.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/CV-PIL-Read-Photos.md",
+                "file": "随手记/ROS2使用NAV2实现激光雷达导航.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/CV-PIL-Read-Photos.md"
+                "file": "随手记/ROS2使用NAV2实现激光雷达导航.md"
               }
             }
           },
@@ -186,8 +199,10 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "8dccb65f1b024939",
+  "active": "ab2df2afba385e93",
   "lastOpenFiles": [
+    "Blog/CV-PIL-Read-Photos.md",
+    "随手记/ROS2使用NAV2实现激光雷达导航.md",
     "HomePage/HomePage.md",
     "Temp/std.md",
     "Task/综测相关/附件1.关于开展2023-2024学年计算机学院本科生综合素质测评工作的通知.pdf",
@@ -218,8 +233,6 @@
     "随手记/pytorch flash attention安装.md",
     "随手记/python-magic导入报错问题.md",
     "随手记/Pytorch fbgemm.dll依赖问题.md",
-    "随手记/Pasted.md",
-    "随手记/MingGW和MSVC.md",
     "Task/综测相关/~WRL2394.tmp",
     "Task/综测相关/~WRD2382.tmp",
     "Task/综测相关/~WRL1409.tmp",
