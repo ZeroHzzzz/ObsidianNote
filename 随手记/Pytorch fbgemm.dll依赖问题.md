@@ -9,11 +9,12 @@ File "C:\Users\ZeroHzzzz\Desktop\Jarvis\Docbot\model.py", line 1, in <module> fr
 但是我们到指定路径下检查后，发现这个`dll`实际上是存在的，那么根据报错信息，就是这个`dll`缺少了某个依赖。因此我们借助[依赖分析工具](https://github.com/lucasg/Dependencies/releases/tag/v1.11.1)来解决这个问题。
 
 启动后，打开`fbegmm.dll`
-![Pytorch fbgemm.dll依赖问题](Pasted image 20240815201540.png)
+![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408260016559.png)
+
 我们发现，`libomp140`这个依赖是缺失的，那么我们就去下载这个`dll`
 
 [libomp140.x86_64.dll : Free .DLL download. (dllme.com)](https://www.dllme.com/dll/files/libomp140_x86_64/037e19ea9ef9df624ddd817c6801014e/download)
 
-由于我们看到这个`asmjit.dll`在torch的lib目录下，因此我们将下载好的依赖也放到这里。
+将下载的`libomp140.dll`放入Pytorch的`lib`目录下。因为我们看到类似的`asmjit.dll`也在该目录下，因此将新的依赖文件放在同一目录下可以确保Pytorch能够找到并正确加载。
 
 至此，问题得到了解决。

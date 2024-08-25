@@ -1,4 +1,4 @@
-我们在使用langchain中的DirectLoader加载pdf文件的时候出现了以下问题：
+在使用Langchain中的DirectLoader加载PDF文件时，我们遇到了以下问题：
 
 ```bash
 Import Error:
@@ -7,9 +7,9 @@ failed to find libmagic. Check your installation
 File "C:\Users\ZeroHzzzz\Desktop\Jarvis\Docbot\create_index.py", line 12, in <module> document = loader.load() ImportError: failed to find libmagic. Check your installation
 ```
 
-经过查询，我们可以知道程序调用magic模块时出现ImportError，原因是缺少libmagic共享库。而magic这个库用于识别文件类型。它主要是通过读取文件的“魔术数字”（Magic Number）来推断文件的格式。魔术数字通常是文件开头的一些字节，它们通常能够标识文件的类型，比如图片、压缩文件、可执行文件等。我估计这个langchain使用了这个库来判断文件类型。
+通过查询，我们发现这个问题源于程序在调用`magic`模块时出现了`ImportError`，其原因是缺少`libmagic`共享库。`magic`库主要用于识别文件类型，它通过读取文件的“魔术数字”（Magic Number）来推断文件的格式。魔术数字是文件开头的一些字节，可以标识文件类型，例如图片、压缩文件、可执行文件等。Langchain可能正是利用这个库来判断文件类型。
 
-解决方法是安装下面这个库
+要解决这个问题，可以安装以下库：
 
 ```bash
 pip install pylibmagic

@@ -23,38 +23,12 @@
             }
           },
           {
-            "id": "90be4137c800aea5",
+            "id": "1f784832369ea128",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/路由表.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8e7cf8c63112cbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "随手记/虚拟机网络模式.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8311326f8e88157c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "随手记/wsl2更新记录.md",
+                "file": "随手记/ROM固件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -128,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/路由表.md",
+                "file": "随手记/ROM固件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/路由表.md",
+                "file": "随手记/ROM固件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/路由表.md"
+                "file": "随手记/ROM固件.md"
               }
             }
           },
@@ -212,13 +186,26 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "90be4137c800aea5",
+  "active": "1f784832369ea128",
   "lastOpenFiles": [
-    "Note/计算机网络/路由.md",
-    "随手记/路由表.md",
+    "随手记/qqbot相关.md",
+    "随手记/pytorch杂记.md",
+    "随手记/pytorch flash attention安装.md",
+    "随手记/python-magic导入报错问题.md",
     "HomePage/HomePage.md",
+    "随手记/Pytorch fbgemm.dll依赖问题.md",
+    "随手记/Pasted.md",
+    "随手记/MingGW和MSVC.md",
     "随手记/wsl2更新记录.md",
     "随手记/虚拟机网络模式.md",
+    "随手记/Android系统分区.md",
+    "随手记/正则表达式.md",
+    "随手记/使用qq邮箱群发邮件.md",
+    "随手记/使用OpenWeather获取天气信息.md",
+    "随手记/路由表.md",
+    "Note/计算机网络/CDN.md",
+    "Note/计算机网络/DDoS 攻击.md",
+    "Note/计算机网络/路由.md",
     "随手记/wsl网络模式.md",
     "Task/综测相关/综测.md",
     "Task/综测相关/IMG20240821181414.jpg",
@@ -234,27 +221,14 @@
     "Task/综测相关/~WRD0593.tmp",
     "Task/Task.md",
     "随手记/精小弘prompt.md",
-    "随手记/使用OpenWeather获取天气信息.md",
-    "随手记/Android系统分区.md",
     "随手记/ROM固件.md",
     "随手记/Git常用命令记录.md",
     "随手记/Ubuntu常用.md",
     "随手记/vim使用.md",
-    "随手记/G++、GCC 和 GDB.md",
-    "随手记/Nginx代理转发请求方法改变问题解决.md",
-    "随手记/TUN和TAP模式的区别.md",
-    "随手记/SQL注入.md",
     "HomePage/wallhaven-7pv11v.jpg",
     "HomePage/wallhaven-1ky673.png",
     "HomePage/wallhaven-l8xe5r.jpg",
     "HomePage/wallhaven-yjwv6d.jpg",
-    "随手记/Something-Useful.md",
-    "随手记/conda.md",
-    "随手记/python-magic导入报错问题.md",
-    "随手记/pytorch杂记.md",
-    "随手记/正则表达式.md",
-    "随手记/MingGW和MSVC.md",
-    "随手记/Pytorch fbgemm.dll依赖问题.md",
     "230114.jpg",
     "wallhaven-d5ojdj.jpg",
     "Note/AI/网络结构记录/YOLOv5.webp",
