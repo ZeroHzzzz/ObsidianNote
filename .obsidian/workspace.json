@@ -23,6 +23,19 @@
             }
           },
           {
+            "id": "90be4137c800aea5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/路由表.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c8e7cf8c63112cbf",
             "type": "leaf",
             "state": {
@@ -49,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/wsl2更新记录.md",
+                "file": "随手记/路由表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/wsl2更新记录.md",
+                "file": "随手记/路由表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/wsl2更新记录.md"
+                "file": "随手记/路由表.md"
               }
             }
           },
@@ -199,12 +212,14 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "8311326f8e88157c",
+  "active": "90be4137c800aea5",
   "lastOpenFiles": [
-    "随手记/虚拟机网络模式.md",
-    "随手记/wsl2更新记录.md",
-    "随手记/wsl网络模式.md",
+    "Note/计算机网络/路由.md",
+    "随手记/路由表.md",
     "HomePage/HomePage.md",
+    "随手记/wsl2更新记录.md",
+    "随手记/虚拟机网络模式.md",
+    "随手记/wsl网络模式.md",
     "Task/综测相关/综测.md",
     "Task/综测相关/IMG20240821181414.jpg",
     "Task/综测相关/统一加分的奖项名录二稿.docx",
@@ -240,8 +255,6 @@
     "随手记/正则表达式.md",
     "随手记/MingGW和MSVC.md",
     "随手记/Pytorch fbgemm.dll依赖问题.md",
-    "随手记/pytorch flash attention安装.md",
-    "随手记/qqbot相关.md",
     "230114.jpg",
     "wallhaven-d5ojdj.jpg",
     "Note/AI/网络结构记录/YOLOv5.webp",
