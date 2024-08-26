@@ -1,5 +1,75 @@
 [ROS2+nav2+激光雷达导航(上)-CSDN博客](https://blog.csdn.net/scarecrow_sun/article/details/128992820)
 
+## launch文件
+
+launch文件在这个过程中是为了说明节点之间的依赖关系和启动节点而诞生的。说白了就是懒。编写launch文件可以有三种方式，python、yaml、xml这三种方式，但是官方推荐的是使用python格式，因此我们使用python来编写这个文件
+
+一般来说命名为\*.launch.py
+**launch文件嵌套**
+
+假设已经存在很多的单独的launch文件用于启动不同的功能，如果需要同时启动这些launch文件，可以使用IncludeLaunchDescription在launch文件中嵌套启动launch文件，这样可以提高复用率。
+
+需要添加以下两个头文件
+
+```python
+from launch.actions import IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+```
+
+使用IncludeLaunchDescription嵌套launch文件，其中同样可以使用上文所述的传递参数。
+
+将以下代码放入到generate_launch_description函数当中，并在return的时候填入下文件中的another-launch
+
+```python
+another-launch = IncludeLaunchDescription(
+PythonLaunchDescriptionSource(
+os.path.join(launch_file_dir, 'launch-file-name.launch.py')
+),
+launch_arguments={'arg-name': example-arg}.items()
+)
+```
+
+### 运行launch文件
+
+**使用python运行launch**
+
+在setup文件中编写
+
+```python
+from setuptools import setup
+from glob import glob
+import os
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=[package_name],
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
+    ],
+    },
+)
+
+```
+
+**使用c++运行**
+
+```CmakeList
+install(DIRECTORY
+	launch
+ 	DESTINATION share/${PROJECT_NAME}
+ )
+```
+
+### 启动
+
+```bash
+ros2 launch file_name file_name.launch.py
+```
+
 ## NAV2架构
 
 ### BT Navigator Server（导航行为树服务器）
@@ -84,3 +154,137 @@ nav2提供了以下工具：
 -   BT：机器人的行为决策
 
 因此，我们如果要使用nav2，其实就是启动一个个nav2中的这些小组件，然后让nav2能够依据这些信息来导航。
+
+## map
+
+我们在这个东西需要建立起坐标系之间的关系：`map -> odom -> base_link -> [sensor frames]`
+
+小车需要实现对自己位置的感知，就需要建立起base_link到map这两个坐标系之间的变换，而这个变换，是通过里程计来实现的，比如说：你的里程计说：你向北走了10cm，那么如果你知道你在地图上初始位置，你就知道你在地图上的位置应该到哪了。
+
+里程计(里程计可以来自许多数据源，包括激光雷达、车轮编码器和IMU)可以计算出机器人到底移动了多少的距离，即机器人的实际移动距离。
+
+但是里程计会存在一个问题，也就是漂移问题，无论是IMU还是激光雷达还是车轮编码器，虽然在短暂时间上的位置定位精准的，但是随着时间的增长，这些传感器是会存在累计误差的，比如IMU的漂移问题，车轮的打滑、空转问题等等。因此我们认为的里程计获得的位置，是在odom坐标系中的位置，而不是在map中的位置。也可以理解为map坐标系和base_link坐标系之间是存在一个偏移量的。
+
+对于ROS系统，有提供一些功能包来减少偏移量，官网给出了的一个就是robot_localization，可以将N个传感器融合，尽量解决掉偏移的问题。
+
+最终想要获取小车在map中的位置，就需要amcl之类的方法得到odom坐标系与map坐标系的误差，然后由base_link在odom中的位置，计算出base_link在map中的位置
+
+### base_link -> sensor frames
+
+`base_link`坐标系和机器人的底盘直接连接。其具体位置和方向都是任意的。对于不同的机器人平台，底盘上会有不同的参考点。不过ROS也给了推荐的坐标系取法。
+
+x 轴指向机器人前方  
+y 轴指向机器人左方  
+z 轴指向机器人上方
+
+通过建立**urdf**文件解决。
+https://blog.csdn.net/qq_43551910/article/details/121773348
+
+### odom -> base_link
+
+odom是一个固定在环境中的坐标系也就是world-fixed。它的原点和方向不会随着机器人运动而改变。但是odom的位置可以随着机器人的运动漂移。漂移导致odom不是一个很有用的长期的全局坐标。然而机器人的odom坐标必须保证是连续变化的。也就是在odom坐标系下机器人的位置必须是连续变化的，不能有突变和跳跃。
+在一般使用中odom坐标系是通过里程计信息计算出来的。比如轮子的编码器或者视觉里程计算法或者陀螺仪和加速度计。odom是一个短期的局域的精确坐标系。但是却是一个比较差的长期大范围坐标。
+
+通过使用将激光雷达数据转化为odom的ROS2包
+[AlexKaravaev/ros2_laser_scan_matcher: Laser scan matcher ported to ROS2 (github.com)](https://github.com/AlexKaravaev/ros2_laser_scan_matcher)
+
+使用这个包的时候需要使用依赖：csm功能包
+[AlexKaravaev/csm: The C(canonical) Scan Matcher (github.com)](https://github.com/AlexKaravaev/csm)
+
+直接clone下来，`并放入到工作区/src`中，使用`colcon build`编译
+
+**该功能包需要订阅的话题为**：
+`/scan (sensor_msgs/LaserScan)`  
+`/tf (tf2_msgs/TFMessage)`
+
+**该功能包发布的话题为**：
+`/tf (tf2_msgs/TFMessage)` 发布odom->base_link转换关系
+`/odom (nav_msgs/Odometry)` 可选项，功能包中有一个参数(Parameter)publish_odom，设置名字即为发布odom的topic，如果该参数为空，则不会发布odom坐标
+即代码laser_scan_matcher.cpp的68行：add_parameter(“publish_odom”, rclcpp::ParameterValue(std::string(“odom”))
+
+然后运行：
+
+```bash
+ros2 run ros2_laser_scan_matcher laser_scan_matcher
+```
+
+无论使用什么传感器，最后只要能建立起`odom`坐标系即可。
+
+### map -> odom
+
+map和odom一样是一个固定在环境中的世界坐标系。map的z轴是向上的。机器人在map坐标系下的坐标不应该随着时间漂移。但是map坐标系下的坐标并不需要保证连续性。也就是说在map坐标系下机器人的坐标可以在任何时间发生跳跃变化。
+一般来说map坐标系的坐标是通过传感器的信息不断的计算更新而来。比如激光雷达，视觉定位等等。因此能够有效的减少累积误差，但是也导致每次坐标更新可能会产生跳跃。
+map坐标系是一个很有用的长期全局坐标系。但是由于坐标会跳跃改变，这是一个比较差的局部坐标系（不适合用于避障和局部操作）。
+
+而在开放环境中，我们需要定义一个全球坐标系
+
+默认的方向要采用 x轴向东，y轴向北，z轴向上
+如果没有特殊说明的话z轴为零的地方应该在WGS84椭球上(WGS84椭球是一个全球定位坐标。大致上也就是z代表水平面高度)
+如果在开发中这个约定不能完全保证，也要求尽量满足。比如对于没有GPS，指南针等传感器的机器人，仍然可以保证坐标系z轴向上的约定。如果有指南针传感器，这样就能保证x和y轴的初始化方向。
+
+现在我们已经建立了`odom`坐标系，下一步就是需要知道机器人在地图中的哪一个位置了，而这一步的实现，就需要使用到一些算法了，`nav2`中使用的是`AMCL`算法
+[ROS2极简总结-Nav2-地图和自适应蒙特卡洛定位\_ros2 grid map-CSDN博客](https://zhangrelay.blog.csdn.net/article/details/120040572)
+
+AMCL需要订阅以下的topic，因此，这些topic一定要存在的
+
+激光扫描：/scan (sensor_msgs/LaserScan) (由激光雷达发布)
+TF: 将 odom -> base_link
+初始姿势：/initialpose (geometry_msgs/PoseWithCovarianceStamped)
+地图：/map（nav_msgs/OccupancyGrid）
+
+算法经过计算之后，就会建立起`map`和`odom`之间的关系，这时候，用`rviz2`就可以看到机器人的经过算法计算之后的效果啦。
+
+**AMCL参数配置文件amcl_config.yaml**
+
+```yaml
+amcl:
+    ros__parameters:
+        use_sim_time: False
+        alpha1: 0.2
+        alpha2: 0.2
+        alpha3: 0.2
+        alpha4: 0.2
+        alpha5: 0.2
+        base_frame_id: 'base_link'
+        beam_skip_distance: 0.5
+        beam_skip_error_threshold: 0.9
+        beam_skip_threshold: 0.3
+        do_beamskip: false
+        global_frame_id: 'map'
+        lambda_short: 0.1
+        laser_likelihood_max_dist: 2.0
+        laser_max_range: 100.0
+        laser_min_range: -1.0
+        laser_model_type: 'likelihood_field'
+        max_beams: 60
+        max_particles: 8000
+        min_particles: 200
+        odom_frame_id: 'odom'
+        pf_err: 0.05
+        pf_z: 0.99
+        recovery_alpha_fast: 0.0
+        recovery_alpha_slow: 0.0
+        resample_interval: 1
+        #robot_model_type: "differential"
+        save_pose_rate: 0.5
+        sigma_hit: 0.2
+        tf_broadcast: true
+        transform_tolerance: 1.0
+        update_min_a: 0.2
+        update_min_d: 0.25
+        z_hit: 0.5
+        z_max: 0.05
+        z_rand: 0.5
+        z_short: 0.05
+        set_initial_pose: true
+        initial_pose:
+            x: -0.0119032
+            y: -0.00386167
+            yaw: -0.0354927
+```
+
+有三类ROS参数可用于配置AMCL节点
+
+1. 总滤波器参数
+2. 激光模型参数
+3. 里程计模型参数。
