@@ -1,3 +1,5 @@
+[ROS2+nav2+激光雷达导航(上)-CSDN博客](https://blog.csdn.net/scarecrow_sun/article/details/128992820)
+
 ## NAV2架构
 
 ### BT Navigator Server（导航行为树服务器）
