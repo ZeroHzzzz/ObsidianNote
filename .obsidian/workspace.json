@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2922ea4dc87a96d1",
+        "id": "c6c4588268cf38c9",
         "type": "tabs",
         "children": [
           {
-            "id": "cf3054b12e0b088e",
+            "id": "85c4a6ffb7ce19ab",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "HomePage/HomePage.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
@@ -172,7 +172,7 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "cf3054b12e0b088e",
+  "active": "85c4a6ffb7ce19ab",
   "lastOpenFiles": [
     "随手记/Pytorch fbgemm.dll依赖问题.md",
     "HomePage/HomePage.md",

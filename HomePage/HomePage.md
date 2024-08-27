@@ -1,5 +1,5 @@
 ---
-banner: "![[wallhaven-7pv11v.jpg]]"
+banner: '![[wallhaven-7pv11v.jpg]]'
 banner_y: 0.39113
 banner_x: 0.5
 cssclasses:
@@ -7,10 +7,14 @@ cssclasses:
     - noprop
 ---
 
+<div align="center">
+    <h2>Writing Statistics Chart for 2024</h2>
+</div>
+
 ```contributionGraph
-title: Writings in the last few months
+title: ""
 graphType: default
-dateRangeValue: 6
+dateRangeValue: 12
 dateRangeType: LATEST_MONTH
 startOfWeek: 1
 showCellRuleIndicators: true
@@ -46,14 +50,26 @@ cellStyleRules:
     min: 5
     max: 9999
 cellStyle:
-  minWidth: 15px
-  minHeight: 23px
+  minWidth: 6px
+  minHeight: 6px
   borderRadius: 0%
 mainContainerStyle: {}
 
 ```
 
-<div class="weather_current_1">weather</div>
+<div align="center">
+    <h2>ZeroHzzzz's GitHub Contribution Chart</h2>
+    <img src="https://ghchart.rshah.org/zerohzzzz" alt="ZeroHzzzz 's Github chart" />
+</div>
+
+<div align="center">
+    <h2>Weather Today</h2>
+	<div class="weather_current_1">weather</div>
+</div>
+
+<div align="center">
+    <h2>常用导航</h2>
+</div>
 
 --- start-multi-column: ID_47k0
 
