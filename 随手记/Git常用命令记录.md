@@ -10,6 +10,7 @@ git status
 git add <file>
 git commit -m "text"
 git clone <repo>
+git clone -b <branch-name> <repository-url> // 克隆指定分支
 git reset HEAD <file> // 将文件从暂存区移除，但保留在工作目录中
 git reset HEAD
 git reset --hard HEAD^ // 回退到某次提交，会对工作目录产生影响
