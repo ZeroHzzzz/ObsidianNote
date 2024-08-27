@@ -29,27 +29,27 @@ dataSource:
 fillTheScreen: true
 enableMainContainerShadow: false
 cellStyleRules:
-  - id: default_b
-    color: "#9be9a8"
+  - id: Wine_a
+    color: "#d8b0b3"
     min: 1
     max: 2
-  - id: default_c
-    color: "#40c463"
+  - id: Wine_b
+    color: "#c78089"
     min: 2
+    max: 3
+  - id: Wine_c
+    color: "#ac4c61"
+    min: 3
     max: 5
-  - id: default_d
-    color: "#30a14e"
+  - id: Wine_d
+    color: "#830738"
     min: 5
-    max: 10
-  - id: default_e
-    color: "#216e39"
-    min: 10
-    max: 999
+    max: 9999
 cellStyle:
   minWidth: 15px
-  minHeight: 15px
-mainContainerStyle:
-  boxShadow: rgba(0, 0, 0, 0.16) 0px 1px 4px
+  minHeight: 23px
+  borderRadius: 0%
+mainContainerStyle: {}
 
 ```
 
