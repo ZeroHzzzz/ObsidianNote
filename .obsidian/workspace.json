@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/Git常用命令记录.md",
+                "file": "随手记/Pytorch fbgemm.dll依赖问题.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git常用",
+                "query": "依赖",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/Git常用命令记录.md",
+                "file": "随手记/Pytorch fbgemm.dll依赖问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/Git常用命令记录.md",
+                "file": "随手记/Pytorch fbgemm.dll依赖问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/Git常用命令记录.md"
+                "file": "随手记/Pytorch fbgemm.dll依赖问题.md"
               }
             }
           },
@@ -189,8 +189,12 @@
   },
   "active": "e5201a748cf2dcd4",
   "lastOpenFiles": [
-    "HomePage/HomePage.md",
+    "随手记/Nginx负载均衡.md",
+    "随手记/Nginx代理转发请求方法改变问题解决.md",
+    "随手记/MingGW和MSVC.md",
+    "随手记/mc服务器相关.md",
     "随手记/Git常用命令记录.md",
+    "HomePage/HomePage.md",
     "随手记/qqbot相关.md",
     "随手记/pytorch杂记.md",
     "Note/AI/BCEWithLogitsLoss 和 BCELoss 在分类问题中的使用区别.md",
@@ -217,10 +221,6 @@
     "随手记/SQL注入.md",
     "随手记/steam家庭共享游戏消失问题.md",
     "随手记/TUN和TAP模式的区别.md",
-    "随手记/Ubuntu常用.md",
-    "随手记/vim使用.md",
-    "随手记/wandb相关.md",
-    "随手记/wsl2更新记录.md",
     "Task/综测相关/~WRL2394.tmp",
     "Task/综测相关/~WRD2382.tmp",
     "Task/综测相关/~WRL1409.tmp",
