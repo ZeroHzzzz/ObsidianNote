@@ -1,5 +1,7 @@
 基于[Lagrange.Core](https://github.com/LagrangeDev/Lagrange.Core)项目，并使用反向ws通信
 
+后面打算换成llonebot
+
 使用 [onebot-11](https://github.com/botuniverse/onebot-11)通信协议
 
 simpleRAG中调用的接口为qwen通义千文模型的逆向接口，为[qwen-free-api](https://github.com/LLM-Red-Team/qwen-free-api)项目提供
