@@ -20,7 +20,8 @@ unable to access "xxx", an operation is pending
 sudo fdisk -l
 ```
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210020685.png)
+![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281844254.png)
+
 最后的设备/dev/sda1就是出问题的磁盘，于是我们需要修复挂载错误的相应分区
 
 ```bash

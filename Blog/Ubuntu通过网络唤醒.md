@@ -151,6 +151,6 @@ Feb 20 23:32:35 Server systemd[1]: Finished Enable Wake On Lan.
 
 界面如下：
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210020685.png)
+![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281844763.png)
 
 根据实际情况填写MAC地址、被控端域名\ip、子网掩码和端口号（任一）就行了

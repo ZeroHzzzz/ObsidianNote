@@ -52,7 +52,7 @@ hexo g
 hexo s
 ```
 
-![Hello, World!](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018118.png)
+![1.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281852233.png)
 
 # 修改参数
 

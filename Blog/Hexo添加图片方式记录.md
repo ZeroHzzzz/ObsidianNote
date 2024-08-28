@@ -54,7 +54,7 @@ marked:
 `![photo](passage_name/Photo.png)`
 因此我翻阅了hexo的[文档](https://hexo.io/zh-cn/docs/)，里面是这么写的
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018118.png)
+![1.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281843451.png)
 
 但是不知道为啥这个艾斯比东西就是没有用....
 

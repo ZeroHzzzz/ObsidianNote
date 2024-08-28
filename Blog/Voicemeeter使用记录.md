@@ -15,11 +15,11 @@ categories:
 
 -   虚拟输入：就是虚拟录音设备，专门监听系统中各种软件发出的声音信号。【声音信号→（被接收）→虚拟输入】
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210017878.png)
+![virtual_input.jpg](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281845604.png)
 
 -   虚拟输出：就是虚拟发声设备，有一个虚拟的扬声器，负责向别的设备发出声音信号。【虚拟输出→（发出）→声音信号】
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210017407.png)
+![virtual_output.jpg](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281845439.png)
 
 -   通道：用于接收和转发声音信号的中间人。
 
@@ -29,11 +29,11 @@ categories:
 
 # 二、软件界面
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210017983.png)
+![软件界面.jpg](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281846233.png)
 
 看下图硬件输入通道1下面框出来的按钮：A1、A2、A3、B1、B2 都是输出通道，你点亮了哪个，声音信号就会被接入到哪一个输出通道。
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210017861.png)
+![硬件通道输入.jpg](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281846495.png)
 
 比如图中，点亮了A1和B1，那么硬件输入通道1的声音信号就会被发送到A1、B1两个输出通道中去。
 
@@ -44,15 +44,15 @@ categories:
 -   打开Voicemeeter
 -   配置输出设备
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210017945.png)
+![1.jpg](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281847030.png)
 
 -   在虚拟输入栏中选择输出设备
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018118.png)
+![1.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281847879.png)
 
 -   调节音量
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018561.png)
+![3.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281847699.png)
 
 -   run！
 

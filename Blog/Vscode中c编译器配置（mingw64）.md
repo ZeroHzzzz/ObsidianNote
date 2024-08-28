@@ -20,7 +20,7 @@ categories:
 -   搜索C++
 -   安装
 
-![plugin](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018118.png)
+![1.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281840906.png)
 
 # Set up for your C++ environment
 
@@ -31,7 +31,7 @@ categories:
 -   选择下列图片中标出的版本
 -   解压，获得其中的Mingw64文件夹并放在你想放的位置
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018313.png)
+![2.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281840477.png)
 
 ## 配置环境变量
 
@@ -41,19 +41,19 @@ categories:
 -   新建，并将刚才下载的Mingw64中的bin文件夹的路径填入
 -   完成！
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018561.png)
+![3.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281840746.png)
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018189.png)
+![4.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281840815.png)
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018782.png)
+![5.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281841431.png)
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018944.png)
+![6.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281841073.png)
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018260.png)
+![7.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281841329.png)
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018841.png)
+![8.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281841588.png)
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018348.png)
+![9.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281841694.png)
 
 点击确定，完成！
 
@@ -63,13 +63,13 @@ categories:
 -   输入`gcc -v`，如果出现下列画面就说明配置成功了
 -   完成！
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018310.png)
+![10.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281842231.png)
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018385.png)
+![11.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281842027.png)
 
 # Create and Run a C++ file
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018610.png)
+![12.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281842342.png)
 
 create a new file called `helloworld.cpp`
 
@@ -84,13 +84,13 @@ int main()
 }
 ```
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018056.png)
+![13.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281843039.png)
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018364.png)
+![14.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281843501.png)
 
 仅在第一次运行 helloworld.cpp 时提示您选择编译器。该编译器将成为tasks.json 文件中设置的“默认”编译器
 
-![](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408210018984.png)
+![15.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281843703.png)
 
 拿下！
 
