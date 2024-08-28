@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c6c4588268cf38c9",
+        "id": "4a7edf7d8f631bd8",
         "type": "tabs",
         "children": [
           {
-            "id": "85c4a6ffb7ce19ab",
+            "id": "1b44a07600c7b55c",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "79637846c4d04647",
+            "id": "b3cc2ca816b33e0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/MingGW和MSVC.md",
+                "file": "Blog/Vscode中c编译器配置（mingw64）.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/MingGW和MSVC.md",
+                "file": "Blog/Vscode中c编译器配置（mingw64）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/MingGW和MSVC.md",
+                "file": "Blog/Vscode中c编译器配置（mingw64）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/MingGW和MSVC.md"
+                "file": "Blog/Vscode中c编译器配置（mingw64）.md"
               }
             }
           },
@@ -162,8 +162,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,13 +185,18 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "79637846c4d04647",
+  "active": "b3cc2ca816b33e0f",
   "lastOpenFiles": [
+    "Blog/Vscode多文件编译配置.md",
+    "Blog/Vscode中c编译器配置（mingw64）.md",
+    "随手记/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
     "HomePage/HomePage.md",
+    "随手记/CMake.md",
+    "随手记/MingGW和MSVC.md",
+    "随手记/i386.md",
     "随手记/Pytorch fbgemm.dll依赖问题.md",
     "随手记/Nginx负载均衡.md",
     "随手记/Nginx代理转发请求方法改变问题解决.md",
-    "随手记/MingGW和MSVC.md",
     "随手记/mc服务器相关.md",
     "随手记/Git常用命令记录.md",
     "随手记/qqbot相关.md",
@@ -212,14 +216,9 @@
     "Task/综测相关/综测.md",
     "Task/综测相关/IMG20240821181414.jpg",
     "随手记/ROM固件.md",
-    "随手记/CMake.md",
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "随手记/git commit格式规范.md",
     "随手记/quote.md",
-    "随手记/scp.md",
-    "随手记/screen使用方法.md",
-    "随手记/SQL注入.md",
-    "随手记/steam家庭共享游戏消失问题.md",
     "Task/综测相关/~WRL2394.tmp",
     "Task/综测相关/~WRD2382.tmp",
     "Task/综测相关/~WRL1409.tmp",

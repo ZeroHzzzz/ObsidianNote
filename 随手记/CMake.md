@@ -55,3 +55,7 @@ set(SOURCES main.cpp other.cpp)      # 定义源文件列表
 
 add_executable(MyApp ${SOURCES})     # 指定生成可执行文件及其源文件
 ```
+
+## 安装
+
+[Download CMake](https://cmake.org/download/)下载对应版本即可
