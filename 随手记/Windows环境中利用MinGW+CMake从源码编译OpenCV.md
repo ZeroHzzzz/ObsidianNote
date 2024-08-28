@@ -2,6 +2,7 @@
 
 -   检查 `MinGW` 的安装版本是否为 `posix` 线程标准，目前 `OpenCV` 只支持 `posix` 标准，不支持 `win32` 标准
 -   安装Windows版本的 `Cmake`，官网链接为[https://cmake.org/download/](https://cmake.org/download/ 'https://cmake.org/download/')
+-   编译之前记得使用`gcc -v`查看自己的编译器版本，别到时候出现一些不必要的`error` ~~（我不说是谁）~~
 
 ```logs
 In file included from C:/Users/ZeroHzzzz/Downloads/opencv-4.10.0/opencv-4.10.0/3rdparty/protobuf/src/google/protobuf/message_lite.h:51,
