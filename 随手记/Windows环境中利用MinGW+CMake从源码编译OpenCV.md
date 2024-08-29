@@ -24,7 +24,10 @@
 **OPENCV_GENERATE_PKGCONFIG**：生成一个pkg-config的路径使得pkgconfig能够自动传递库路径给g++进行编译
 **CMAKE_BUILD_TYPE**：填入Release会编译发行版本的opencv包，从而去除debug信息和符号表，这可以提高性能；填入Debug则会编译debug版本的opencv（这是给需要深度开发opencv修改源码的人用的），而一般我们不需要深入opencv的源代码进行debug。
 **OPENCV_EXTRA_MODULES_PATH**：contrib包中的附加模组的路径
-
+**WITH_QT**：字面意思
+**WITH_OPENGL**：利用硬件加速来提高图像和视频处理的性能
+**ENABLE_PRECOMPILED_HEADERS**：启用预编译头，加快编译速度
+**QT5_DIR**：填入QT路径
 再次configure。如果无报错之后选择generate生成makefile
 
 ## 编译
