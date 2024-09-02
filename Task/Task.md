@@ -3,7 +3,7 @@
 - [x] 周边订单：[订单 - 博客园周边 (cnblogs.vip)](https://cnblogs.vip/store/order)
 - [ ] [揭秘完整的手机扫码登录的实现原理 (qq.com)](https://mp.weixin.qq.com/s?__biz=MzU0Mjg0MDUzNQ==&mid=2247484406&idx=1&sn=89caefcac1e3a1efcf126e1df4f4d506&chksm=fb15c04ecc624958fa003aad04a849618cae538340df4f1d71af0240e7930a6143377d88e4fd&mpshare=1&scene=23&srcid=0731V7qXTNarE5dvyf32Elcz&sharer_shareinfo=59b0f505467309f3b82f0cf5175ec4a2&sharer_shareinfo_first=59b0f505467309f3b82f0cf5175ec4a2#rd)
 - [x] 安神补心丸
-- [ ] **综测**
+- [x] **综测**
 - [x] 修改词条：
 		b站：浙工大精弘网络
 		微信视频号：浙工大微学工@药学类徐子豪
