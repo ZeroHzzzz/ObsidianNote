@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "043a4bb0641f4e73",
+        "id": "1064e579726c4d9e",
         "type": "tabs",
         "children": [
           {
-            "id": "24f5b6d65904a47a",
+            "id": "777b05aaca99cda5",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,19 +20,6 @@
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "9e692626bdcad9f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Task/Task.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
             }
           }
         ]
@@ -185,11 +172,25 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "24f5b6d65904a47a",
+  "active": "777b05aaca99cda5",
   "lastOpenFiles": [
     "Task/Task.md",
-    "HomePage/HomePage.md",
+    "随手记/AI Geeks.md",
+    "随手记/CrystalDiskInfo.md",
+    "随手记/使用qq邮箱群发邮件.md",
+    "随手记/使用OpenWeather获取天气信息.md",
+    "随手记/精小弘prompt.md",
+    "随手记/路由表.md",
+    "随手记/虚拟机网络模式.md",
+    "随手记/正则表达式.md",
+    "随手记/Android系统分区.md",
     "随手记/C++编译中重定义问题.md",
+    "随手记/CMake.md",
+    "随手记/conda.md",
+    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
+    "随手记/docker-compose中定义服务副本.md",
+    "随手记/HD Tune.md",
+    "HomePage/HomePage.md",
     "随手记/Nginx负载均衡.md",
     "随手记/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
     "随手记/Git常用命令记录e.md",
@@ -203,20 +204,6 @@
     "随手记/ROS2使用cartorgrapher实现激光雷达建图并保存.md",
     "随手记/qqbot相关.md",
     "日记/2024-08-01.md",
-    "日记/2024-07-27.md",
-    "日记/2024-07-26.md",
-    "Note/计算机网络/HTTP.md",
-    "Blog/Vscode中c编译器配置（mingw64）.md",
-    "Blog/Vscode自动格式化插件.md",
-    "随手记/MingGW和MSVC.md",
-    "随手记/Obsidian粘贴图片自动上传到图床.md",
-    "随手记/Nginx代理转发请求方法改变问题解决.md",
-    "随手记/wandb相关.md",
-    "随手记/vim使用.md",
-    "随手记/usb 传输协议.md",
-    "随手记/Ubuntu常用.md",
-    "随手记/TUN和TAP模式的区别.md",
-    "随手记/SQL注入.md",
     "Important Information",
     "Task/综测相关/附件1.关于开展2023-2024学年计算机学院本科生综合素质测评工作的通知.pdf",
     "Task/综测相关/附件2.浙江工业大学计算机科学与技术学院、软件学院本科学生综合素质测评办法（2024年修订版）.pdf",
