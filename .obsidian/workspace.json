@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7382a9237761ea2b",
+        "id": "1d903918367a60f8",
         "type": "tabs",
         "children": [
           {
-            "id": "672aaa8d132de766",
+            "id": "a783864514d7eed6",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,19 +20,6 @@
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "115de99351586430",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "随手记/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
             }
           }
         ]
@@ -64,8 +51,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mingw",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -81,8 +68,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,11 +172,12 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "672aaa8d132de766",
+  "active": "a783864514d7eed6",
   "lastOpenFiles": [
     "随手记/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
-    "随手记/npm换源.md",
+    "随手记/使用Cmake编译Qt项目.md",
     "HomePage/HomePage.md",
+    "随手记/npm换源.md",
     "随手记/C++编译中头文件重复包含问题.md",
     "随手记/C++命名空间.md",
     "随手记/C++编译中变量重复定义问题.md",
@@ -216,7 +203,6 @@
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
     "Task/综测相关/附件3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
-    "Task/综测相关/综测.md",
     "Task/综测相关/IMG20240821181414.jpg",
     "Important Information",
     "Task/综测相关/附件1.关于开展2023-2024学年计算机学院本科生综合素质测评工作的通知.pdf",
