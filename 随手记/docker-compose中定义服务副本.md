@@ -18,7 +18,7 @@
       replicas: 3
 ```
 
-指得一提的是，运行的服务副本命名方式为：<project*name>*<server_name>\_num
+指得一提的是，运行的服务副本命名方式为：<projectname><server_name>\_num
 其中，project_name可以在运行时指定，默认为项目文件夹名称
 
 ```bash

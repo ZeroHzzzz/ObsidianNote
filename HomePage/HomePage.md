@@ -49,10 +49,15 @@ cellStyleRules:
     color: "#830738"
     min: 5
     max: 9999
+  - id: 1725607117516
+    min: "0"
+    max: "0"
+    color: "#ffffffff"
+    text: ""
 cellStyle:
   minWidth: 6px
   minHeight: 6px
-  borderRadius: 0%
+  borderRadius: ""
 mainContainerStyle: {}
 
 ```
