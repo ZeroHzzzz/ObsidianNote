@@ -1,6 +1,6 @@
 ---
 banner: "![[wallhaven-7pv11v.jpg]]"
-banner_y: 0.38891
+banner_y: 0.47113
 banner_x: 0.5
 cssclasses:
     - weather

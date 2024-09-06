@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1f9b90056c372aaa",
+        "id": "ba31e05de882fc9e",
         "type": "tabs",
         "children": [
           {
-            "id": "90842e95ee9d51b0",
+            "id": "c04157692230396a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "2da452d4880c573a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "随手记/docker-compose中定义服务副本.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/docker-compose中定义服务副本.md",
+                "file": "HomePage/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/docker-compose中定义服务副本.md",
+                "file": "HomePage/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/docker-compose中定义服务副本.md"
+                "file": "HomePage/HomePage.md"
               }
             }
           },
@@ -186,10 +172,16 @@
       "open-weather:OpenWeather": false
     }
   },
-  "active": "78f78b60fed9e6d4",
+  "active": "c04157692230396a",
   "lastOpenFiles": [
-    "随手记/G++、GCC 和 GDB.md",
+    "随手记/C++编译中头文件重复包含问题.md",
+    "随手记/C++编译中变量重复定义问题.md",
+    "HomePage/HomePage.md",
+    "随手记/C++ 中头文件两种引入方式的区别.md",
+    "随手记/C++前向声明.md",
+    "随手记/C++命名空间.md",
     "随手记/docker-compose中定义服务副本.md",
+    "随手记/G++、GCC 和 GDB.md",
     "随手记/Nginx踩坑记录——location 路径匹配和 proxy_pass 转发行为的差异.md",
     "随手记/Nginx代理转发请求方法改变问题.md",
     "随手记/Nginx负载均衡.md",
@@ -199,21 +191,15 @@
     "随手记/使用qq邮箱群发邮件.md",
     "随手记/使用OpenWeather获取天气信息.md",
     "随手记/使用Cmake编译Qt项目.md",
-    "随手记/C++编译中头文件重复包含问题.md",
-    "随手记/C++命名空间.md",
     "随手记/SQL注入.md",
-    "HomePage/HomePage.md",
-    "随手记/C++ 中头文件两种引入方式的区别.md",
     "随手记/精小弘prompt.md",
     "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
-    "随手记/C++编译中变量重复定义问题.md",
     "随手记/CMake.md",
     "随手记/conda.md",
     "随手记/CrystalDiskInfo.md",
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "随手记/git commit格式规范.md",
     "随手记/Git常用命令记录e.md",
-    "随手记/HD Tune.md",
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
     "Task/综测相关/附件3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
