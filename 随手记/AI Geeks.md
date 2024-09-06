@@ -30,7 +30,7 @@ tail -f /code/timm_3d_classification/logs/train_resnet50_totalsegemnetar_test_pr
 find . -type f ! -name 'epoch_48.ckpt' -delete
 ```
 
-Austin使用的是[timm _3d](https://github.com/ZFTurbo/timm_3d)库
+Austin使用的是[timm \_3d](https://github.com/ZFTurbo/timm_3d)库
 
 docker使用命令样例：
 
