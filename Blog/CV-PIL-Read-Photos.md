@@ -1,3 +1,12 @@
+---
+title: CV-PIL-Read-Photos
+date: 2024-08-05 17:05
+updated: 2024-09-06 22:14
+tags: #OpenCV,#pillow,#python
+---
+
+#OpenCV #pillow #python
+
 Python 中，常用的图像处理库包括 OpenCV 和 PIL（Python Imaging Library）。但是两者读取图片有些区别，因而产生一些坑点。
 
 首先我们来看一个代码，使用 OpenCV 和 PIL 读取图像，并将其转换为 PyTorch 的 Tensor 格式。

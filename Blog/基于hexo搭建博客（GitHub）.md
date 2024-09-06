@@ -1,23 +1,24 @@
 ---
 title: 基于hexo搭建博客（GitHub）
-date: 2023-10-27 10:58:06
-categories:
-    - Technologies_exploration
-    - Hexo
+date: 2024-08-05 17:05
+updated: 2024-09-06 22:15
+tags: #hexo
 ---
 
-# 准备工作
+#hexo
+
+## 准备工作
 
 -   GitHub账号
 -   安装git
 -   安装node
 
-# 创建仓库
+## 创建仓库
 
 -   创建仓库，并将仓库命名为 username.github.io
     注意这里的username（）
 
-# 安装hexo
+## 安装hexo
 
 -   安装hexo
     `npm install -g hexo-cli`
@@ -31,7 +32,7 @@ cd hexo-blog
 npm install
 ```
 
-# 主题
+## 主题
 
 hexo默认主题为landscape，可以前往hexo官网寻找你心仪的主题
 [Themes](https://hexo.io/themes/)
@@ -54,23 +55,23 @@ hexo s
 
 ![1.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202408281852233.png)
 
-# 修改参数
+## 修改参数
 
 根据themes提供的文档修改参数
 
-# Writing
+## Writing
 
 新建文章
 `hexo new post 测试文章`
 然后就开始写吧
 
-# 本地预览
+## 本地预览
 
 -   预览的同时可以修改文章内容或主题代码，保存后刷新页面即可
 -   对 Hexo 根目录 \_config.yml 的修改，需要重启本地服务器后才能预览效果
     `hexo s`
 
-# Deloy
+## Deloy
 
 -   安装hexo-deployer-git
     `npm install hexo-deployer-git --save`
@@ -90,9 +91,9 @@ deploy:
 hexo g -d
 ```
 
-# Addition
+## Addition
 
-## 使用Fluid主题的一些文章属性设置
+### 使用Fluid主题的一些文章属性设置
 
 ```title
 ---
@@ -124,7 +125,7 @@ toc: true # 生成文章目录，不填为true
 
 ```
 
-## 一些有意思的东西
+### 一些有意思的东西
 
 ```hexo
 // 便签
@@ -165,4 +166,4 @@ text：显示的文字
 title：鼠标悬停时显示的文字（可选）
 ```
 
-# EOF
+## EOF

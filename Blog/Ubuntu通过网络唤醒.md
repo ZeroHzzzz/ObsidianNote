@@ -1,8 +1,11 @@
 ---
-title: Ubuntu Wake on Lan
-date: 2024-02-20 23:42:36
-categories:
+title: Ubuntu通过网络唤醒
+date: 2024-08-05 17:05
+updated: 2024-09-06 22:10
+tags: #Ubuntu,#WakeonLan
 ---
+
+#Ubuntu #WakeonLan
 
 最近因为自己搭建了一个vps而欣喜若狂而导致日崩。由于某些...的需求，我需要能够再不用的时候将服务器关机。因此我开始折腾远程开机。
 
@@ -12,7 +15,7 @@ categories:
 
 根据以上的思路，我们就开始着手准备了。
 
-# 服务端配置
+## 服务端配置
 
 我们可以通过ethtool工具来查看并修改网卡状态，因此首先安装ethtool工具：
 
@@ -137,15 +140,15 @@ Feb 20 23:32:35 Server systemd[1]: Finished Enable Wake On Lan.
 
 说明服务正常运行。
 
-# 远程启动
+## 远程启动
 
-## Ubuntu && Mac
+### Ubuntu && Mac
 
 以Ubuntu和Mac为例，在命令行中执行wakeonlan xx:xx:xx:xx:xx:xx （输入Ubuntu机器对应的mac地址）就可以唤醒机器了
 
 但是前提是安装了wakeonlan
 
-## windows
+### windows
 
 这里我偷懒了，不想自己写一个脚本出来，因此我就用一些现成的工具了。此处我选择的是[WakeOnLanGui](https://www.depicus.com/wake-on-lan/wake-on-lan-gui)
 

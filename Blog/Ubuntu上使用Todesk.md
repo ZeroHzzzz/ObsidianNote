@@ -1,21 +1,27 @@
 ---
-title: Ubuntu Todesk 的一些使用记录
-date: 2024-02-20 01:46:22
-categories:
-  - Technologies_exploration
-  - Linux
+title: Ubuntu上使用Todesk
+date: 2024-08-05 17:05
+updated: 2024-09-06 22:11
+tags: #Ubuntu,#Todesk
 ---
 
-# 安装
+#Ubuntu #Todesk
+
+## 安装
+
 参照：https://www.todesk.com/linux.html
 官方文档上说：
+
 ```
 sudo apt-get install ./todesk-v4.3.1.0-amd64.deb
 ```
+
 但是我试了没用（），由于我要用的是远程的ubuntu服务器，因此只能老老实实下载deb包然后通过scp传到服务器上。
 
-# 启动
+## 启动
+
 启动命令为：
+
 ```
 todesk
 ```
@@ -32,6 +38,7 @@ cat config.ini
 ```
 
 可以看到：
+
 ```
 [configinfo]
 passupdate                     = 3

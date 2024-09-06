@@ -1,10 +1,11 @@
 ---
-title: 基于Voicemeeter将声音同时输出到多个输出设备
-date: 2023-11-04 00:09:53
-categories:
-    - Technologies_exploration
-    - Voicemeeter
+title: Voicemeeter使用记录
+date: 2024-08-05 17:05
+updated: 2024-09-06 22:09
+tags: #Voicemeeter
 ---
+
+#Voicemeeter
 
 # 一、基础知识
 

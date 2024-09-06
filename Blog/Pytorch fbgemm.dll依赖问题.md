@@ -1,3 +1,12 @@
+---
+title: Pytorch fbgemm.dll依赖问题
+date: 2024-08-15 20:11
+updated: 2024-09-06 21:55
+tags: #PyTorch,#DLL,#fbegmm
+---
+
+#PyTorch #DLL #fbegmm
+
 今天在安装pytorch的时候出现了以下报错：
 
 ```bash

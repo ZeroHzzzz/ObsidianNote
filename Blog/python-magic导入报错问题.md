@@ -1,3 +1,11 @@
+---
+title: python-magic导入报错问题
+date: 2024-08-15 20:25
+updated: 2024-09-06 21:56
+tags: #Langchain,#libmagic
+---
+
+#Langchain #libmagic
 在使用Langchain中的DirectLoader加载PDF文件时，我们遇到了以下问题：
 
 ```bash

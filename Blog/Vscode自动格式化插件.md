@@ -1,19 +1,20 @@
 ---
-title: Vscode 自动格式化插件
-date: 2024-03-17 04:16:37
-categories:
-    - Technologies_exploration
-    - VSCode
+title: Vscode自动格式化插件
+date: 2024-08-05 17:05
+updated: 2024-09-06 22:07
+tags: #VSCode,#Prettier
 ---
 
-# Previous
+#VSCode #Prettier
+
+## Previous
 
 事情的起因是我在某一天打开 vscode 后发现了 tab 变成了两个空格而导致我这个极度代码洁癖的人感觉很难受
 ~~由于懒~~...由于习惯了编写 go 语言代码保存时候的自动格式化，这让最近因为 c++的~~goushi~~作业而焦头烂额的我开始思考能不能在其他语言编写的时候能不能也搞个
 
 由于我平时使用的是 Vscode，因此我就直接使用了 prettier 插件。以下是我配置的一些记录：
 
-# 步骤
+## 步骤
 
 -   安装 prettier 插件
 -   配置

@@ -1,10 +1,11 @@
 ---
-title: 记录Ubuntu 22.04 LTS 磁盘无法正常访问问题的解决
-date: 2024-05-10 02:43:59
-categories:
-    - Technologies_exploration
-    - Linux
+title: Ubuntu掉盘问题记录
+date: 2024-08-05 17:05
+updated: 2024-09-06 22:11
+tags: #Ubuntu
 ---
+
+#Ubuntu
 
 最近属实是有点太压抑了，于是斥巨资买下了HOGWARTS，然后在下载的时候发现游戏盘掉了，表现为：
 

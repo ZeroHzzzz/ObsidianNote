@@ -1,4 +1,13 @@
-# 什么是 DNS CNAME 记录
+---
+title: 给GitHub Pages配置CNAME
+date: 2024-07-29 21:14
+updated: 2024-09-06 22:15
+tags: #CNAME,#GitHubPages
+---
+
+#CNAME #GitHubPages
+
+## 什么是 DNS CNAME 记录
 
 一个"冠名" （CNAME）记录从一个别名域指向一个"冠名" 域。当一个[[域名|域]]或子域是另一个域的别名时，CNAME记录被用来代替 [[A记录]] 。 所有CNAME记录都必须指向一个域名，而不是指向一个IP地址。 CNAME记录允许你把一个域名（别名）指向另一个域名（规范名）。这样，当用户访问别名时，实际上会被重定向到规范名。
 
@@ -16,7 +25,7 @@
 
 注意，MX 和 NS 记录不能指向 CNAME 记录，它们必须指向 A 记录（对于 IPv4）或 AAAA 记录。MX 记录是邮件交换记录，将电子邮件指向一个邮件服务器。NS 记录是“名称服务器”记录，表明哪个 DNS 服务器是该域的权威。
 
-# 给GitHub Pages配置CNAME记录
+## 给GitHub Pages配置CNAME记录
 
 我们这里主要讲述如何配置子域名。官方的文档[在这](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain)
 其实不用很麻烦

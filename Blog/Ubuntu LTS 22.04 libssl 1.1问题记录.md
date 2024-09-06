@@ -1,12 +1,14 @@
 ---
-title: About Ubuntu LTS 22.04 libssl 1.1
-date: 2024-02-19 20:29:32
-categories:
-  - Technologies_exploration
-  - Linux
+title: Ubuntu LTS 22.04 libssl 1.1问题记录
+date: 2024-08-05 17:05
+updated: 2024-09-06 22:12
+tags: #Ubuntu,#libssl
 ---
 
+#Ubuntu #libssl
+
 # 问题描述
+
 ```
 有一些软件包无法被安装。如果您用的是 unstable 发行版，这也许是
 因为系统无法达到您要求的状态造成的。该版本中可能会有一些您需要的软件
@@ -25,6 +27,7 @@ E: 无法修正错误，因为您要求某些软件包保持现状，就是它�
 经过查询资料可知，ubuntu LTS22.04 软件源中，并不包含libssl
 
 因此，只能手动下载安装。http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/
+
 ```
 wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1-udeb_1.1.1-1ubuntu2.1~18.04.23_amd64.udeb
 

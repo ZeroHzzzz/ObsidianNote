@@ -1,3 +1,12 @@
+---
+title: Nginx代理转发请求方法改变问题
+date: 2024-08-19 13:45
+updated: 2024-09-06 21:58
+tags: #Nginx重定向,#HTTP状态码
+---
+
+#Nginx重定向 #HTTP状态码
+
 nginx的机制是所有转发默认是get，所以会导致post请求经过nginx转发后会被转化为get请求。
 
 首先我们来了解一下几个[[HTTP#HTTP 状态码|http状态码]]的区别

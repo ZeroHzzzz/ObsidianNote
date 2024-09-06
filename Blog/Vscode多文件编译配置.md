@@ -1,25 +1,29 @@
 ---
-title: Vscode 多文件编译配置
-date: 2023-12-02 13:34:04
-categories:
-    - Technologies_exploration
-    - VSCode
+title: Vscode多文件编译配置
+date: 2024-08-05 17:05
+updated: 2024-09-06 22:08
+tags: #VSCode,#Cpp,#编译
 ---
+
+#VSCode #Cpp #编译
+
 ## 正片开始
+
 默认VSCode 只能编译单个文件，若多个文件一起编译，经常会报 undefined reference 找不到引用的错误，比如下面的问题：
 
 ```
 "C:\Program Files\mingw64\bin\g++.exe" -fdiagnostics-color=always -g C:\Users\ZeroHzzzz\Desktop\dd\dd.cpp -o C:\Users\ZeroHzzzz\Desktop\dd\dd.exe
 C:\Users\ZEROHZ~1\AppData\Local\Temp\ccYQ5ExK.o: In function `main':
 C:/Users/ZeroHzzzz/Desktop/dd/dd.cpp:6: undefined reference to `maxn(int, int)'
-collect2.exe: error: ld returned 1 exit status 
+collect2.exe: error: ld returned 1 exit status
 ```
 
 解决方法如下：
-- 配置一下`.vscode `文件夹下的 `tasks.json` 就好了。
-- tasks.json的话，就把界面点到代码的界面，然后菜单栏`"Terminal"` - `"Configure Tasks..."` 生成默认的`tasks.json`
 
-找到 tasks.json中的 args 选项，这个主要是用来配置待编译的文件信息的，`${file} `替换成 ` ${workspaceFolder} `, 结果如下：
+-   配置一下`.vscode `文件夹下的 `tasks.json` 就好了。
+-   tasks.json的话，就把界面点到代码的界面，然后菜单栏`"Terminal"` - `"Configure Tasks..."` 生成默认的`tasks.json`
+
+找到 tasks.json中的 args 选项，这个主要是用来配置待编译的文件信息的，`${file} `替换成 `${workspaceFolder}`, 结果如下：
 
 ```json
 "args": [

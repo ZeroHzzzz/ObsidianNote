@@ -1,3 +1,12 @@
+---
+title: 使用qq邮箱群发邮件
+date: 2024-08-21 11:29
+updated: 2024-09-06 21:54
+tags: #SMTP
+---
+
+#SMTP
+
 我们通过qq邮箱的[[SMTP]]服务来实现邮件的发送
 
 ## From 和 To Header 格式规范
