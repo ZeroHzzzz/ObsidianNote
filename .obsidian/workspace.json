@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "1483f71776f02165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/template.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage/HomePage.md",
+                "file": "随手记/template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage/HomePage.md",
+                "file": "随手记/template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage/HomePage.md"
+                "file": "随手记/template.md"
               }
             }
           },
@@ -169,14 +183,16 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "open-weather:OpenWeather": false
+      "open-weather:OpenWeather": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "c04157692230396a",
+  "active": "1483f71776f02165",
   "lastOpenFiles": [
+    "HomePage/HomePage.md",
+    "随手记/template.md",
     "随手记/C++编译中头文件重复包含问题.md",
     "随手记/C++编译中变量重复定义问题.md",
-    "HomePage/HomePage.md",
     "随手记/C++ 中头文件两种引入方式的区别.md",
     "随手记/C++前向声明.md",
     "随手记/C++命名空间.md",
@@ -199,7 +215,6 @@
     "随手记/CrystalDiskInfo.md",
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "随手记/git commit格式规范.md",
-    "随手记/Git常用命令记录e.md",
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
     "Task/综测相关/附件3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
