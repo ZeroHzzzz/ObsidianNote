@@ -1,8 +1,8 @@
 ---
 title: Pytorch fbgemm.dll依赖问题
 date: 2024-08-15 20:11
-updated: 2024-09-06 21:55
-tags: #PyTorch,#DLL,#fbegmm
+updated: 2024-09-06 22:35
+tags: ['#PyTorch', '#DLL', '#fbegmm']
 ---
 
 #PyTorch #DLL #fbegmm

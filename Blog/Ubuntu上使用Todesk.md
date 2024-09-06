@@ -1,8 +1,8 @@
 ---
 title: Ubuntu上使用Todesk
 date: 2024-08-05 17:05
-updated: 2024-09-06 22:11
-tags: #Ubuntu,#Todesk
+updated: 2024-09-06 22:35
+tags: ['#Ubuntu', '#Todesk']
 ---
 
 #Ubuntu #Todesk

@@ -1,8 +1,8 @@
 ---
 title: 基于hexo搭建博客（GitHub）
 date: 2024-08-05 17:05
-updated: 2024-09-06 22:15
-tags: #hexo
+updated: 2024-09-06 22:36
+tags: ['#hexo']
 ---
 
 #hexo

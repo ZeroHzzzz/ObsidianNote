@@ -1,3 +1,12 @@
+---
+title: Nginx踩坑记录——location 路径匹配和 proxy_pass 转发行为的差异
+date: 2024-09-06 03:10
+updated: 2024-09-06 22:42
+tags: ['#Nginx']
+---
+
+#Nginx
+
 文章的开始我们先来看几种写法：
 
 ```nginx

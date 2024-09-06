@@ -1,8 +1,8 @@
 ---
 title: 给GitHub Pages配置CNAME
 date: 2024-07-29 21:14
-updated: 2024-09-06 22:15
-tags: #CNAME,#GitHubPages
+updated: 2024-09-06 22:36
+tags: ['#CNAME', '#GitHubPages']
 ---
 
 #CNAME #GitHubPages

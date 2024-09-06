@@ -1,8 +1,8 @@
 ---
 title: Vscode中c编译器配置（mingw64）
 date: 2024-08-05 17:05
-updated: 2024-09-06 22:07
-tags: #VSCode,#Cpp
+updated: 2024-09-06 22:34
+tags: ['#VSCode', '#Cpp']
 ---
 
 #VSCode #Cpp

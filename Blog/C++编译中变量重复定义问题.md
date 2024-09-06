@@ -1,8 +1,8 @@
 ---
 title: C++编译中变量重复定义问题
 date: 2024-09-04 21:31
-updated: 2024-09-06 21:49
-tags: #重复定义,#Cpp,#extern关键字
+updated: 2024-09-06 22:36
+tags: ['#重复定义', '#Cpp', '#extern关键字']
 ---
 
 #重复定义 #Cpp #extern关键字

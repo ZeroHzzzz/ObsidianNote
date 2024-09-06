@@ -1,8 +1,8 @@
 ---
 title: OMP Error 15问题解决
 date: 2024-08-15 21:53
-updated: 2024-09-06 21:59
-tags: #OpenMP多线程
+updated: 2024-09-06 22:35
+tags: ['#OpenMP多线程']
 ---
 
 #OpenMP多线程

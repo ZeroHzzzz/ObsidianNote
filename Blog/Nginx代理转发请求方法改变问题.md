@@ -1,8 +1,8 @@
 ---
 title: Nginx代理转发请求方法改变问题
 date: 2024-08-19 13:45
-updated: 2024-09-06 21:58
-tags: #Nginx重定向,#HTTP状态码
+updated: 2024-09-06 22:35
+tags: ['#Nginx重定向', '#HTTP状态码']
 ---
 
 #Nginx重定向 #HTTP状态码

@@ -1,8 +1,8 @@
 ---
 title: Windows环境中利用MinGW+CMake从源码编译OpenCV
 date: 2024-08-28 18:21
-updated: 2024-09-06 22:01
-tags: #OpenCV,#CMake配置,#MinGW
+updated: 2024-09-06 22:33
+tags: ['#OpenCV', '#CMake配置', '#MinGW']
 ---
 
 #OpenCV #CMake配置 #MinGW

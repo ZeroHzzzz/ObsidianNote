@@ -1,8 +1,8 @@
 ---
 title: CV-PIL-Read-Photos
 date: 2024-08-05 17:05
-updated: 2024-09-06 22:14
-tags: #OpenCV,#pillow,#python
+updated: 2024-09-06 22:35
+tags: ['#OpenCV', '#pillow', '#python']
 ---
 
 #OpenCV #pillow #python

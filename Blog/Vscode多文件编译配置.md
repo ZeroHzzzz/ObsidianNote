@@ -1,8 +1,8 @@
 ---
 title: Vscode多文件编译配置
 date: 2024-08-05 17:05
-updated: 2024-09-06 22:08
-tags: #VSCode,#Cpp,#编译
+updated: 2024-09-06 22:34
+tags: ['#VSCode', '#Cpp', '#编译']
 ---
 
 #VSCode #Cpp #编译

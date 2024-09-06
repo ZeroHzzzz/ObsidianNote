@@ -1,8 +1,8 @@
 ---
 title: Ubuntu-22-04-LTS安装Steam
 date: 2024-07-26 15:37
-updated: 2024-09-06 22:12
-tags: #steam,#Ubuntu
+updated: 2024-09-06 22:35
+tags: ['#steam', '#Ubuntu']
 ---
 
 #steam #Ubuntu

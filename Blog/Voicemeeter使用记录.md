@@ -1,8 +1,8 @@
 ---
 title: Voicemeeter使用记录
 date: 2024-08-05 17:05
-updated: 2024-09-06 22:09
-tags: #Voicemeeter
+updated: 2024-09-06 22:35
+tags: ['#Voicemeeter']
 ---
 
 #Voicemeeter

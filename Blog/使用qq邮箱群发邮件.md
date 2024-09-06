@@ -1,8 +1,8 @@
 ---
 title: 使用qq邮箱群发邮件
 date: 2024-08-21 11:29
-updated: 2024-09-06 21:54
-tags: #SMTP
+updated: 2024-09-06 22:36
+tags: ['#SMTP']
 ---
 
 #SMTP
@@ -59,9 +59,9 @@ from email.mime.text import MIMEText
 from email.header import Header
 from tqdm import tqdm
 
-sender = '3190381602@qq.com'
-receivers = ['zerohzzzz0108@gmail.com']
-auth_code = "eiaegytnreorddee"
+sender = ''
+receivers = ['']
+auth_code = ""
 fails = []
 
 Sendernickname = "=?UTF-8?B?5rWZ5rGf5bel5Lia5aSn5a2m57K+5byY572R57uc?="
@@ -132,3 +132,5 @@ def send_email(filename):
     except smtplib.SMTPException:
         print("Error: 无法发送邮件")
 ```
+
+项目地址：[ZeroHzzzz/Email-Autosender (github.com)](https://github.com/ZeroHzzzz/Email-Autosender?tab=readme-ov-file)

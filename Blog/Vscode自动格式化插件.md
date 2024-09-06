@@ -1,8 +1,8 @@
 ---
 title: Vscode自动格式化插件
 date: 2024-08-05 17:05
-updated: 2024-09-06 22:07
-tags: #VSCode,#Prettier
+updated: 2024-09-06 22:34
+tags: ['#VSCode', '#Prettier']
 ---
 
 #VSCode #Prettier
