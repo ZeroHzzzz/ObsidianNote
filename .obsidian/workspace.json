@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "19674f70b53cc5bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/question.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "随手记/question.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "随手记/question.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core/HomePage.md"
+                "file": "随手记/question.md"
               }
             }
           },
@@ -171,8 +185,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95177e6812d8d739",
+  "active": "19674f70b53cc5bd",
   "lastOpenFiles": [
+    "Core/HomePage.md",
+    "随手记/question.md",
     "Blog/使用qq邮箱群发邮件.md",
     "Blog/给GitHub Pages配置CNAME.md",
     "Blog/CV-PIL-Read-Photos.md",
@@ -193,12 +209,10 @@
     "Blog/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
     "随手记/虚拟机网络模式.md",
     "随手记/使用Cmake编译Qt项目.md",
-    "Core/HomePage.md",
     "随手记/docker-compose中定义服务副本.md",
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "随手记/C++命名空间.md",
     "随手记/C++ 中头文件两种引入方式的区别.md",
-    "随手记/正则表达式.md",
     "Core/Templates",
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
