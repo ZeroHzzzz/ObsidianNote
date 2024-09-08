@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c70b1bbbd27f48b5",
+        "id": "5be4b5268bedf9e9",
         "type": "tabs",
         "children": [
           {
-            "id": "95177e6812d8d739",
+            "id": "f71d398862686d40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core/HomePage.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19674f70b53cc5bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blog/C++编译中变量重复定义问题.md",
+                "file": "随手记/ROS2使用NAV2实现激光雷达导航.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,12 +21,12 @@
             }
           },
           {
-            "id": "81910539e8ad54ed",
+            "id": "7f19b3241398aba3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/使用Github Action自动部署Hexo博客.md",
+                "file": "随手记/激光雷达导航.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/使用Github Action自动部署Hexo博客.md",
+                "file": "随手记/激光雷达导航.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/使用Github Action自动部署Hexo博客.md",
+                "file": "随手记/激光雷达导航.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/使用Github Action自动部署Hexo博客.md"
+                "file": "随手记/激光雷达导航.md"
               }
             }
           },
@@ -198,34 +185,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "81910539e8ad54ed",
+  "active": "7f19b3241398aba3",
   "lastOpenFiles": [
-    "Blog/C++编译中变量重复定义问题.md",
-    "随手记/使用Github Action自动部署Hexo博客.md",
-    "Blog/C++编译中头文件重复包含问题.md",
-    "随手记/question.md",
+    "随手记/ROS2使用NAV2实现激光雷达导航.md",
+    "随手记/激光雷达导航.md",
+    "随手记/ROS2使用cartorgrapher实现激光雷达建图并保存.md",
     "Core/HomePage.md",
-    "Blog/使用qq邮箱群发邮件.md",
     "Blog/给GitHub Pages配置CNAME.md",
-    "Blog/CV-PIL-Read-Photos.md",
-    "Blog/Nginx踩坑记录——location 路径匹配和 proxy_pass 转发行为的差异.md",
-    "Blog/Nginx代理转发请求方法改变问题.md",
-    "Blog/OMP Error 15问题解决.md",
-    "Blog/python-magic导入报错问题.md",
-    "Blog/Pytorch fbgemm.dll依赖问题.md",
-    "Blog/steam家庭共享游戏消失问题.md",
+    "Blog/基于hexo搭建博客（GitHub）.md",
+    "Blog/使用qq邮箱群发邮件.md",
+    "随手记/HD Tune.md",
     "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
     "Blog/Ubuntu-22-04-LTS安装Steam.md",
     "Blog/Ubuntu掉盘问题记录.md",
     "Blog/Ubuntu上使用Todesk.md",
+    "Blog/Pytorch fbgemm.dll依赖问题.md",
+    "Blog/steam家庭共享游戏消失问题.md",
     "Blog/Ubuntu通过网络唤醒.md",
     "Blog/Voicemeeter使用记录.md",
+    "Blog/Vscode多文件编译配置.md",
     "Blog/Vscode中c编译器配置（mingw64）.md",
     "Blog/Vscode自动格式化插件.md",
     "Blog/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
-    "随手记/虚拟机网络模式.md",
-    "随手记/使用Cmake编译Qt项目.md",
-    "随手记/docker-compose中定义服务副本.md",
+    "随手记/Collected.md",
+    "随手记/C++命名空间.md",
+    "随手记/C++ 中头文件两种引入方式的区别.md",
+    "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
+    "随手记/Android系统分区.md",
+    "随手记/AI Geeks.md",
     "Core/Templates",
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
