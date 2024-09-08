@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "81910539e8ad54ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/使用Github Action自动部署Hexo博客.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/C++编译中变量重复定义问题.md",
+                "file": "随手记/使用Github Action自动部署Hexo博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/C++编译中变量重复定义问题.md",
+                "file": "随手记/使用Github Action自动部署Hexo博客.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/C++编译中变量重复定义问题.md"
+                "file": "随手记/使用Github Action自动部署Hexo博客.md"
               }
             }
           },
@@ -185,10 +198,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19674f70b53cc5bd",
+  "active": "81910539e8ad54ed",
   "lastOpenFiles": [
-    "Blog/C++编译中头文件重复包含问题.md",
     "Blog/C++编译中变量重复定义问题.md",
+    "随手记/使用Github Action自动部署Hexo博客.md",
+    "Blog/C++编译中头文件重复包含问题.md",
     "随手记/question.md",
     "Core/HomePage.md",
     "Blog/使用qq邮箱群发邮件.md",
@@ -212,7 +226,6 @@
     "随手记/虚拟机网络模式.md",
     "随手记/使用Cmake编译Qt项目.md",
     "随手记/docker-compose中定义服务副本.md",
-    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "Core/Templates",
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
