@@ -25,12 +25,13 @@ jobs:
               uses: actions/checkout@v3
               with:
                   ref: main # 从 main 分支获取文章
-                  path: blog/source # 将文章内容放在 Hexo 项目的 source 文件夹
+                  path: blog/source/_posts # 将文章内容放在 Hexo 项目的 source 文件夹
                   sparse-checkout: true
+
             # 设置 sparse-checkout 只检出 Blog 文件夹
             - name: Get Blog Files
               run: echo "Blog/*" >> .git/info/sparse-checkout
-              working-directory: ./blog/source
+              working-directory: ./blog/source/_posts
 
             # 设置 Node.js 环境
             - name: Set up Node.js
