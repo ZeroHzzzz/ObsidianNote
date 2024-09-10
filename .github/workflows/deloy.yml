@@ -31,9 +31,9 @@ jobs:
             # 设置 sparse-checkout 只检出 Blog 文件夹
             - name: Get Blog Files
               run: |
-                  ls Blog/*
                   git sparse-checkout init --cone  # 初始化 sparse-checkout
                   echo "Blog/*" >> .git/info/sparse-checkout
+                  ls ./blog/source/_posts/
               working-directory: ./blog/source/_posts
 
             # 设置 Node.js 环境
