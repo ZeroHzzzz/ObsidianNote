@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/Academic_Note/离散/集合与关系.md",
+                "file": "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/Academic_Note/离散/集合与关系.md",
+                "file": "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/Academic_Note/离散/集合与关系.md",
+                "file": "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/Academic_Note/离散/集合与关系.md"
+                "file": "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md"
               }
             }
           },
@@ -173,6 +173,7 @@
   },
   "active": "cc25710cba02b31c",
   "lastOpenFiles": [
+    "Note/Academic_Note/离散/集合与关系.md",
     "Note/Academic_Note/离散/代数系统.md",
     "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
     "随手记/git commit格式规范.md",
@@ -199,7 +200,6 @@
     "随手记/HD Tune.md",
     "随手记/MingGW和MSVC.md",
     "随手记/Nginx负载均衡.md",
-    "随手记/TUN和TAP模式的区别.md",
     "Core/Templates",
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
