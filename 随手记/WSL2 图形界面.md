@@ -39,4 +39,14 @@ source ~/.bashrc
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 ```
 
-整个命令的作用就是从`/etc/resolv.conf`这个文件中提取当前系统的 `nameserver` IP 地址，并将它与 `:0.0` 结合，设置为 `DISPLAY` 变量。这种方法也许是有效的，但是我的情况有点复杂，并没有成功。我查阅了相关的资料，发现他这个`/etc/resolv.conf`文件的主要作用是定义 DNS 服务器的地址。而且这个文件是由wsl自动生成的。
+整个命令的作用就是从`/etc/resolv.conf`这个文件中提取当前系统的 `nameserver` IP 地址，并将它与 `:0.0` 结合，设置为 `DISPLAY` 变量。这种方法也许是有效的，但是我的情况有点复杂，并没有成功。
+
+经过了一番资料的查询之后我发现罪魁祸首还是wsl的网络模式。我的配置是mirror-mode，因此也就导致了一系列相关的问题....比如mirror-mode和tun模式的冲突。
+
+因此，简单的话，我们直接在用户文件夹中的.wslconfig文件中的networkingMode改为NAT好了。后续我有空再去探究为什么mirror-mode会导致x server找不到我们的wsl主机（我现在初步怀疑是x410的问题）
+
+```yaml
+networkingMode=NAT
+```
+
+我们改完之后，基本上这个应该就没有什么大问题了。
