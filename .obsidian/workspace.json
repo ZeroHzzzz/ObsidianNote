@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/WSL2 使用VcXsrv图形界面.md",
+                "file": "随手记/WSL2 图形界面.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/WSL2 使用VcXsrv图形界面.md",
+                "file": "随手记/WSL2 图形界面.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/WSL2 使用VcXsrv图形界面.md",
+                "file": "随手记/WSL2 图形界面.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/WSL2 使用VcXsrv图形界面.md"
+                "file": "随手记/WSL2 图形界面.md"
               }
             }
           },
@@ -188,7 +188,7 @@
   "active": "585031f7096253d8",
   "lastOpenFiles": [
     "Core/HomePage.md",
-    "随手记/WSL2 使用VcXsrv图形界面.md",
+    "随手记/WSL2 图形界面.md",
     "随手记/mc服务器相关.md",
     "随手记/question.md",
     "随手记/pytorch flash attention安装.md",
