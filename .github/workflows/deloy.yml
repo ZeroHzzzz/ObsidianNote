@@ -27,7 +27,8 @@ jobs:
                   ref: main # 从 main 分支获取文章
                   path: blog/source/_posts # 将文章内容放在 Hexo 项目的 source 文件夹
                   sparse-checkout: true
-
+                  sparse-checkout-paths: |
+                      Blog
             # # 设置 sparse-checkout 只检出 Blog 文件夹
             # - name: Get Blog Files
             #   run: |
