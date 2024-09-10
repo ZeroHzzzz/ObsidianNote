@@ -24,7 +24,7 @@ WSL其实是有自己的图形化界面的解决方法的。自 **WSL 2** 之后
 
 其实我们只需要配置一个环境变量`DISPLAY`，让wsl中的应用知道将图形请求发送到哪里就行了。
 
-为了简单，我们直接编辑 `.bashrc` 文件，设置 `DISPLAY` 环境变量就行了。即：
+为了简单，我们直接编辑 `.bashrc` 文件，设置 `DISPLAY` 环境变量就行了。
 
 ```bash
 echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
@@ -32,3 +32,11 @@ source ~/.bashrc
 ```
 
 这将确保在每次启动 WSL 时，`DISPLAY` 变量都被正确设置。
+
+但是这个东西我试过了，对于wsl1是有效的，但是wsl2的话，根据官网的说法，我们需要这样做：
+
+```bash
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+```
+
+整个命令的作用就是从`/etc/resolv.conf`这个文件中提取当前系统的 `nameserver` IP 地址，并将它与 `:0.0` 结合，设置为 `DISPLAY` 变量。这种方法也许是有效的，但是我的情况有点复杂，并没有成功。我查阅了相关的资料，发现他这个`/etc/resolv.conf`文件的主要作用是定义 DNS 服务器的地址。而且这个文件是由wsl自动生成的。
