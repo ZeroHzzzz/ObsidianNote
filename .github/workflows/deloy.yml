@@ -13,27 +13,27 @@ jobs:
         steps:
             # 检出 hexo 分支的 Hexo 环境
             - name: Checkout hexo branch
-              uses: actions/checkout@v2
+              uses: actions/checkout@v3
               with:
                   ref: hexo # 指定为 hexo 分支
                   path: blog
 
             # 检出 main 分支中的文章内容
             - name: Checkout articles from main branch
-              uses: actions/checkout@v2
+              uses: actions/checkout@v3
               with:
                   ref: main # 从 main 分支获取文章
                   path: blog/source # 将文章内容放在 Hexo 项目的 source 文件夹
 
             # 设置 Node.js 环境
             - name: Set up Node.js
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v3
               with:
                   node-version: "16" # 选择 Node.js 版本
 
             # 缓存 Node.js 依赖
             - name: Cache dependencies
-              uses: actions/cache@v2
+              uses: actions/cache@v3
               with:
                   path: node_modules
                   key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
