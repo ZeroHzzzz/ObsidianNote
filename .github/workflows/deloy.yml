@@ -34,7 +34,7 @@ jobs:
                   git sparse-checkout init --cone  # 初始化 sparse-checkout
                   echo "Blog/*" >> .git/info/sparse-checkout
                   pwd
-                  ls /blog/source/_posts
+                  ls
               working-directory: ./blog/source/_posts
 
             # 设置 Node.js 环境
