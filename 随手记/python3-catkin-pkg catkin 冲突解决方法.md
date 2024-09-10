@@ -41,6 +41,8 @@ E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or speci
 
 这个错误信息表示在安装 `python3-catkin-pkg-modules` 软件包时出现了文件冲突，具体是 `/usr/lib/python3/dist-packages/catkin_pkg/__init__.py` 文件已经被另一个软件包 `python3-catkin-pkg` 占用了。
 
+因此我们可以尝试直接手动强制复写：
+
 ```bash
 sudo dpkg -i --force-overwrite /var/cache/apt/archives/python3-catkin-pkg-modules_1.0.0-1_all.deb
 ```
