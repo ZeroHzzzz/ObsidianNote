@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Ubuntu通过网络唤醒.md",
+                "file": "Note/Academic_Note/离散/集合与关系.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Ubuntu通过网络唤醒.md",
+                "file": "Note/Academic_Note/离散/集合与关系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Ubuntu通过网络唤醒.md",
+                "file": "Note/Academic_Note/离散/集合与关系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Ubuntu通过网络唤醒.md"
+                "file": "Note/Academic_Note/离散/集合与关系.md"
               }
             }
           },
@@ -171,8 +171,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "78f78b60fed9e6d4",
+  "active": "cc25710cba02b31c",
   "lastOpenFiles": [
+    "Note/Academic_Note/离散/代数系统.md",
+    "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
+    "随手记/git commit格式规范.md",
+    "Blog/Ubuntu通过网络唤醒.md",
     "新建文件夹",
     "Blog/WSL：”NAT 模式下的 WSL 不支持 localhost 代理“提示以及mirrored网络模式与TUN模式的冲突.md",
     "随手记/i386.md",
@@ -191,14 +195,11 @@
     "随手记/docker-compose中定义服务副本.md",
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "随手记/G++、GCC 和 GDB.md",
-    "随手记/git commit格式规范.md",
     "随手记/mc服务器相关.md",
     "随手记/HD Tune.md",
     "随手记/MingGW和MSVC.md",
     "随手记/Nginx负载均衡.md",
-    "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
     "随手记/TUN和TAP模式的区别.md",
-    "随手记/Ubuntu常用.md",
     "Core/Templates",
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
@@ -209,7 +210,6 @@
     "Task/综测相关/附件2.浙江工业大学计算机科学与技术学院、软件学院本科学生综合素质测评办法（2024年修订版）.pdf",
     "Task/综测相关/关于开展计算机学院2023-2024学年工时公示与核对的通知.pdf",
     "Task/综测相关/统一加分的奖项名录二稿.docx",
-    "Task/综测相关/~WRL2394.tmp",
     "Core/wallhaven-7pv11v.jpg",
     "Core/wallhaven-1ky673.png",
     "Core/wallhaven-l8xe5r.jpg",
