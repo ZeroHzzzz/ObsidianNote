@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/WSL2 图形界面.md",
+                "file": "Core/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/WSL2 图形界面.md",
+                "file": "Core/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/WSL2 图形界面.md"
+                "file": "Core/HomePage.md"
               }
             }
           },
@@ -185,10 +184,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "585031f7096253d8",
+  "active": "3c8a12831506e494",
   "lastOpenFiles": [
-    "Core/HomePage.md",
     "随手记/WSL2 图形界面.md",
+    "Core/HomePage.md",
     "随手记/mc服务器相关.md",
     "随手记/question.md",
     "随手记/pytorch flash attention安装.md",
