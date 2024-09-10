@@ -1,0 +1,112 @@
+---
+title: 使用Github Action自动部署Hexo博客
+date: 2024-09-08 15:37
+updated: 2024-09-11 05:47
+tags: ['#github', '#GitHubPages', '#hexo']
+---
+
+#github #GitHubPages #hexo
+
+因为懒所以懒
+
+之前不是用Obsidian的git插件实现了自动同步，我转念一想，干脆搞个GitHub Aciton自动发布到博客好了，免得我自己再手动输一行命令去发布~~多累啊~~
+
+我使用的架构是这样的，由于先前我们Obsidian使用用来备份的仓库和我们的GitHub Page仓库不是同一个，而且我们也是直接把文章的源文件放到了main分支中，因此我决定将Hexo相关配置放到ObsidanNote仓库的Hexo分支，然后让GitHub Action去调用就行了。
+
+首先我们需要搞一个Token
+
+因为我们需要在 **Hexo 项目仓库** 执行 **Github Actions** 向 **username.github.io 仓库**推送代码，由于 Github 权限限制，我们需要在 GitHub 账户中创建一个具有足够权限的**个人访问令牌（Personal Access Token，简称 PAT）**。这个令牌需要有足够的权限来修改仓库。
+
+点击右上角头像 -> 打开 **Settings** -> 左边栏滚到最后找到 **Develop Setting** 打开，如图
+
+![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202409110537234.png)
+
+找到 **Personal Access Token** 点击 **Tokens（classic）** -> 选择 **Generate new token (classic)** ，如图
+
+![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202409110538977.png)
+
+然后随便新建一个好了，只要有读写仓库的权限就行。
+
+将生成的 **PAT** 添加到你的博客源代码仓库的 **Secrets**，也就是我们部署GitHub Action的仓库，名字填入 **PERSONAL_TOKEN** ，后面会用到这个变量名。
+
+![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202409110540172.png)
+
+然后在我们存放Hexo配置的分支里面创建一个 .github/workflows 文件夹（如果尚未存在），然后新建一个yaml文件用于定义Github Action工作流。以下是我的yaml文件。
+
+```yaml
+name: Deploy Hexo to GitHub Pages
+
+# 监听 main 分支的推送操作
+on:
+    push:
+        branches:
+            - main
+        paths:
+            - "Blog/**"
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            # 检出 hexo 分支的 Hexo 环境
+            - name: Checkout hexo branch
+              uses: actions/checkout@v3
+              with:
+                  ref: hexo # 指定为 hexo 分支
+                  path: blog
+            # 检出 main 分支中的文章内容
+            - name: Checkout articles from main branch
+              uses: actions/checkout@v3
+              with:
+                  ref: main # 从 main 分支获取文章
+                  path: blog/source/_posts # 将文章内容放在 Hexo 项目的 source 文件夹
+                  sparse-checkout: true
+
+            # 设置 sparse-checkout 只检出 Blog 文件夹
+            - name: Get Blog Files
+              run: echo "Blog/*" >> .git/info/sparse-checkout
+              working-directory: ./blog/source/_posts
+
+            # 设置 Node.js 环境
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "16" # 选择 Node.js 版本
+
+            # 缓存 Node.js 依赖
+            - name: Cache dependencies
+              uses: actions/cache@v3
+              with:
+                  path: node_modules
+                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                      ${{ runner.os }}-node-
+
+            # 安装项目依赖
+            - name: Install dependencies
+              run: npm install
+              working-directory: ./blog
+
+            # 安装 Hexo CLI
+            - name: Install Hexo CLI
+              run: npm install -g hexo-cli
+              working-directory: ./blog
+
+            # 生成静态页面
+            - name: Generate static pages
+              run: hexo generate
+              working-directory: ./blog
+
+            # 将生成的静态页面发布到 GitHub Pages
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  personal_token: ${{ secrets.PERSONAL_TOKEN }} # 使用 GitHub 密钥
+                  publish_dir: ./blog/public # Hexo 生成的静态文件目录
+                  external_repository: ZeroHzzzz/ZeroHzzzz.github.io
+                  publish_branch: main # 指定发布的分支
+```
+
+这里我的配置比较特殊，因为我对笔记文件进行了分类，然后只有Blog目录下的文件会进行发布，因此我们只需要看Blog目录是否发生改变。这个可以根据自己的需要进行修改。
+
+然后我们将这些文件提交至GitHub上，触发特定条件就可以触发GitHub Action工作流实现自动部署

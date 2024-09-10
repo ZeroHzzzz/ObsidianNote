@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "005cd6415b59c417",
+        "id": "88069949ef174dbe",
         "type": "tabs",
         "children": [
           {
-            "id": "cc25710cba02b31c",
+            "id": "3241060b35e4b9e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
-                "mode": "source",
+                "file": "Core/HomePage.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
+                "file": "Core/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
+                "file": "Core/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md"
+                "file": "Core/HomePage.md"
               }
             }
           },
@@ -171,12 +171,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cc25710cba02b31c",
+  "active": "3241060b35e4b9e9",
   "lastOpenFiles": [
+    "Blog/使用Github Action自动部署Hexo博客.md",
+    "Core/HomePage.md",
+    "随手记/git commit格式规范.md",
+    "随手记/Git常用命令记录e.md",
+    "随手记/未命名.md",
+    "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
     "Note/Academic_Note/离散/集合与关系.md",
     "Note/Academic_Note/离散/代数系统.md",
-    "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
-    "随手记/git commit格式规范.md",
     "Blog/Ubuntu通过网络唤醒.md",
     "新建文件夹",
     "Blog/WSL：”NAT 模式下的 WSL 不支持 localhost 代理“提示以及mirrored网络模式与TUN模式的冲突.md",
@@ -196,10 +200,6 @@
     "随手记/docker-compose中定义服务副本.md",
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "随手记/G++、GCC 和 GDB.md",
-    "随手记/mc服务器相关.md",
-    "随手记/HD Tune.md",
-    "随手记/MingGW和MSVC.md",
-    "随手记/Nginx负载均衡.md",
     "Core/Templates",
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
