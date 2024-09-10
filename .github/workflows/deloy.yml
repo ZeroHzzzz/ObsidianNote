@@ -5,8 +5,8 @@ on:
     push:
         branches:
             - main
-        paths:
-            - "Blog/**"
+        # paths:
+        #     - "Blog/**"
 
 jobs:
     deploy:
@@ -20,18 +20,19 @@ jobs:
                   ref: hexo # 指定为 hexo 分支
                   path: blog
 
-            # 检出 main 分支中的文章内容
-            - name: Checkout articles from main branch
+            # 设置 sparse-checkout 只检出 Blog 文件夹
+            - name: Get Blog Files
               uses: actions/checkout@v3
               with:
                   ref: main # 从 main 分支获取文章
                   path: blog/source/_posts # 将文章内容放在 Hexo 项目的 source 文件夹
-                  sparse-checkout: true
-
-            # 设置 sparse-checkout 只检出 Blog 文件夹
-            - name: Get Blog Files
-              run: echo "Blog/*" >> .git/info/sparse-checkout
-              working-directory: ./blog/source/_posts
+                  sparse-checkout: true # 启用稀疏检出
+                  fetch-depth: 0 # 获取完整的历史记录，以确保可以正确检出
+              run: |
+                  git sparse-checkout init --cone  # 初始化 sparse-checkout
+                  echo "Blog/*" >> .git/info/sparse-checkout  # 设置稀疏检出的路径
+                  git sparse-checkout reapply  # 重新应用 sparse-checkout 配置
+                  git pull origin main  # 拉取 main 分支中指定的内容
 
             # 设置 Node.js 环境
             - name: Set up Node.js
