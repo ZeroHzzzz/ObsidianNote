@@ -21,3 +21,8 @@ WSL其实是有自己的图形化界面的解决方法的。自 **WSL 2** 之后
 
 但是这个方法我觉得页面相对比较简陋，示例如下：
 ![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202409102007318.png)
+
+## VcXsrv
+
+下载地址：[https://sourceforge.net/projects/vcxsrv/files/latest/download](https://sourceforge.net/projects/vcxsrv/files/latest/download)
+
