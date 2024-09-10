@@ -1,7 +1,5 @@
 #uncompleted
-VcXsrv、X410 和 Xming 都是用于在 Windows 系统上运行 X11 应用程序的开源 X 服务器，主要作用是在 Windows 系统上为 X11 应用程序提供显示支持。但是考虑到近几年的Xming在维护方面较为落后，以及X410收费的缘故，我还是选择了VcXsrv作为我的 X 服务器
-
-不过听说X410
+VcXsrv、X410 和 Xming 都是用于在 Windows 系统上运行 X11 应用程序的开源 X 服务器，主要作用是在 Windows 系统上为 X11 应用程序提供显示支持。但是考虑到近几年的Xming在维护方面较为落后，而且听说虽然X410需要付费但是可以一直试用，因此我们选择了X410作为我们的X服务器
 
 首先我们需要了解一下，什么是X11，以及这些东西到底是做什么的。
 
@@ -22,7 +20,15 @@ WSL其实是有自己的图形化界面的解决方法的。自 **WSL 2** 之后
 但是这个方法我觉得页面相对比较简陋，示例如下：
 ![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202409102007318.png)
 
-## VcXsrv
+## 使用X服务器
 
-下载地址：[https://sourceforge.net/projects/vcxsrv/files/latest/download](https://sourceforge.net/projects/vcxsrv/files/latest/download)
+其实我们只需要配置一个环境变量`DISPLAY`，让wsl中的应用知道将图形请求发送到哪里就行了。
 
+为了简单，我们直接编辑 `.bashrc` 文件，设置 `DISPLAY` 环境变量就行了。即：
+
+```bash
+echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
+source ~/.bashrc
+```
+
+这将确保在每次启动 WSL 时，`DISPLAY` 变量都被正确设置。
