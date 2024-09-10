@@ -28,14 +28,14 @@ jobs:
                   path: blog/source/_posts # 将文章内容放在 Hexo 项目的 source 文件夹
                   sparse-checkout: true
 
-            # 设置 sparse-checkout 只检出 Blog 文件夹
-            - name: Get Blog Files
-              run: |
-                  git sparse-checkout init --cone  # 初始化 sparse-checkout
-                  echo "Blog/*" >> .git/info/sparse-checkout
-                  pwd
-                  ls
-              working-directory: ./blog/source/_posts
+            # # 设置 sparse-checkout 只检出 Blog 文件夹
+            # - name: Get Blog Files
+            #   run: |
+            #       git sparse-checkout init --cone  # 初始化 sparse-checkout
+            #       echo "Blog/*" >> .git/info/sparse-checkout
+            #       pwd
+            #       ls
+            #   working-directory: ./blog/source/_posts
 
             # 设置 Node.js 环境
             - name: Set up Node.js
