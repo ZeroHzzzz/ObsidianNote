@@ -1,54 +1,51 @@
 name: Deploy Hexo to GitHub Pages
 
-# 监听 main 分支的推送操作
 on:
     push:
         branches:
             - main
-        # paths:
-        #     - "Blog/**"
 
 jobs:
     deploy:
         runs-on: ubuntu-latest
 
         steps:
-            # 检出 hexo 分支的 Hexo 环境
-            - name: Checkout hexo branch
+            # 检出 hexo 分支，作为 Hexo 环境
+            - name: Checkout hexo branch (Hexo environment)
               uses: actions/checkout@v3
               with:
-                  ref: hexo # 指定为 hexo 分支
-                  path: blog
+                  ref: hexo
+                  path: blog # 将 Hexo 项目放在 blog 目录下
 
-            # 检出 main 分支中的文章内容
-            - name: Checkout articles from main branch
+            # 检出 main 分支的文章内容（Blog 文件夹）
+            - name: Checkout articles from main branch (Blog folder)
               uses: actions/checkout@v3
               with:
-                  ref: main # 从 main 分支获取文章
-                  path: blog/source/_posts # 将文章内容放在 Hexo 项目的 source 文件夹
+                  ref: main
+                  path: blog/source/_posts # 将文章内容放入 Hexo 项目的 source/_posts 文件夹
                   sparse-checkout: true
                   sparse-checkout-paths: |
-                      Blog
-            # # 设置 sparse-checkout 只检出 Blog 文件夹
-            # - name: Get Blog Files
-            #   run: |
-            #       git sparse-checkout init --cone  # 初始化 sparse-checkout
-            #       echo "Blog/*" >> .git/info/sparse-checkout
-            #       pwd
-            #       ls
-            #   working-directory: ./blog/source/_posts
+                      Blog/*
+
+            # 移动 Blog 文件夹下的内容到 source/_posts
+            - name: Move articles to _posts
+              run: mv blog/source/_posts/Blog/* blog/source/_posts/
+
+            # 确认文章已经放入正确的目录
+            - name: Check article files
+              run: ls -R blog/source/_posts
 
             # 设置 Node.js 环境
             - name: Set up Node.js
               uses: actions/setup-node@v3
               with:
-                  node-version: "16" # 选择 Node.js 版本
+                  node-version: "16"
 
             # 缓存 Node.js 依赖
             - name: Cache dependencies
               uses: actions/cache@v3
               with:
-                  path: node_modules
+                  path: blog/node_modules
                   key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
                   restore-keys: |
                       ${{ runner.os }}-node-
@@ -68,11 +65,15 @@ jobs:
               run: hexo generate
               working-directory: ./blog
 
-            # 将生成的静态页面发布到 GitHub Pages
+            # 检查生成的静态文件是否正确
+            - name: List generated files
+              run: ls -R ./blog/public
+
+            # 将生成的静态文件发布到 GitHub Pages（另一个仓库）
             - name: Deploy to GitHub Pages
               uses: peaceiris/actions-gh-pages@v3
               with:
-                  personal_token: ${{ secrets.PERSONAL_TOKEN }} # 使用 GitHub 密钥
+                  personal_token: ${{ secrets.PERSONAL_TOKEN }}
                   publish_dir: ./blog/public # Hexo 生成的静态文件目录
-                  external_repository: ZeroHzzzz/ZeroHzzzz.github.io # 替换为目标 GitHub Pages 仓库
-                  publish_branch: main # 或 main，指定发布的分支
+                  external_repository: ZeroHzzzz/ZeroHzzzz.github.io # 替换为你的目标仓库
+                  publish_branch: main # 发布到目标仓库的 main 分支
