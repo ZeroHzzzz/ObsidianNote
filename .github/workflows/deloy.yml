@@ -17,19 +17,16 @@ jobs:
                   ref: hexo
                   path: blog # 将 Hexo 项目放在 blog 目录下
 
-            # 检出 main 分支的文章内容（Blog 文件夹）
+            # 检出 main 分支中的文章内容（Blog 文件夹）
             - name: Checkout articles from main branch (Blog folder)
               uses: actions/checkout@v3
               with:
                   ref: main
-                  path: blog/source/_posts # 将文章内容放入 Hexo 项目的 source/_posts 文件夹
-                  sparse-checkout: true
-                  sparse-checkout-paths: |
-                      Blog/*
+                  path: blog/Blog # 将 Blog 文件夹检出到 blog/Blog 目录
 
             # 移动 Blog 文件夹下的内容到 source/_posts
             - name: Move articles to _posts
-              run: mv blog/source/_posts/Blog/* blog/source/_posts/
+              run: mv blog/Blog/* blog/source/_posts/
 
             # 确认文章已经放入正确的目录
             - name: Check article files
