@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "Book/大话数据结构 (程杰) (Z-Library).pdf",
-                "page": 33,
+                "page": 34,
                 "left": -17,
-                "top": 212,
+                "top": 67,
                 "zoom": 0.9450000000000001
               }
             }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf",
+                "file": "Note/数据结构/绪论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf",
+                "file": "Note/数据结构/绪论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf"
+                "file": "Note/数据结构/绪论.md"
               }
             }
           },
@@ -191,10 +191,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5fd685dc4c79cf1c",
+  "active": "ce7a8d150bfcc7b3",
   "lastOpenFiles": [
-    "Note/数据结构/绪论.md",
     "Book/大话数据结构 (程杰) (Z-Library).pdf",
+    "Note/数据结构/绪论.md",
     "Note/数据结构",
     "随手记/使用adb脚本实现短信发送.md",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
