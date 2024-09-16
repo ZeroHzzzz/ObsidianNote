@@ -4,19 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a205f385961f14c7",
+        "id": "d9eec5d194bf40c7",
         "type": "tabs",
         "children": [
           {
-            "id": "ddb8e295df8b6159",
+            "id": "5fd685dc4c79cf1c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Core/HomePage.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf",
+                "page": 30,
+                "left": -8,
+                "top": 547,
+                "zoom": 1.9695
               }
             }
           }
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core/HomePage.md"
+                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf"
               }
             }
           },
@@ -171,23 +172,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ddb8e295df8b6159",
+  "active": "5fd685dc4c79cf1c",
   "lastOpenFiles": [
+    "随手记/使用adb脚本实现短信发送.md",
+    "Book/大话数据结构 (程杰) (Z-Library).pdf",
+    "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
+    "随手记/Vscode配置java环境.md",
+    "Core/HomePage.md",
+    "Blog/WSL2 图形界面.md",
+    "Book/概率论基础教程 (Sheldon M. Ross) (Z-Library).pdf",
+    "Book/数据结构教程 （第5版） (李春葆) (Z-Library).pdf",
+    "Book/被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え ([曰] 岸见一郎，[日] 古贺史健 著；渠海霞 译) (Z-Library).pdf",
+    "Book",
     "Blog/使用Github Action自动部署Hexo博客.md",
     "随手记/Obsidian Callout语法.md",
     "随手记/C++ 中头文件两种引入方式的区别.md",
     "随手记/C++命名空间.md",
-    "随手记/Vscode配置java环境.md",
     "随手记/wandb相关.md",
     "随手记/Ubuntu常用.md",
     "随手记/usb 传输协议.md",
     "随手记/vim使用.md",
-    "Core/HomePage.md",
     "Blog/基于hexo搭建博客（GitHub）.md",
     "Blog/C++编译中头文件重复包含问题.md",
     "随手记/pytorch flash attention安装.md",
     "随手记/mc服务器相关.md",
-    "随手记/使用adb脚本实现短信发送.md",
     "随手记/screen使用方法.md",
     "随手记/git commit格式规范.md",
     "随手记/Git常用命令记录e.md",
@@ -198,18 +206,10 @@
     "新建文件夹",
     "Blog/WSL：”NAT 模式下的 WSL 不支持 localhost 代理“提示以及mirrored网络模式与TUN模式的冲突.md",
     "随手记/i386.md",
-    "随手记/Obsidian粘贴图片自动上传到图床.md",
-    "随手记/pipreqs生成requirements.txt文件.md",
     "Core/Templates",
     "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/~$3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
-    "Task/综测相关/附件3.计算机学院本科生综合测评分评定佐证材料汇总(个人版).docx",
     "Task/综测相关/IMG20240821181414.jpg",
-    "Important Information",
-    "Task/综测相关/附件1.关于开展2023-2024学年计算机学院本科生综合素质测评工作的通知.pdf",
-    "Task/综测相关/附件2.浙江工业大学计算机科学与技术学院、软件学院本科学生综合素质测评办法（2024年修订版）.pdf",
-    "Task/综测相关/关于开展计算机学院2023-2024学年工时公示与核对的通知.pdf",
-    "Task/综测相关/统一加分的奖项名录二稿.docx",
     "Core/wallhaven-7pv11v.jpg",
     "Core/wallhaven-1ky673.png",
     "Core/wallhaven-l8xe5r.jpg",

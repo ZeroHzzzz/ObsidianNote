@@ -13,3 +13,18 @@ adb shell input swipe 973 2276 973 2276 100
 ```bash
 adb shell input tap 973.5 2276.5
 ```
+
+基本的代码如下：
+
+```python
+import os
+
+number = 123
+text = ""
+
+send_cmd = "adb shell input tap 973.5 2276.5"
+txt_cmd = f"adb shell am start -a android.intent.action.SENDTO -d sms:{number} --es sms_body \"{text}\""
+
+os.system(send_cmd)
+os.system(txt_cmd)
+```
