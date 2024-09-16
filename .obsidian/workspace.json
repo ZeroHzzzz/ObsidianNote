@@ -14,13 +14,19 @@
               "type": "pdf",
               "state": {
                 "file": "Book/大话数据结构 (程杰) (Z-Library).pdf",
-                "page": 28,
-                "left": -8,
-                "top": 496,
-                "zoom": 1.9695
+                "page": 33,
+                "left": -17,
+                "top": 212,
+                "zoom": 0.9450000000000001
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "3d24836abd4dac18",
+        "type": "tabs",
+        "children": [
           {
             "id": "ce7a8d150bfcc7b3",
             "type": "leaf",
@@ -34,8 +40,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/数据结构/绪论.md",
+                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/数据结构/绪论.md",
+                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/数据结构/绪论.md"
+                "file": "Book/大话数据结构 (程杰) (Z-Library).pdf"
               }
             }
           },
@@ -186,10 +191,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ce7a8d150bfcc7b3",
+  "active": "5fd685dc4c79cf1c",
   "lastOpenFiles": [
-    "Book/大话数据结构 (程杰) (Z-Library).pdf",
     "Note/数据结构/绪论.md",
+    "Book/大话数据结构 (程杰) (Z-Library).pdf",
     "Note/数据结构",
     "随手记/使用adb脚本实现短信发送.md",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
