@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
-                "page": 40,
+                "page": 72,
                 "left": -7,
-                "top": 671,
+                "top": 565,
                 "zoom": 2.0641581651368455
               }
             }
@@ -174,12 +174,13 @@
   },
   "active": "5fd685dc4c79cf1c",
   "lastOpenFiles": [
-    "Book/大话数据结构 (程杰) (Z-Library).pdf",
+    "Book/数据结构教程（C++语言描述）（第2版·微课视频版） (李春葆, 匡志强, 蒋林) .pdf",
+    "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
     "Book/数据结构教程 （第5版） (李春葆) (Z-Library).pdf",
+    "Book/大话数据结构 (程杰) (Z-Library).pdf",
     "Note/数据结构/绪论.md",
     "Note/数据结构",
     "随手记/使用adb脚本实现短信发送.md",
-    "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
     "随手记/Vscode配置java环境.md",
     "Core/HomePage.md",
     "Blog/WSL2 图形界面.md",
