@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d9eec5d194bf40c7",
+        "id": "58d173ea9cfb5946",
         "type": "tabs",
         "children": [
           {
-            "id": "5fd685dc4c79cf1c",
+            "id": "39457b61f599556a",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
-                "page": 72,
-                "left": -7,
-                "top": 565,
-                "zoom": 2.0641581651368455
+                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+                "page": 4,
+                "left": -8,
+                "top": 556,
+                "zoom": 1.9813883299798796
               }
             }
           }
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mc",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
+                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
+                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf"
+                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf"
               }
             }
           },
@@ -172,17 +172,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5fd685dc4c79cf1c",
+  "active": "39457b61f599556a",
   "lastOpenFiles": [
-    "Book/数据结构教程（C++语言描述）（第2版·微课视频版） (李春葆, 匡志强, 蒋林) .pdf",
+    "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
+    "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+    "Core/HomePage.md",
+    "随手记/mc服务器相关.md",
+    "随手记/screen使用方法.md",
+    "Note/计算机网络/DNS.md",
+    "Note/计算机网络/DNS服务器.md",
+    "Note/计算机网络/DNS记录.md",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
+    "Book/数据结构教程（C++语言描述）（第2版·微课视频版） (李春葆, 匡志强, 蒋林) .pdf",
     "Book/数据结构教程 （第5版） (李春葆) (Z-Library).pdf",
     "Book/大话数据结构 (程杰) (Z-Library).pdf",
     "Note/数据结构/绪论.md",
     "Note/数据结构",
     "随手记/使用adb脚本实现短信发送.md",
     "随手记/Vscode配置java环境.md",
-    "Core/HomePage.md",
     "Blog/WSL2 图形界面.md",
     "Book/概率论基础教程 (Sheldon M. Ross) (Z-Library).pdf",
     "Book/被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え ([曰] 岸见一郎，[日] 古贺史健 著；渠海霞 译) (Z-Library).pdf",
@@ -198,18 +205,10 @@
     "Blog/基于hexo搭建博客（GitHub）.md",
     "Blog/C++编译中头文件重复包含问题.md",
     "随手记/pytorch flash attention安装.md",
-    "随手记/mc服务器相关.md",
-    "随手记/screen使用方法.md",
     "随手记/git commit格式规范.md",
     "随手记/Git常用命令记录e.md",
     "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
     "Note/Academic_Note/离散/集合与关系.md",
-    "Note/Academic_Note/离散/代数系统.md",
-    "Blog/Ubuntu通过网络唤醒.md",
-    "新建文件夹",
-    "Blog/WSL：”NAT 模式下的 WSL 不支持 localhost 代理“提示以及mirrored网络模式与TUN模式的冲突.md",
-    "Core/Templates",
-    "Task/综测相关/软工06 302023315399 郑华展.docx",
     "Task/综测相关/IMG20240821181414.jpg",
     "Core/wallhaven-7pv11v.jpg",
     "Core/wallhaven-1ky673.png",
