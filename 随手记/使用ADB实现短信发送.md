@@ -18,17 +18,9 @@ adb shell input tap <x> <y>
 adb shell input swipe <from_x> <from_y> <to_x> <to_y>
 ```
 
-基本的代码如下：
+接下来我们需要进入下一个问题的解决。对于面试短信而言，那当然包含面试人姓名、面试时间、面试地点等信息，那简单来说，其实我们正常做一个短信模板，然后把变量填充进去，然后直接通过上面的命令填充到短信应用发送就完了。但是显然这一切并没有这么简单。
 
-```python
-import os
+有以下几个问题需要解决：
 
-number = 123
-text = ""
-
-send_cmd = "adb shell input tap 973.5 2276.5"
-txt_cmd = f"adb shell am start -a android.intent.action.SENDTO -d sms:{number} --es sms_body \"{text}\""
-
-os.system(send_cmd)
-os.system(txt_cmd)
-```
+-   `adb shell am start -a android.intent.action.SENDTO -d sms:<phone> --es sms_body "<text>"`不能发送长文本
+-   `adb shell am start -a android.intent.action.SENDTO -d sms:<phone> --es sms_body "<text>"`是覆写文本框而不是追加内容
