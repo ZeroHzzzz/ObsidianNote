@@ -17,3 +17,5 @@
 [Flathub](https://flathub.org)
 
 [Zeemo 自动加字幕/翻译字幕](http://zeemo.ai)
+
+[rand virtual phone number](https://sms-activate.org/cn)
