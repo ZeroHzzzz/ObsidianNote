@@ -14,14 +14,28 @@
               "type": "pdf",
               "state": {
                 "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
-                "page": 4,
+                "page": 11,
                 "left": -8,
-                "top": 556,
-                "zoom": 1.9813883299798796
+                "top": 748,
+                "zoom": 1.977409638554217
+              }
+            }
+          },
+          {
+            "id": "525f27c4a77ff09c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/数据结构/绪论.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -50,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mc",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+                "file": "Note/数据结构/绪论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+                "file": "Note/数据结构/绪论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf"
+                "file": "Note/数据结构/绪论.md"
               }
             }
           },
@@ -172,11 +186,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "39457b61f599556a",
+  "active": "525f27c4a77ff09c",
   "lastOpenFiles": [
-    "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
-    "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+    "随手记/使用adb脚本实现短信发送.md",
     "Core/HomePage.md",
+    "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+    "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "随手记/mc服务器相关.md",
     "随手记/screen使用方法.md",
     "Note/计算机网络/DNS.md",
@@ -188,7 +203,6 @@
     "Book/大话数据结构 (程杰) (Z-Library).pdf",
     "Note/数据结构/绪论.md",
     "Note/数据结构",
-    "随手记/使用adb脚本实现短信发送.md",
     "随手记/Vscode配置java环境.md",
     "Blog/WSL2 图形界面.md",
     "Book/概率论基础教程 (Sheldon M. Ross) (Z-Library).pdf",
