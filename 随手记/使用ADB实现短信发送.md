@@ -24,3 +24,4 @@ adb shell input swipe <from_x> <from_y> <to_x> <to_y>
 
 -   `adb shell am start -a android.intent.action.SENDTO -d sms:<phone> --es sms_body "<text>"`不能发送长文本
 -   `adb shell am start -a android.intent.action.SENDTO -d sms:<phone> --es sms_body "<text>"`是覆写文本框而不是追加内容
+- 
