@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e358ab44a46feb4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/使用ADB实现短信发送.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,15 +185,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1babc20f8cdbfa6e",
+  "active": "e358ab44a46feb4d",
   "lastOpenFiles": [
     "Core/HomePage.md",
+    "随手记/使用ADB实现短信发送.md",
     "Note/概率论",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
     "Blog/Vscode多文件编译配置.md",
     "Blog/C++编译中变量重复定义问题.md",
     "Note/数据结构/绪论.md",
-    "随手记/使用ADB实现短信发送.md",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "随手记/mc服务器相关.md",
     "随手记/screen使用方法.md",

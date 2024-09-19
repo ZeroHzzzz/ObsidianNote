@@ -22,6 +22,23 @@ adb shell input swipe <from_x> <from_y> <to_x> <to_y>
 
 有以下几个问题需要解决：
 
--   `adb shell am start -a android.intent.action.SENDTO -d sms:<phone> --es sms_body "<text>"`不能发送长文本
--   `adb shell am start -a android.intent.action.SENDTO -d sms:<phone> --es sms_body "<text>"`是覆写文本框而不是追加内容
-- 
+`adb shell am start -a android.intent.action.SENDTO -d sms:<phone> --es sms_body "<text>"`不能发送长文本。如果我们使用这个命令发送多行文本的时候，他会只填充多行文本的第一行。
+
+既然这个不行，那我分成多行输入不就得了。但是这个时候又出现了一个问题，那就上面这个写法是覆写文本框而不是追加内容。因此不能用这个命令。
+
+于是我只能尝试使用一个很呆的方法，那就是用上面这个命令打开短信应用但不填充内容，使用另外的方式填充内容。也就是：
+
+```bash
+# 打开默认短信应用
+adb shell am start -a android.intent.action.SENDTO -d sms:<phone>
+
+# 点击文本框获取焦点
+adb shell input tap <x> <y>
+
+# 填充内容
+adb shell input text <text>
+```
+
+由于打开默认短信应用之后，焦点并不在文本框上，因此我们需要模拟点击一下（
+
+但是此时出现了一个报错：
