@@ -19,3 +19,9 @@
 [Zeemo 自动加字幕/翻译字幕](http://zeemo.ai)
 
 [rand virtual phone number](https://sms-activate.org/cn)
+
+[科研图表绘制](https://www.data-to-viz.com/)
+
+程序流程图：亿图图示
+
+论文代码逐行解读：[labml.ai](https://labml.ai/)

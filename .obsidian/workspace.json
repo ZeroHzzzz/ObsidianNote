@@ -13,41 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core/HomePage.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a1887f0ecab66a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "随手记/关于wxBot的一些调研.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e16bf0354f0e86d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "随手记/面试题目.md",
+                "file": "随手记/Something-Useful.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/面试题目.md",
+                "file": "随手记/Something-Useful.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/面试题目.md",
+                "file": "随手记/Something-Useful.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/面试题目.md"
+                "file": "随手记/Something-Useful.md"
               }
             }
           },
@@ -198,11 +171,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e16bf0354f0e86d0",
+  "active": "6cca8f61cd451748",
   "lastOpenFiles": [
-    "随手记/关于wxBot的一些调研.md",
-    "随手记/面试题目.md",
     "Core/HomePage.md",
+    "随手记/关于wxBot的一些调研.md",
+    "随手记/Something-Useful.md",
+    "随手记/面试题目.md",
     "Blog/使用ADB实现短信发送.md",
     "随手记/HD Tune.md",
     "随手记/G++、GCC 和 GDB.md",
@@ -211,7 +185,6 @@
     "随手记/docker-compose.yaml中deloy配置的一些限制.md",
     "随手记/CrystalDiskInfo.md",
     "随手记/conda.md",
-    "随手记/Something-Useful.md",
     "随手记/Collected.md",
     "随手记/Android系统分区.md",
     "随手记/AI Geeks.md",
