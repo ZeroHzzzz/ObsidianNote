@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e16bf0354f0e86d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随手记/面试题目.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随手记/关于wxBot的一些调研.md",
+                "file": "随手记/面试题目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随手记/关于wxBot的一些调研.md",
+                "file": "随手记/面试题目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随手记/关于wxBot的一些调研.md"
+                "file": "随手记/面试题目.md"
               }
             }
           },
@@ -185,10 +198,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8a1887f0ecab66a7",
+  "active": "e16bf0354f0e86d0",
   "lastOpenFiles": [
-    "Core/HomePage.md",
     "随手记/关于wxBot的一些调研.md",
+    "随手记/面试题目.md",
+    "Core/HomePage.md",
     "Blog/使用ADB实现短信发送.md",
     "随手记/HD Tune.md",
     "随手记/G++、GCC 和 GDB.md",
@@ -220,7 +234,6 @@
     "Book/数据结构教程 （第5版） (李春葆) (Z-Library).pdf",
     "Book/大话数据结构 (程杰) (Z-Library).pdf",
     "Note/数据结构",
-    "随手记/Vscode配置java环境.md",
     "Book/概率论基础教程 (Sheldon M. Ross) (Z-Library).pdf",
     "Book/被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え ([曰] 岸见一郎，[日] 古贺史健 著；渠海霞 译) (Z-Library).pdf",
     "Task/综测相关/IMG20240821181414.jpg",
