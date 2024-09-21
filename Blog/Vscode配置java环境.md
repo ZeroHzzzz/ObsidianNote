@@ -1,3 +1,11 @@
+---
+title: Vscode配置java环境
+date: 2024-09-16 02:23
+updated: 2024-09-21 19:26
+tags: ['#java', '#VSCode']
+---
+
+#java #VSCode
 由于上课的需要，我开始考虑使用vscode作为java的ide。在此作为一个记录
 
 我到VsCode的官网翻了翻，发现他提供了一个Coding Pack，里面包含了VS Code、JDK以及一些必要的插件，因此如果嫌麻烦直接用下面的链接安装就好了。
