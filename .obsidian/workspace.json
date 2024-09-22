@@ -11,13 +11,12 @@
             "id": "0212df638bf2b654",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
-                "page": 195,
-                "left": -7,
-                "top": 475,
-                "zoom": 2.0641581651368455
+                "file": "Blog/使用ADB实现短信发送.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
+                "file": "Blog/使用ADB实现短信发送.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
+                "file": "Blog/使用ADB实现短信发送.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf"
+                "file": "Blog/使用ADB实现短信发送.md"
               }
             }
           },
@@ -174,9 +173,9 @@
   },
   "active": "0212df638bf2b654",
   "lastOpenFiles": [
+    "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
     "Core/HomePage.md",
     "Blog/Vscode配置java环境.md",
-    "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
     "随手记/面试题目.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
     "随手记/Something-Useful.md",
@@ -203,7 +202,6 @@
     "随手记/mc服务器相关.md",
     "随手记/screen使用方法.md",
     "Note/计算机网络/DNS.md",
-    "Note/计算机网络/DNS服务器.md",
     "Book/数据结构教程（C++语言描述）（第2版·微课视频版） (李春葆, 匡志强, 蒋林) .pdf",
     "Book/数据结构教程 （第5版） (李春葆) (Z-Library).pdf",
     "Book/大话数据结构 (程杰) (Z-Library).pdf",
