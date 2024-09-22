@@ -1,76 +1,63 @@
-name: Deploy Hexo to GitHub Pages
-
+run-name: Hexo
 on:
     push:
-        branches:
-            - main
-
+        branches: -main
 jobs:
     deploy:
         runs-on: ubuntu-latest
+    steps:
+      - name: Checkout hexo branch (Hexo environment)
+          uses: actions/checkout@v3
+          with:
+              ref: hexo
+              path: blog
+      
+      - name: Checkout articles from main branch (Blog folder)
+          uses: actions/checkout@v3
+          with:
+              ref: main
+              path: main-temp
+      
+      - name: Move articles to _posts
+          run: mv main-temp/Blog/* blog/source/_posts/
+      
+      - name: Set up Node.js
+          uses: actions/setup-node@v3
+          with:
+              node-version: "16"
 
-        steps:
-            # 检出 hexo 分支，作为 Hexo 环境
-            - name: Checkout hexo branch (Hexo environment)
-              uses: actions/checkout@v3
+      # 缓存 Node.js 依赖
+      - name: Cache dependencies
+          uses: actions/cache@v3
               with:
-                  ref: hexo
-                  path: blog # 将 Hexo 项目放在 blog 目录下
-
-            # 检出 main 分支中的文章内容（Blog 文件夹）
-            - name: Checkout articles from main branch (Blog folder)
-              uses: actions/checkout@v3
-              with:
-                  ref: main
-                  path: blog/Blog # 将 Blog 文件夹检出到 blog/Blog 目录
-
-            # 移动 Blog 文件夹下的内容到 source/_posts
-            - name: Move articles to _posts
-              run: mv blog/Blog/* blog/source/_posts/
-
-            # 确认文章已经放入正确的目录
-            - name: Check article files
-              run: ls -R blog/source/_posts
-
-            # 设置 Node.js 环境
-            - name: Set up Node.js
-              uses: actions/setup-node@v3
-              with:
-                  node-version: "16"
-
-            # 缓存 Node.js 依赖
-            - name: Cache dependencies
-              uses: actions/cache@v3
-              with:
-                  path: blog/node_modules
-                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-                  restore-keys: |
+                path: blog/node_modules
+                key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                restore-keys: |
                       ${{ runner.os }}-node-
 
-            # 安装项目依赖
-            - name: Install dependencies
-              run: npm install
-              working-directory: ./blog
+      - name: Install dependencies
+          run: npm install
+          working-directory: ./blog
 
-            # 安装 Hexo CLI
-            - name: Install Hexo CLI
-              run: npm install -g hexo-cli
-              working-directory: ./blog
+      # 安装 Hexo CLI
+      - name: Install Hexo CLI
+          run: npm install -g hexo-cli
+          working-directory: ./blog
 
-            # 生成静态页面
-            - name: Generate static pages
-              run: hexo generate
-              working-directory: ./blog
+      # 生成静态页面
+      - name: Generate static pages
+          run: hexo generate
+          working-directory: ./blog
 
-            # 检查生成的静态文件是否正确
-            - name: List generated files
-              run: ls -R ./blog/public
+      # 检查生成的静态文件是否正确
+      - name: List generated files
+          run: ls -R ./blog/public
 
-            # 将生成的静态文件发布到 GitHub Pages（另一个仓库）
-            - name: Deploy to GitHub Pages
-              uses: peaceiris/actions-gh-pages@v3
-              with:
-                  personal_token: ${{ secrets.PERSONAL_TOKEN }}
-                  publish_dir: ./blog/public # Hexo 生成的静态文件目录
-                  external_repository: ZeroHzzzz/ZeroHzzzz.github.io # 替换为你的目标仓库
-                  publish_branch: main # 发布到目标仓库的 main 分支
+      # 将生成的静态文件发布到 GitHub Pages（另一个仓库）
+      - name: Deploy to GitHub Pages
+          uses: peaceiris/actions-gh-pages@v3
+          with:
+              personal_token: ${{ secrets.PERSONAL_TOKEN }}
+              publish_dir: ./blog/public # Hexo 生成的静态文件目录
+              external_repository: ZeroHzzzz/ZeroHzzzz.github.io # 替换为你的目标仓库
+              publish_branch: main # 发布到目标仓库的 main 分支
