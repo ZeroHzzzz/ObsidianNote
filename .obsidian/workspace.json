@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "70da4f959901ef90",
+        "id": "003600f55d174afd",
         "type": "tabs",
         "children": [
           {
-            "id": "8297a3e8b3404c90",
+            "id": "3b72f974adf3f29a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core/HomePage.md",
-                "mode": "preview",
+                "file": "随手记/关于wxBot的一些调研.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "随手记/关于wxBot的一些调研.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "随手记/关于wxBot的一些调研.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core/HomePage.md"
+                "file": "随手记/关于wxBot的一些调研.md"
               }
             }
           },
@@ -171,17 +171,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8297a3e8b3404c90",
+  "active": "3b72f974adf3f29a",
   "lastOpenFiles": [
-    "Blog/LF will be replaced by CRLF the next time Git touches it 警告简介.md",
+    "随手记/激光雷达导航.md",
+    "随手记/关于wxBot的一些调研.md",
+    "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
     "Core/HomePage.md",
+    "Blog/Git warning：LF will be replaced by CRLF the next time Git touches it.md",
+    "随手记/面试题目.md",
     "Blog/使用ADB实现短信发送.md",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
     "Blog/Vscode配置java环境.md",
-    "随手记/面试题目.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
     "随手记/Something-Useful.md",
-    "随手记/关于wxBot的一些调研.md",
     "随手记/HD Tune.md",
     "随手记/G++、GCC 和 GDB.md",
     "随手记/git commit格式规范.md",
@@ -201,8 +203,6 @@
     "Note/数据结构/绪论.md",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "随手记/mc服务器相关.md",
-    "随手记/screen使用方法.md",
-    "Note/计算机网络/DNS.md",
     "Book/数据结构教程（C++语言描述）（第2版·微课视频版） (李春葆, 匡志强, 蒋林) .pdf",
     "Book/数据结构教程 （第5版） (李春葆) (Z-Library).pdf",
     "Book/大话数据结构 (程杰) (Z-Library).pdf",
