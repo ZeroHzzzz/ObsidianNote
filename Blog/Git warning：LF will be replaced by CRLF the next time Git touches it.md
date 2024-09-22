@@ -1,3 +1,11 @@
+---
+title: Git warning：LF will be replaced by CRLF the next time Git touches it
+date: 2024-09-11 03:11
+updated: 2024-09-22 21:53
+tags: ['#github']
+---
+
+#github
 这个警告表明文件的行尾符（Line Feed，简称 LF）将被替换为回车符和换行符（Carriage Return Line Feed，简称 CRLF）——也就是说，文件的行尾格式会发生变化。
 
 这其实是由于不同操作系统对行尾符的处理方式不同：
