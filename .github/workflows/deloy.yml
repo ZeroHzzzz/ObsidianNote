@@ -38,7 +38,6 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
                   restore-keys: |
                       ${{ runner.os }}-node-
-              working-directory: ./blog
 
             - name: Install dependencies
               run: npm install
@@ -55,4 +54,10 @@ jobs:
             - name: List generated files
               run: ls -R ./blog/public
 
-            - name: Deploy
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  personal_token: ${{ secrets.PERSONAL_TOKEN }}
+                  publish_dir: ./blog/public
+                  external_repository: ZeroHzzzz/ZeroHzzzz.github.io
+                  publish_branch: main
