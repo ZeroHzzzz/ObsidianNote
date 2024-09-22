@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core/HomePage.md",
-                "mode": "preview",
+                "file": "Blog/Hexo添加图片方式记录.md",
+                "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "Blog/Hexo添加图片方式记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "Blog/Hexo添加图片方式记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core/HomePage.md"
+                "file": "Blog/Hexo添加图片方式记录.md"
               }
             }
           },
@@ -174,10 +174,12 @@
   "active": "9a24fcdcda3099a6",
   "lastOpenFiles": [
     "Blog/Git warning：LF will be replaced by CRLF the next time Git touches it.md",
+    "Blog/CV-PIL-Read-Photos.md",
+    "Blog/C++前向声明.md",
+    "Core/HomePage.md",
     "随手记/关于wxBot的一些调研.md",
     "随手记/激光雷达导航.md",
     "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
-    "Core/HomePage.md",
     "随手记/面试题目.md",
     "Blog/使用ADB实现短信发送.md",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
@@ -200,9 +202,7 @@
     "Note/概率论",
     "Blog/Vscode多文件编译配置.md",
     "Blog/C++编译中变量重复定义问题.md",
-    "Note/数据结构/绪论.md",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
-    "随手记/mc服务器相关.md",
     "Book/数据结构教程（C++语言描述）（第2版·微课视频版） (李春葆, 匡志强, 蒋林) .pdf",
     "Book/数据结构教程 （第5版） (李春葆) (Z-Library).pdf",
     "Book/大话数据结构 (程杰) (Z-Library).pdf",
