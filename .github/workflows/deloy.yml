@@ -1,4 +1,4 @@
-run-name: Hexo
+run-name: Deploy Hexo to GitHub Pages
 on:
     push:
         branches:

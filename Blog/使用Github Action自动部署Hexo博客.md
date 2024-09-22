@@ -34,77 +34,69 @@ tags: ['#github', '#GitHubPages', '#hexo']
 然后在我们存放Hexo配置的分支里面创建一个 .github/workflows 文件夹（如果尚未存在），然后新建一个yaml文件用于定义Github Action工作流。以下是我的yaml文件。
 
 ```yaml
-name: Deploy Hexo to GitHub Pages
-
-# 监听 main 分支的推送操作
+run-name: Deploy Hexo to GitHub Pages
 on:
-    push:
-        branches:
-            - main
-        paths:
-            - "Blog/**"
+    push:
+        branches:
+            - main
 
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-            # 检出 hexo 分支的 Hexo 环境
-            - name: Checkout hexo branch
-              uses: actions/checkout@v3
-              with:
-                  ref: hexo # 指定为 hexo 分支
-                  path: blog
-            # 检出 main 分支中的文章内容
-            - name: Checkout articles from main branch
-              uses: actions/checkout@v3
-              with:
-                  ref: main # 从 main 分支获取文章
-                  path: blog/source/_posts # 将文章内容放在 Hexo 项目的 source 文件夹
-                  sparse-checkout: true
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout hexo branch (Hexo environment)
+              uses: actions/checkout@v3
+              with:
+                  ref: hexo
+                  path: blog
 
-            # 设置 sparse-checkout 只检出 Blog 文件夹
-            - name: Get Blog Files
-              run: echo "Blog/*" >> .git/info/sparse-checkout
-              working-directory: ./blog/source/_posts
+            - name: Checkout articles from main branch (Blog folder)
+              uses: actions/checkout@v3
+              with:
+                  ref: main
+                  path: main-temp
 
-            # 设置 Node.js 环境
-            - name: Set up Node.js
-              uses: actions/setup-node@v3
-              with:
-                  node-version: "16" # 选择 Node.js 版本
+            - name: Check if Blog folder exists
+              run: ls main-temp/Blog
 
-            # 缓存 Node.js 依赖
-            - name: Cache dependencies
-              uses: actions/cache@v3
-              with:
-                  path: node_modules
-                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-                  restore-keys: |
-                      ${{ runner.os }}-node-
+            - name: Move articles to _posts
+              run: mv main-temp/Blog/* blog/source/_posts/
 
-            # 安装项目依赖
-            - name: Install dependencies
-              run: npm install
-              working-directory: ./blog
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '16'
 
-            # 安装 Hexo CLI
-            - name: Install Hexo CLI
-              run: npm install -g hexo-cli
-              working-directory: ./blog
+            - name: Cache dependencies
+              uses: actions/cache@v3
+              with:
+                  path: blog/node_modules
+                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                      ${{ runner.os }}-node-
 
-            # 生成静态页面
-            - name: Generate static pages
-              run: hexo generate
-              working-directory: ./blog
+            - name: Install dependencies
+              run: npm install
+              working-directory: ./blog
 
-            # 将生成的静态页面发布到 GitHub Pages
-            - name: Deploy to GitHub Pages
-              uses: peaceiris/actions-gh-pages@v3
-              with:
-                  personal_token: ${{ secrets.PERSONAL_TOKEN }} # 使用 GitHub 密钥
-                  publish_dir: ./blog/public # Hexo 生成的静态文件目录
-                  external_repository: ZeroHzzzz/ZeroHzzzz.github.io
-                  publish_branch: main # 指定发布的分支
+            - name: Install Hexo CLI
+              run: npm install -g hexo-cli
+              working-directory: ./blog
+
+            - name: Generate static pages
+              run: hexo generate
+              working-directory: ./blog
+
+            - name: List generated files
+              run: ls -R ./blog/public
+
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  personal_token: ${{ secrets.PERSONAL_TOKEN }}
+                  publish_dir: ./blog/public
+                  external_repository: <your repo>
+                  publish_branch: main
 ```
 
 这里我的配置比较特殊，因为我对笔记文件进行了分类，然后只有Blog目录下的文件会进行发布，因此我们只需要看Blog目录是否发生改变。这个可以根据自己的需要进行修改。
