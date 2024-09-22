@@ -1,63 +1,58 @@
 run-name: Hexo
 on:
     push:
-        branches: -main
+        branches:
+            - main
+
 jobs:
     deploy:
         runs-on: ubuntu-latest
         steps:
-          - name: Checkout hexo branch (Hexo environment)
+            - name: Checkout hexo branch (Hexo environment)
               uses: actions/checkout@v3
               with:
                   ref: hexo
                   path: blog
-          
-          - name: Checkout articles from main branch (Blog folder)
+
+            - name: Checkout articles from main branch (Blog folder)
               uses: actions/checkout@v3
               with:
                   ref: main
                   path: main-temp
-          
-          - name: Move articles to _posts
+
+            - name: Check if Blog folder exists
+              run: ls main-temp/Blog
+
+            - name: Move articles to _posts
               run: mv main-temp/Blog/* blog/source/_posts/
-          
-          - name: Set up Node.js
+
+            - name: Set up Node.js
               uses: actions/setup-node@v3
               with:
                   node-version: "16"
 
-          # 缓存 Node.js 依赖
-          - name: Cache dependencies
+            - name: Cache dependencies
               uses: actions/cache@v3
-                  with:
-                    path: blog/node_modules
-                    key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-                    restore-keys: |
-                          ${{ runner.os }}-node-
+              with:
+                  path: blog/node_modules
+                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                      ${{ runner.os }}-node-
+              working-directory: ./blog
 
-          - name: Install dependencies
+            - name: Install dependencies
               run: npm install
               working-directory: ./blog
 
-          # 安装 Hexo CLI
-          - name: Install Hexo CLI
+            - name: Install Hexo CLI
               run: npm install -g hexo-cli
               working-directory: ./blog
 
-          # 生成静态页面
-          - name: Generate static pages
+            - name: Generate static pages
               run: hexo generate
               working-directory: ./blog
 
-          # 检查生成的静态文件是否正确
-          - name: List generated files
+            - name: List generated files
               run: ls -R ./blog/public
 
-          # 将生成的静态文件发布到 GitHub Pages（另一个仓库）
-          - name: Deploy to GitHub Pages
-              uses: peaceiris/actions-gh-pages@v3
-              with:
-                  personal_token: ${{ secrets.PERSONAL_TOKEN }}
-                  publish_dir: ./blog/public # Hexo 生成的静态文件目录
-                  external_repository: ZeroHzzzz/ZeroHzzzz.github.io # 替换为你的目标仓库
-                  publish_branch: main # 发布到目标仓库的 main 分支
+            - name: Deploy
