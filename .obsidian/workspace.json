@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "237a9e805e0c7260",
+        "id": "50590ac2cc8e8ac9",
         "type": "tabs",
         "children": [
           {
-            "id": "9a24fcdcda3099a6",
+            "id": "0d857147477f62e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Hexo添加图片方式记录.md",
-                "mode": "source",
+                "file": "Core/HomePage.md",
+                "mode": "preview",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Hexo添加图片方式记录.md",
+                "file": "Core/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Hexo添加图片方式记录.md",
+                "file": "Core/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Hexo添加图片方式记录.md"
+                "file": "Core/HomePage.md"
               }
             }
           },
@@ -171,11 +171,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9a24fcdcda3099a6",
+  "active": "0d857147477f62e3",
   "lastOpenFiles": [
-    "Blog/Git warning：LF will be replaced by CRLF the next time Git touches it.md",
     "Blog/CV-PIL-Read-Photos.md",
+    "Blog/使用Github Action自动部署Hexo博客.md",
+    "Blog/C++编译中变量重复定义问题.md",
     "Blog/C++前向声明.md",
+    "Blog/Nginx踩坑记录——location 路径匹配和 proxy_pass 转发行为的差异.md",
+    "Blog/Pytorch fbgemm.dll依赖问题.md",
+    "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
+    "Blog/Ubuntu上使用Todesk.md",
+    "Blog/Voicemeeter使用记录.md",
+    "Blog/Ubuntu通过网络唤醒.md",
+    "Blog/OMP Error 15问题解决.md",
+    "Blog/Nginx代理转发请求方法改变问题.md",
+    "Blog/Hexo添加图片方式记录.md",
+    "Blog/Git warning：LF will be replaced by CRLF the next time Git touches it.md",
+    "Blog/给GitHub Pages配置CNAME.md",
+    "Blog/基于hexo搭建博客（GitHub）.md",
+    "Blog/python-magic导入报错问题.md",
+    "Blog/steam家庭共享游戏消失问题.md",
+    "Blog/C++编译中头文件重复包含问题.md",
     "Core/HomePage.md",
     "随手记/关于wxBot的一些调研.md",
     "随手记/激光雷达导航.md",
@@ -185,23 +201,7 @@
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
     "Blog/Vscode配置java环境.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
-    "随手记/Something-Useful.md",
-    "随手记/HD Tune.md",
-    "随手记/G++、GCC 和 GDB.md",
-    "随手记/git commit格式规范.md",
-    "随手记/docker-compose中定义服务副本.md",
-    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
-    "随手记/CrystalDiskInfo.md",
-    "随手记/conda.md",
-    "随手记/Collected.md",
-    "随手记/Android系统分区.md",
-    "随手记/AI Geeks.md",
-    "随手记/正则表达式.md",
-    "随手记/虚拟机网络模式.md",
-    "随手记/修复sub-process dpkg returned an error code (1)问题.md",
     "Note/概率论",
-    "Blog/Vscode多文件编译配置.md",
-    "Blog/C++编译中变量重复定义问题.md",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "Book/数据结构教程（C++语言描述）（第2版·微课视频版） (李春葆, 匡志强, 蒋林) .pdf",
     "Book/数据结构教程 （第5版） (李春葆) (Z-Library).pdf",
