@@ -4,20 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3dc7074e7cd1356e",
+        "id": "4ae876e43145f6e8",
         "type": "tabs",
         "children": [
           {
-            "id": "815663aaaeb75eae",
+            "id": "00b53d6d4b21d772",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
-                "page": 22,
-                "left": -8,
-                "top": 159,
-                "zoom": 1.9774096385542168
+                "file": "Core/HomePage.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+                "file": "Core/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+                "file": "Core/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf"
+                "file": "Core/HomePage.md"
               }
             }
           },
@@ -157,7 +156,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -169,13 +167,19 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "open-weather:OpenWeather": false,
-      "templater-obsidian:Templater": false
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "815663aaaeb75eae",
+  "active": "00b53d6d4b21d772",
   "lastOpenFiles": [
-    "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
+    "Core/Templates/template.md",
     "Core/HomePage.md",
+    "Core/wallhaven-l8xe5r.jpg",
+    "Core/wallhaven-7pv11v.jpg",
+    "Core/wallhaven-1ky673.png",
+    "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
     "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
     "随手记/关于wxBot的一些调研.md",
@@ -210,9 +214,6 @@
     "Book/概率论基础教程 (Sheldon M. Ross) (Z-Library).pdf",
     "Book/被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え ([曰] 岸见一郎，[日] 古贺史健 著；渠海霞 译) (Z-Library).pdf",
     "Task/综测相关/IMG20240821181414.jpg",
-    "Core/wallhaven-7pv11v.jpg",
-    "Core/wallhaven-1ky673.png",
-    "Core/wallhaven-l8xe5r.jpg",
     "Core/wallhaven-yjwv6d.jpg",
     "230114.jpg",
     "wallhaven-d5ojdj.jpg",

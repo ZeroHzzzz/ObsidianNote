@@ -1,12 +1,13 @@
 {
-  "cssTheme": "Tokyo Night",
+  "cssTheme": "Obsidian Nord",
   "accentColor": "#beaa60",
-  "baseFontSize": 20,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "custom-admonitions.1b78cc",
     "a",
     "openweather",
     "noprop"
   ],
-  "theme": "system"
+  "theme": "obsidian",
+  "baseFontSizeAction": true
 }
