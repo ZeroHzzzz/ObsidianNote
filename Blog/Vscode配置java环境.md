@@ -17,7 +17,7 @@ tags: ['#java', '#VSCode']
 
 如果按照正常的安装流程，我们需要先有VsCode，这个自不必多言。然后就需要安装[Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)这个插件包，里面提供包含了一些可能需要的插件。但是我看了一眼发现这个插件包只有两个插件是必要的，也就是- [Language Support for Java™ by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)和 [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
 
-接下来我们就需要安装JDK
+接下来我们就需要安装JDK~
 
 ## 安装JDK
 
