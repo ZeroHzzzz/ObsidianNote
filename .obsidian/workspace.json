@@ -4,20 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3dc7074e7cd1356e",
+        "id": "bf9417f6867746b0",
         "type": "tabs",
         "children": [
           {
-            "id": "815663aaaeb75eae",
+            "id": "22e082182f5ae89d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
-                "page": 22,
-                "left": -8,
-                "top": 159,
-                "zoom": 1.9774096385542168
+                "file": "Blog/使用Github Action自动部署Hexo博客.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -50,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "action",
+                "query": "tag:github",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+                "file": "Blog/使用Github Action自动部署Hexo博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+                "file": "Blog/使用Github Action自动部署Hexo博客.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/计算机网络 (谢希仁) (Z-Library).pdf"
+                "file": "Blog/使用Github Action自动部署Hexo博客.md"
               }
             }
           },
@@ -172,36 +172,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "815663aaaeb75eae",
+  "active": "22e082182f5ae89d",
   "lastOpenFiles": [
-    "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "Core/HomePage.md",
+    "Blog/使用Github Action自动部署Hexo博客.md",
+    "Blog/使用ADB实现短信发送.md",
+    "Blog/给GitHub Pages配置CNAME.md",
+    "Blog/steam家庭共享游戏消失问题.md",
+    "Blog/Nginx踩坑记录——location 路径匹配和 proxy_pass 转发行为的差异.md",
+    "Blog/C++前向声明.md",
+    "Blog/C++编译中变量重复定义问题.md",
+    "Blog/CV-PIL-Read-Photos.md",
+    "Blog/Git warning：LF will be replaced by CRLF the next time Git touches it.md",
+    "Blog/Hexo添加图片方式记录.md",
+    "Blog/Pytorch fbgemm.dll依赖问题.md",
+    "Blog/Vscode自动格式化插件.md",
+    "Blog/Vscode配置java环境.md",
+    "Blog/Vscode多文件编译配置.md",
+    "Blog/WSL：”NAT 模式下的 WSL 不支持 localhost 代理“提示以及mirrored网络模式与TUN模式的冲突.md",
+    "Book/计算机网络 (谢希仁) (Z-Library).pdf",
+    "随手记/conda.md",
+    "Blog/使用qq邮箱群发邮件.md",
+    "Blog/基于hexo搭建博客（GitHub）.md",
+    "Blog/OMP Error 15问题解决.md",
+    "Blog/C++编译中头文件重复包含问题.md",
+    "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
     "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
     "随手记/关于wxBot的一些调研.md",
     "随手记/精小弘prompt.md",
     "随手记/激光雷达导航.md",
-    "随手记/修复sub-process dpkg returned an error code (1)问题.md",
-    "随手记/C++ 中头文件两种引入方式的区别.md",
-    "随手记/docker-compose.yaml中deloy配置的一些限制.md",
-    "随手记/docker-compose中定义服务副本.md",
-    "随手记/Obsidian粘贴图片自动上传到图床.md",
-    "随手记/pipreqs生成requirements.txt文件.md",
-    "随手记/ROS2使用cartorgrapher实现激光雷达建图并保存.md",
-    "随手记/ROS2使用NAV2实现激光雷达导航.md",
-    "随手记/scp.md",
-    "随手记/ROM固件.md",
-    "随手记/screen使用方法.md",
-    "随手记/Something-Useful.md",
-    "随手记/SQL注入.md",
-    "随手记/TUN和TAP模式的区别.md",
-    "随手记/Ubuntu常用.md",
-    "随手记/usb 传输协议.md",
-    "随手记/vim使用.md",
-    "随手记/wandb相关.md",
-    "随手记/wsl2更新记录.md",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
-    "Book/计算机网络 (谢希仁) (Z-Library).pdf",
     "Note/概率论",
     "Book/数据结构教程（C++语言描述）（第2版·微课视频版） (李春葆, 匡志强, 蒋林) .pdf",
     "Book/数据结构教程 （第5版） (李春葆) (Z-Library).pdf",
