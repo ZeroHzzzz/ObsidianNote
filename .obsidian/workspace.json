@@ -67,23 +67,23 @@
             }
           },
           {
-            "id": "7baef3d07c637fdc",
-            "type": "leaf",
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
-            }
-          },
-          {
             "id": "5a62ea24e37686fa",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "b55abdb678ac7950",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -144,14 +144,23 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "837055164375d05b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Core/HomePage.md"
+              }
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,7 +180,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7baef3d07c637fdc",
+  "active": "76c3ba142a4d58d9",
   "lastOpenFiles": [
     "Core/HomePage.md",
     "RSS",
