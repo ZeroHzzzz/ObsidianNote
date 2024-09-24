@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "70c6fcc3c8fc80ba",
+        "id": "0d21dbcf576b78aa",
         "type": "tabs",
         "children": [
           {
-            "id": "fb1dc29d4916b121",
+            "id": "bbf76580f388170c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -172,7 +172,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fb1dc29d4916b121",
+  "active": "bbf76580f388170c",
   "lastOpenFiles": [
     "Note/Academic_Note/概率论/古典概型.md",
     "Core/HomePage.md",
