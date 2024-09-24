@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -171,7 +171,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5a62ea24e37686fa",
+  "active": "7baef3d07c637fdc",
   "lastOpenFiles": [
     "Core/HomePage.md",
     "RSS",
