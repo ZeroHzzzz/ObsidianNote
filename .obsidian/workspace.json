@@ -86,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Note/Academic_Note/概率论/古典概型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Note/Academic_Note/概率论/古典概型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Note/Academic_Note/概率论/古典概型.md"
               }
             }
           },
@@ -170,10 +172,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "78f78b60fed9e6d4",
+  "active": "091870100e0f2487",
   "lastOpenFiles": [
-    "Note/Academic_Note/概率论/古典概型.md",
     "conflict-files-obsidian-git.md",
+    "Note/Academic_Note/概率论/古典概型.md",
     "Note/Academic_Note/概率论/概率论三个公理.md",
     "Note/Academic_Note/概率论/连续集函数.md",
     "Note/Academic_Note/概率论/频率与概率.md",
