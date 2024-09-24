@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bf9417f6867746b0",
+        "id": "04e076263c3bd593",
         "type": "tabs",
         "children": [
           {
-            "id": "22e082182f5ae89d",
+            "id": "7dd12c9121f6c8ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Vscode配置java环境.md",
-                "mode": "source",
+                "file": "Core/HomePage.md",
+                "mode": "preview",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/Vscode配置java环境.md",
+                "file": "Core/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/Vscode配置java环境.md",
+                "file": "Core/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/Vscode配置java环境.md"
+                "file": "Core/HomePage.md"
               }
             }
           },
@@ -171,8 +171,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "22e082182f5ae89d",
+  "active": "7dd12c9121f6c8ec",
   "lastOpenFiles": [
+    "Blog/Vscode配置java环境.md",
     "Blog/C++编译中变量重复定义问题.md",
     "Blog/Nginx代理转发请求方法改变问题.md",
     "Blog/OMP Error 15问题解决.md",
@@ -190,7 +191,6 @@
     "Blog/CV-PIL-Read-Photos.md",
     "Blog/Pytorch fbgemm.dll依赖问题.md",
     "Blog/Vscode自动格式化插件.md",
-    "Blog/Vscode配置java环境.md",
     "Blog/Vscode多文件编译配置.md",
     "Blog/WSL：”NAT 模式下的 WSL 不支持 localhost 代理“提示以及mirrored网络模式与TUN模式的冲突.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
