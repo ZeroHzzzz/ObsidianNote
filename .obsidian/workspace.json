@@ -86,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/Academic_Note/概率论/古典概型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/Academic_Note/概率论/古典概型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/Academic_Note/概率论/古典概型.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -172,10 +170,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "091870100e0f2487",
+  "active": "78f78b60fed9e6d4",
   "lastOpenFiles": [
-    "Note/Academic_Note/概率论/概率论三个公理.md",
     "Note/Academic_Note/概率论/古典概型.md",
+    "conflict-files-obsidian-git.md",
+    "Note/Academic_Note/概率论/概率论三个公理.md",
     "Note/Academic_Note/概率论/连续集函数.md",
     "Note/Academic_Note/概率论/频率与概率.md",
     "Note/Academic_Note/概率论/样本空间、 随机事件.md",
@@ -188,7 +187,6 @@
     "Blog/Git warning：LF will be replaced by CRLF the next time Git touches it.md",
     "Blog/使用Github Action自动部署Hexo博客.md",
     "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
-    "conflict-files-obsidian-git.md",
     "Blog/使用ADB实现短信发送.md",
     "Blog/给GitHub Pages配置CNAME.md",
     "Blog/steam家庭共享游戏消失问题.md",
