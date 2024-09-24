@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/Academic_Note/概率论/概率论三个公理.md",
+                "file": "Note/Academic_Note/概率论/古典概型.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/Academic_Note/概率论/概率论三个公理.md",
+                "file": "Note/Academic_Note/概率论/古典概型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/Academic_Note/概率论/概率论三个公理.md",
+                "file": "Note/Academic_Note/概率论/古典概型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/Academic_Note/概率论/概率论三个公理.md"
+                "file": "Note/Academic_Note/概率论/古典概型.md"
               }
             }
           },
@@ -174,9 +174,10 @@
   },
   "active": "091870100e0f2487",
   "lastOpenFiles": [
+    "Note/Academic_Note/概率论/概率论三个公理.md",
+    "Note/Academic_Note/概率论/古典概型.md",
     "Note/Academic_Note/概率论/连续集函数.md",
     "Note/Academic_Note/概率论/频率与概率.md",
-    "Note/Academic_Note/概率论/概率论三个公理.md",
     "Note/Academic_Note/概率论/样本空间、 随机事件.md",
     "Core/HomePage.md",
     "Blog/Vscode配置java环境.md",
@@ -200,7 +201,6 @@
     "Blog/WSL：”NAT 模式下的 WSL 不支持 localhost 代理“提示以及mirrored网络模式与TUN模式的冲突.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
     "随手记/conda.md",
-    "Blog/使用qq邮箱群发邮件.md",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
     "Note/概率论",
