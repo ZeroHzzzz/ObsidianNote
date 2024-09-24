@@ -121,28 +121,10 @@
             }
           },
           {
-            "id": "0d8001706a0a3989",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Core/HomePage.md"
-              }
-            }
-          },
-          {
             "id": "3c718d2a77ef407b",
             "type": "leaf",
             "state": {
               "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "dfa2508f86c17958",
-            "type": "leaf",
-            "state": {
-              "type": "tenki",
               "state": {}
             }
           },
@@ -153,14 +135,21 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "7baef3d07c637fdc",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,11 +169,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "03e2098953cfc3af",
+  "active": "7baef3d07c637fdc",
   "lastOpenFiles": [
+    "Core/HomePage.md",
+    "RSS",
     "Blog/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
     "随手记/使用Cmake编译Qt项目.md",
-    "Core/HomePage.md",
     "随手记/CMake.md",
     "随手记/i386.md",
     "随手记/Hexo自定义过滤器实现.md",
@@ -207,7 +197,6 @@
     "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
     "Blog/使用ADB实现短信发送.md",
     "Blog/给GitHub Pages配置CNAME.md",
-    "Blog/steam家庭共享游戏消失问题.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
@@ -217,7 +206,6 @@
     "Book/大话数据结构 (程杰) (Z-Library).pdf",
     "Note/数据结构",
     "Book/概率论基础教程 (Sheldon M. Ross) (Z-Library).pdf",
-    "Book/被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え ([曰] 岸见一郎，[日] 古贺史健 著；渠海霞 译) (Z-Library).pdf",
     "Task/综测相关/IMG20240821181414.jpg",
     "Core/wallhaven-7pv11v.jpg",
     "Core/wallhaven-1ky673.png",
