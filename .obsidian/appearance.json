@@ -1,6 +1,6 @@
 {
   "cssTheme": "Underwater",
-  "accentColor": "#beaa60",
+  "accentColor": "",
   "baseFontSize": 20,
   "enabledCssSnippets": [
     "custom-admonitions.1b78cc",

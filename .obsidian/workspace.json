@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "231f54fee7771ad8",
+        "id": "f22f616f90cae50f",
         "type": "tabs",
         "children": [
           {
-            "id": "2644a4d781fc4e29",
+            "id": "03e2098953cfc3af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gitign",
+                "query": "编译",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,25 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "5a62ea24e37686fa",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "b55abdb678ac7950",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -129,11 +146,13 @@
             }
           },
           {
-            "id": "dfa2508f86c17958",
+            "id": "837055164375d05b",
             "type": "leaf",
             "state": {
-              "type": "tenki",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "Core/HomePage.md"
+              }
             }
           },
           {
@@ -145,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,9 +188,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2644a4d781fc4e29",
+  "active": "76c3ba142a4d58d9",
   "lastOpenFiles": [
     "Core/HomePage.md",
+    "RSS",
+    "Blog/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
+    "随手记/使用Cmake编译Qt项目.md",
+    "随手记/CMake.md",
+    "随手记/i386.md",
+    "随手记/Hexo自定义过滤器实现.md",
     "Note/Academic_Note/概率论/古典概型.md",
     "conflict-files-obsidian-git.md",
     "Note/Academic_Note/概率论/概率论三个公理.md",
@@ -191,12 +216,6 @@
     "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
     "Blog/使用ADB实现短信发送.md",
     "Blog/给GitHub Pages配置CNAME.md",
-    "Blog/steam家庭共享游戏消失问题.md",
-    "Blog/Nginx踩坑记录——location 路径匹配和 proxy_pass 转发行为的差异.md",
-    "Blog/C++前向声明.md",
-    "Blog/CV-PIL-Read-Photos.md",
-    "Blog/Pytorch fbgemm.dll依赖问题.md",
-    "Blog/Vscode自动格式化插件.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
@@ -206,7 +225,6 @@
     "Book/大话数据结构 (程杰) (Z-Library).pdf",
     "Note/数据结构",
     "Book/概率论基础教程 (Sheldon M. Ross) (Z-Library).pdf",
-    "Book/被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え ([曰] 岸见一郎，[日] 古贺史健 著；渠海霞 译) (Z-Library).pdf",
     "Task/综测相关/IMG20240821181414.jpg",
     "Core/wallhaven-7pv11v.jpg",
     "Core/wallhaven-1ky673.png",
