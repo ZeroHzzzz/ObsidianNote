@@ -1,7 +1,7 @@
 {
   "cssTheme": "Obsidian Nord",
   "accentColor": "#beaa60",
-  "baseFontSize": 16,
+  "baseFontSize": 22,
   "enabledCssSnippets": [
     "custom-admonitions.1b78cc",
     "a",

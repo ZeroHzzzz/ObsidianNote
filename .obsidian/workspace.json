@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "04e076263c3bd593",
+        "id": "70c6fcc3c8fc80ba",
         "type": "tabs",
         "children": [
           {
-            "id": "7dd12c9121f6c8ec",
+            "id": "fb1dc29d4916b121",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:github",
+                "query": "gitign",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,10 +172,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7dd12c9121f6c8ec",
+  "active": "fb1dc29d4916b121",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Note/Academic_Note/概率论/概率论三个公理.md",
+    "Note/Academic_Note/概率论/频率与概率.md",
+    "Note/Academic_Note/概率论/条件概率.md",
+    "Note/Academic_Note/概率论/样本空间、 随机事件.md",
+    "Note/Academic_Note/概率论/有关概率的几个简单命题.md",
+    "Note/Academic_Note/概率论/连续集函数.md",
+    "随手记/Git常用命令记录e.md",
     "Core/HomePage.md",
+    "conflict-files-obsidian-git.md",
     "Blog/Vscode配置java环境.md",
     "Blog/C++编译中变量重复定义问题.md",
     "Blog/Nginx代理转发请求方法改变问题.md",
@@ -193,15 +200,8 @@
     "Blog/Pytorch fbgemm.dll依赖问题.md",
     "Blog/Vscode自动格式化插件.md",
     "Blog/Vscode多文件编译配置.md",
-    "Blog/WSL：”NAT 模式下的 WSL 不支持 localhost 代理“提示以及mirrored网络模式与TUN模式的冲突.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
-    "随手记/conda.md",
-    "Blog/使用qq邮箱群发邮件.md",
-    "Blog/基于hexo搭建博客（GitHub）.md",
-    "Blog/C++编译中头文件重复包含问题.md",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
-    "随手记/apt 换源（Ubuntu 22.04 LTS）.md",
-    "随手记/搭建V2ray服务端并使用Clash导入V2ray节点.md",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
     "Note/概率论",
     "Book/数据结构教程（C++语言描述）（第2版·微课视频版） (李春葆, 匡志强, 蒋林) .pdf",
