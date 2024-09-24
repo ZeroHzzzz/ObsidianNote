@@ -156,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -173,6 +174,8 @@
   },
   "active": "7dd12c9121f6c8ec",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Core/HomePage.md",
     "Blog/Vscode配置java环境.md",
     "Blog/C++编译中变量重复定义问题.md",
     "Blog/Nginx代理转发请求方法改变问题.md",
@@ -181,8 +184,6 @@
     "Blog/Git warning：LF will be replaced by CRLF the next time Git touches it.md",
     "Blog/使用Github Action自动部署Hexo博客.md",
     "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
-    "conflict-files-obsidian-git.md",
-    "Core/HomePage.md",
     "Blog/使用ADB实现短信发送.md",
     "Blog/给GitHub Pages配置CNAME.md",
     "Blog/steam家庭共享游戏消失问题.md",
