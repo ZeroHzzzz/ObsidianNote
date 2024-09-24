@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0d21dbcf576b78aa",
+        "id": "231f54fee7771ad8",
         "type": "tabs",
         "children": [
           {
-            "id": "bbf76580f388170c",
+            "id": "2644a4d781fc4e29",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -121,16 +121,6 @@
             }
           },
           {
-            "id": "0d8001706a0a3989",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Core/HomePage.md"
-              }
-            }
-          },
-          {
             "id": "3c718d2a77ef407b",
             "type": "leaf",
             "state": {
@@ -145,14 +135,21 @@
               "type": "tenki",
               "state": {}
             }
+          },
+          {
+            "id": "b75b9cbbd419fdc5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,10 +169,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bbf76580f388170c",
+  "active": "2644a4d781fc4e29",
   "lastOpenFiles": [
-    "Note/Academic_Note/概率论/古典概型.md",
     "Core/HomePage.md",
+    "Note/Academic_Note/概率论/古典概型.md",
     "conflict-files-obsidian-git.md",
     "Note/Academic_Note/概率论/概率论三个公理.md",
     "Note/Academic_Note/概率论/频率与概率.md",
