@@ -19,8 +19,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4f340f699927aeff",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".gitignore",
+                "staged": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Core/HomePage.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -180,10 +188,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff021d7f89bad8f2",
+  "active": "5a62ea24e37686fa",
   "lastOpenFiles": [
-    "随手记/ROS2使用NAV2实现激光雷达导航.md",
+    "conflict-files-obsidian-git.md",
     "Core/HomePage.md",
+    "随手记/ROS2使用NAV2实现激光雷达导航.md",
     "RSS",
     "Blog/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
     "随手记/使用Cmake编译Qt项目.md",
@@ -191,7 +200,6 @@
     "随手记/i386.md",
     "随手记/Hexo自定义过滤器实现.md",
     "Note/Academic_Note/概率论/古典概型.md",
-    "conflict-files-obsidian-git.md",
     "Note/Academic_Note/概率论/概率论三个公理.md",
     "Note/Academic_Note/概率论/频率与概率.md",
     "Note/Academic_Note/概率论/条件概率.md",
