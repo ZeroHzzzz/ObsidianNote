@@ -82,8 +82,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,7 +179,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5a62ea24e37686fa",
+  "active": "78f78b60fed9e6d4",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Core/HomePage.md",
