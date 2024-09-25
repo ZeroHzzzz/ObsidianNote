@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae13d291c104a814",
+        "id": "1c718182c9262a5e",
         "type": "tabs",
         "children": [
           {
-            "id": "ff021d7f89bad8f2",
+            "id": "d790d90bcbb46749",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4f340f699927aeff",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".gitignore",
-                "staged": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Core/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Core/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Core/HomePage.md"
+              }
             }
           }
         ]
