@@ -171,8 +171,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "78f78b60fed9e6d4",
+  "active": "d790d90bcbb46749",
   "lastOpenFiles": [
+    "随手记/未命名看板.md",
+    "Note/Academic_Note/大物/简谐振动.md",
     "conflict-files-obsidian-git.md",
     "Core/HomePage.md",
     "随手记/ROS2使用NAV2实现激光雷达导航.md",
@@ -198,8 +200,6 @@
     "Blog/Git warning：LF will be replaced by CRLF the next time Git touches it.md",
     "Blog/使用Github Action自动部署Hexo博客.md",
     "Blog/Ubuntu LTS 22.04 libssl 1.1问题记录.md",
-    "Blog/使用ADB实现短信发送.md",
-    "Blog/给GitHub Pages配置CNAME.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
