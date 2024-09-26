@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core/HomePage.md",
-                "mode": "preview",
+                "file": "Note/Academic_Note/概率论/条件概率.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "Note/Academic_Note/概率论/条件概率.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core/HomePage.md",
+                "file": "Note/Academic_Note/概率论/条件概率.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core/HomePage.md"
+                "file": "Note/Academic_Note/概率论/条件概率.md"
               }
             }
           }
@@ -173,10 +173,10 @@
   },
   "active": "d790d90bcbb46749",
   "lastOpenFiles": [
+    "Core/HomePage.md",
     "随手记/未命名看板.md",
     "Note/Academic_Note/大物/简谐振动.md",
     "conflict-files-obsidian-git.md",
-    "Core/HomePage.md",
     "随手记/ROS2使用NAV2实现激光雷达导航.md",
     "RSS",
     "Blog/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
