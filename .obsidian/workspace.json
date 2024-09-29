@@ -4,50 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99fb0272bf005e93",
+        "id": "dfc5c76ebd53f6a7",
         "type": "tabs",
         "children": [
           {
-            "id": "a3623124eb09b4e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blog/WSL2 图形界面.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "178348b9839ee716",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blog/WSL2 图形界面.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f18f11e89e7554e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "765882435aa207e5",
+            "id": "56cfa76d6c373090",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -59,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -134,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Core/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Core/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Core/HomePage.md"
               }
             }
           }
@@ -211,13 +172,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1f18f11e89e7554e",
+  "active": "5a62ea24e37686fa",
   "lastOpenFiles": [
+    "随手记/Kubuntu 22.04.5LTS os-release文件缺失问题解决.md",
     "Core/HomePage.md",
     "Blog/WSL2 图形界面.md",
     "conflict-files-obsidian-git.md",
     "随手记/Ubuntu 22.04中QQ音乐无法正常打开问题解决.md",
-    "随手记/Kubuntu 22.04.5LTS os-release文件缺失问题解决.md",
     "Note/计算机网络/RTT.md",
     "随手记/ROS2使用NAV2实现激光雷达导航.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
