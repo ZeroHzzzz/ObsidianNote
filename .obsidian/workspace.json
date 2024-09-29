@@ -32,9 +32,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1f18f11e89e7554e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "765882435aa207e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core/HomePage.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog/WSL2 图形界面.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog/WSL2 图形界面.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog/WSL2 图形界面.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -185,10 +211,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "178348b9839ee716",
+  "active": "1f18f11e89e7554e",
   "lastOpenFiles": [
     "Core/HomePage.md",
     "Blog/WSL2 图形界面.md",
+    "conflict-files-obsidian-git.md",
+    "随手记/Ubuntu 22.04中QQ音乐无法正常打开问题解决.md",
+    "随手记/Kubuntu 22.04.5LTS os-release文件缺失问题解决.md",
+    "Note/计算机网络/RTT.md",
     "随手记/ROS2使用NAV2实现激光雷达导航.md",
     "Book/计算机网络 (谢希仁) (Z-Library).pdf",
     "Note/Academic_Note/概率论/频率与概率.md",
@@ -199,7 +229,6 @@
     "Note/Academic_Note/概率论/条件概率.md",
     "随手记/未命名看板.md",
     "Note/Academic_Note/大物/简谐振动.md",
-    "conflict-files-obsidian-git.md",
     "RSS",
     "Blog/Windows环境中利用MinGW+CMake从源码编译OpenCV.md",
     "随手记/使用Cmake编译Qt项目.md",
@@ -212,9 +241,6 @@
     "Blog/Vscode配置java环境.md",
     "Blog/C++编译中变量重复定义问题.md",
     "Blog/Nginx代理转发请求方法改变问题.md",
-    "Blog/OMP Error 15问题解决.md",
-    "Blog/Hexo添加图片方式记录.md",
-    "Blog/Git warning：LF will be replaced by CRLF the next time Git touches it.md",
     "Book/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
     "Book/Java 语言程序设计 基础篇 原书第10版 (梁勇) (Z-Library).pdf",
     "Note/概率论",
