@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,7 +171,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5a62ea24e37686fa",
+  "active": "78f78b60fed9e6d4",
   "lastOpenFiles": [
     "随手记/Kubuntu 22.04.5LTS os-release文件缺失问题解决.md",
     "Core/HomePage.md",
