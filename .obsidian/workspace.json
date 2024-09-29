@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "178348b9839ee716",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blog/WSL2 图形界面.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,7 +185,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a3623124eb09b4e1",
+  "active": "178348b9839ee716",
   "lastOpenFiles": [
     "Core/HomePage.md",
     "Blog/WSL2 图形界面.md",
