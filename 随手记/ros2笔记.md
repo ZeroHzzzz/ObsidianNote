@@ -73,3 +73,9 @@ ros2 launch explore_lite explore.launch.py
 ```bash
 ros2 launch nav2_bringup navigation_launch.py
 ```
+
+## 保存地图
+
+```bash
+ros2 run nav2_map_server map_saver_cli -f /path/to/your/map
+```
