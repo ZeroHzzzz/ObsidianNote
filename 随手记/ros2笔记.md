@@ -59,3 +59,17 @@ sudo apt-get install ros-$ROS_DISTRO-rqt-tf-tree
 ```bash
 colcon build --packages-select map_build
 ```
+
+## 自动探索
+
+```bash
+ros2 launch explore_lite explore.launch.py
+```
+
+## 启动nav2
+
+在不使用nav2_amcl和nav2_map_server的情况下启动Navigation2。这里假设SLAM节点会在/map话题上进行地图发布并提供map->odom坐标变换。
+
+```bash
+ros2 launch nav2_bringup navigation_launch.py
+```
