@@ -64,6 +64,7 @@ colcon build --packages-select map_build
 
 ```bash
 ros2 launch explore_lite explore.launch.py
+ros2 launch map_build direct.py slam:=True
 ```
 
 ## 启动nav2
