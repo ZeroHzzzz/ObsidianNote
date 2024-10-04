@@ -62,6 +62,7 @@ colcon build --packages-select map_build
 
 ## 自动探索
 
+
 ```bash
 ros2 launch explore_lite explore.launch.py
 ros2 launch map_build direct.py slam:=True
