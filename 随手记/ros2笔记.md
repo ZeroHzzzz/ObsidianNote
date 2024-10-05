@@ -62,7 +62,6 @@ colcon build --packages-select map_build
 
 ## 自动探索
 
-
 ```bash
 ros2 launch explore_lite explore.launch.py
 ros2 launch map_build direct.py slam:=True
@@ -80,4 +79,10 @@ ros2 launch nav2_bringup navigation_launch.py
 
 ```bash
 ros2 run nav2_map_server map_saver_cli -f /path/to/your/map
+```
+
+## 启动雷达
+
+```bash
+ros2 launch lslidar_driver lslidar_launch.py
 ```
