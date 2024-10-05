@@ -91,6 +91,7 @@ ros2 launch lslidar_driver lslidar_launch.py
 
 ```bash
 ros2 run ros2_laser_scan_matcher laser_scan_matcher
+ros2 launch rf2o_laser_odometry rf2o_laser_odometry.launch.py
 ```
 
 ## 查看节点计算图
