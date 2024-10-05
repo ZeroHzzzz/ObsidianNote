@@ -86,3 +86,9 @@ ros2 run nav2_map_server map_saver_cli -f /path/to/your/map
 ```bash
 ros2 launch lslidar_driver lslidar_launch.py
 ```
+
+## 使用激光雷达发布odom
+
+```bash
+ros2 run ros2_laser_scan_matcher laser_scan_matcher
+```
