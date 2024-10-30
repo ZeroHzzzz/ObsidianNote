@@ -99,3 +99,9 @@ ros2 launch rf2o_laser_odometry rf2o_laser_odometry.launch.py
 ```
 rqt_graph
 ```
+
+## 保存pbstream文件
+
+```bash
+ros2 service call /write_state cartographer_ros_msgs/srv/WriteState "{filename: '/path/to/save/map.pbstream', include_unfinished_submaps: true}"
+```
