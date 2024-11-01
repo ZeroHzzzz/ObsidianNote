@@ -103,5 +103,36 @@ rqt_graph
 ## 保存pbstream文件
 
 ```bash
-ros2 service call /write_state cartographer_ros_msgs/srv/WriteState "{filename: '/home/zerohzzzz/test.pbstream', include_unfinished_submaps: true}"
+ros2 service call /write_state cartographer_ros_msgs/srv/WriteState "{filename: '/home/zerohzzzz/map5.pbstream', include_unfinished_submaps: true}"
+```
+
+# 启动导航
+
+```bash
+ros2 launch map_build navigation2_cartographer.launch.py use_sim_time:=False
+```
+
+# 启动仿真
+
+```bash
+ros2 launch map_build gazebo.py
+```
+
+# 启动真实
+
+```ros2 launch
+ros2 launch map_build real.py
+```
+
+# 启动流程控制
+
+```bash
+ros2 run map_build tmp
+```
+
+# 授权串口
+
+```bash
+sudo chmod 777 /dev/ttyACM0
+sudo chmod 777 /dev/ttyACM1
 ```
