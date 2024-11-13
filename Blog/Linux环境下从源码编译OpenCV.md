@@ -1,3 +1,10 @@
+---
+title: Linux环境下从源码编译OpenCV
+date: 2024-11-13 15:03
+updated: 2024-11-13 15:21
+tags: ['#Ubuntu', '#OpenCV']
+---
+
 #Ubuntu #OpenCV
 最近我需要用到OpenCV来过正方图片验证码，而我们使用apt源中的OpenCV版本是`4.5.0`，过于古老，由于我在这个场景下只需要用到核心的模块，不用去搞opencv_contrib的部分。因此我选择从源码进行编译，在此做一个记录。
 
