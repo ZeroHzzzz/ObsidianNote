@@ -1,7 +1,7 @@
 {
   "cssTheme": "Underwater",
   "accentColor": "",
-  "baseFontSize": 21,
+  "baseFontSize": 13,
   "enabledCssSnippets": [
     "custom-admonitions.1b78cc",
     "a",
