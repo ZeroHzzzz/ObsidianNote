@@ -235,3 +235,52 @@ static void rotateLeft(iter_t first, iter_t last) {
 -   **`mergeHi`**：适用于较大的第一个子序列。当第一个子序列较大时，`mergeHi` 会将第二个子序列的元素从末尾插入，避免移动较大的序列部分。
 
 这种方法帮助 TimSort 在合并时避免冗余的比较和复制，提高了算法在处理大量已排序数据时的效率。
+
+```cpp
+template <typename Compare, typename Projection>
+static void sort(iter_t const lo,
+                 iter_t const hi,
+                 Compare comp,
+                 Projection proj) {
+    GFX_TIMSORT_ASSERT(lo <= hi);
+
+    auto nRemaining = hi - lo;
+    if (nRemaining < 2) {
+        return;  // nothing to do
+    }
+
+    if (nRemaining < MIN_MERGE) {
+        auto initRunLen = countRunAndMakeAscending(lo, hi, comp, proj);
+        GFX_TIMSORT_LOG("initRunLen: " << initRunLen);
+        binarySort(lo, hi, lo + initRunLen, comp, proj);
+        return;
+    }
+
+    TimSort ts;
+    auto minRun = minRunLength(nRemaining);
+    auto cur = lo;
+    do {
+        auto runLen = countRunAndMakeAscending(cur, hi, comp, proj);
+
+        if (runLen < minRun) {
+            auto force = (std::min)(nRemaining, minRun);
+            binarySort(cur, cur + force, cur + runLen, comp, proj);
+            runLen = force;
+        }
+
+        ts.pushRun(cur, runLen);
+        ts.mergeCollapse(comp, proj);
+
+        cur += runLen;
+        nRemaining -= runLen;
+    } while (nRemaining != 0);
+
+    GFX_TIMSORT_ASSERT(cur == hi);
+    ts.mergeForceCollapse(comp, proj);
+    GFX_TIMSORT_ASSERT(ts.pending_.size() == 1);
+
+    GFX_TIMSORT_LOG("size: " << (hi - lo)
+                             << " tmp_.size(): " << ts.tmp_.size()
+                             << " pending_.size(): " << ts.pending_.size());
+}
+```
