@@ -58,13 +58,13 @@ void mergeCollapse(Compare comp, Projection proj) {
 }
 ```
 
--   首先检查当前“run”是否满足合并的条件：
-    -   `(n > 0 && pending_[n - 1].len <= pending_[n].len + pending_[n + 1].len)`：如果倒数第二个“run”（`n-1`）的长度小于或等于当前“run”（`n`）和下一个“run”（`n+1`）的长度之和，那么就满足合并条件。
-    -   `(n > 1 && pending_[n - 2].len <= pending_[n - 1].len + pending_[n].len)`：如果倒数第三个“run”（`n-2`）的长度小于或等于倒数第二个“run”（`n-1`）和当前“run”（`n`）的长度之和，那么也满足合并条件。
--   **`pending_[n - 1].len < pending_[n + 1].len`**: 如果倒数第二个“run”的长度小于下一个“run”的长度，调整 `n` 的值，让合并从 `n-1` 开始。
--   **`mergeAt(n, comp, proj);`**: 如果满足合并条件，调用 `mergeAt` 函数进行合并操作。`mergeAt` 是执行实际合并的函数，合并 `pending_` 中的第 `n` 个和第 `n+1` 个“run”。
--   **如果当前“run”的长度小于或等于下一个“run”的长度**，则直接合并当前“run”（`n`）和下一个“run”（`n+1`）。
--   如果没有满足任何合并条件，说明合并顺序已经是最优的，退出循环。
+- 首先检查当前“run”是否满足合并的条件：
+    - `(n > 0 && pending_[n - 1].len <= pending_[n].len + pending_[n + 1].len)`：如果倒数第二个“run”（`n-1`）的长度小于或等于当前“run”（`n`）和下一个“run”（`n+1`）的长度之和，那么就满足合并条件。
+    - `(n > 1 && pending_[n - 2].len <= pending_[n - 1].len + pending_[n].len)`：如果倒数第三个“run”（`n-2`）的长度小于或等于倒数第二个“run”（`n-1`）和当前“run”（`n`）的长度之和，那么也满足合并条件。
+- **`pending_[n - 1].len < pending_[n + 1].len`**: 如果倒数第二个“run”的长度小于下一个“run”的长度，调整 `n` 的值，让合并从 `n-1` 开始。
+- **`mergeAt(n, comp, proj);`**: 如果满足合并条件，调用 `mergeAt` 函数进行合并操作。`mergeAt` 是执行实际合并的函数，合并 `pending_` 中的第 `n` 个和第 `n+1` 个“run”。
+- **如果当前“run”的长度小于或等于下一个“run”的长度**，则直接合并当前“run”（`n`）和下一个“run”（`n+1`）。
+- 如果没有满足任何合并条件，说明合并顺序已经是最优的，退出循环。
 
 ```cpp
 template <typename Compare, typename Projection>
@@ -82,8 +82,8 @@ void mergeForceCollapse(Compare comp, Projection proj) {
 
 `mergeForceCollapse` 一般在以下情况下使用：
 
--   **最后阶段的合并**：在合并的最后阶段（当合并过程已经完成大部分合并时），`mergeForceCollapse` 可以强制将剩下的“run”合并，确保排序完成。
--   **避免停滞**：在某些情况下，`mergeForceCollapse` 可以避免由于不满足合并条件而造成的停滞，确保 TimSort 能继续进行合并，直到所有的“run”合并完。
+- **最后阶段的合并**：在合并的最后阶段（当合并过程已经完成大部分合并时），`mergeForceCollapse` 可以强制将剩下的“run”合并，确保排序完成。
+- **避免停滞**：在某些情况下，`mergeForceCollapse` 可以避免由于不满足合并条件而造成的停滞，确保 TimSort 能继续进行合并，直到所有的“run”合并完。
 
 ```cpp
 template <typename Compare, typename Projection>
@@ -183,12 +183,12 @@ Timsort 采用了 Galloping 搜索来优化查找过程，而不是简单的线�
 在 Timsort 中，多个有序的子序列会被合并成一个更大的有序序列。`gallopLeft` 可以帮助确定某个元素应该插入哪个子序列，从而在合并过程中进行高效的插入操作。
 **工作原理**：
 
--   首先，函数检查输入的合法性，比如 `len > 0` 和 `hint` 在有效范围内。
--   然后，函数根据提示位置 `hint`，决定是向左还是向右进行查找，分别对应着：
-    -   如果 `key` 比 `base[hint]` 大，搜索会向右扩展。
-    -   如果 `key` 比 `base[hint]` 小，搜索会向左扩展。
--   在扩展过程中，`ofs` 变量会不断增加，采用指数级的增长（即每次翻倍），这种方法称为 **Galloping**，能够加速查找过程。
--   一旦找到合适的区间，就会用 `std::ranges::lower_bound` 进行最后的二分查找，确定 `key` 应插入的位置。
+- 首先，函数检查输入的合法性，比如 `len > 0` 和 `hint` 在有效范围内。
+- 然后，函数根据提示位置 `hint`，决定是向左还是向右进行查找，分别对应着：
+    - 如果 `key` 比 `base[hint]` 大，搜索会向右扩展。
+    - 如果 `key` 比 `base[hint]` 小，搜索会向左扩展。
+- 在扩展过程中，`ofs` 变量会不断增加，采用指数级的增长（即每次翻倍），这种方法称为 **Galloping**，能够加速查找过程。
+- 一旦找到合适的区间，就会用 `std::ranges::lower_bound` 进行最后的二分查找，确定 `key` 应插入的位置。
 
 ```cpp
 static void rotateLeft(iter_t first, iter_t last) {
@@ -204,8 +204,8 @@ static void rotateLeft(iter_t first, iter_t last) {
 
 `mergeLo` 和 `mergeHi` 是两个核心的合并函数，负责将两个已排序的子序列（称为“run”）合并成一个新的有序序列。它们的作用是针对不同的情况执行合并操作，并优化合并过程。
 
--   **`mergeLo`**：适用于较小的第一个子序列（`base1`），即第一个子序列的长度较短，第二个子序列（`base2`）的元素将插入到第一个子序列的前端。
--   **`mergeHi`**：适用于较大的第一个子序列（`base1`），即第一个子序列的长度较长，第二个子序列（`base2`）的元素将插入到第一个子序列的后端。
+- **`mergeLo`**：适用于较小的第一个子序列（`base1`），即第一个子序列的长度较短，第二个子序列（`base2`）的元素将插入到第一个子序列的前端。
+- **`mergeHi`**：适用于较大的第一个子序列（`base1`），即第一个子序列的长度较长，第二个子序列（`base2`）的元素将插入到第一个子序列的后端。
 
 #### 1. `mergeLo`
 
@@ -231,8 +231,8 @@ static void rotateLeft(iter_t first, iter_t last) {
 
 在 TimSort 中，`mergeLo` 和 `mergeHi` 是对不同长度子序列的不同处理方式，它们旨在提高合并操作的效率：
 
--   **`mergeLo`**：适用于较小的第一个子序列。当第一个子序列较小并且需要插入大量第二子序列的元素时，选择将第二个子序列的元素插入到第一个子序列的前端，这样可以减少不必要的移动和交换。
--   **`mergeHi`**：适用于较大的第一个子序列。当第一个子序列较大时，`mergeHi` 会将第二个子序列的元素从末尾插入，避免移动较大的序列部分。
+- **`mergeLo`**：适用于较小的第一个子序列。当第一个子序列较小并且需要插入大量第二子序列的元素时，选择将第二个子序列的元素插入到第一个子序列的前端，这样可以减少不必要的移动和交换。
+- **`mergeHi`**：适用于较大的第一个子序列。当第一个子序列较大时，`mergeHi` 会将第二个子序列的元素从末尾插入，避免移动较大的序列部分。
 
 这种方法帮助 TimSort 在合并时避免冗余的比较和复制，提高了算法在处理大量已排序数据时的效率。
 
