@@ -1,12 +1,14 @@
 {
   "formatOnSave": true,
+  "formatOnFileChange": true,
   "formatCodeBlock": true,
-  "removeExtraSpaces": false,
-  "addTrailingSpaces": false,
+  "removeExtraSpaces": true,
+  "addTrailingSpaces": true,
   "formatOptions": {
     "trailingComma": "es5",
     "tabWidth": 4,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "ignorePatterns": "**/.git\n**/.svn\n**/.hg\n**/node_modules"
 }
