@@ -6,7 +6,8 @@
     "custom-admonitions.1b78cc",
     "a",
     "openweather",
-    "noprop"
+    "noprop",
+    "page-width"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true
