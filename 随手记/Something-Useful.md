@@ -25,3 +25,5 @@
 程序流程图：亿图图示
 
 论文代码逐行解读：[labml.ai](https://labml.ai/)
+
+WileCard：[WildCard | 一分钟注册，轻松订阅海外软件服务](https://bewildcard.com/card)
