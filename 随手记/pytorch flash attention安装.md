@@ -8,11 +8,11 @@ Flash Attention是一种注意力算法，更有效地缩放基于transformer的
 
 **Requirements:**
 
--   CUDA toolkit or ROCm toolkit
--   PyTorch 1.12 and above.
--   `packaging` Python package (`pip install packaging`)
--   `ninja` Python package (`pip install ninja`) \*
--   Linux. Might work for Windows starting v2.3.2 (we've seen a few positive [reports](https://github.com/Dao-AILab/flash-attention/issues/595)) but Windows compilation still requires more testing. If you have ideas on how to set up prebuilt CUDA wheels for Windows, please reach out via Github issue.
+- CUDA toolkit or ROCm toolkit
+- PyTorch 1.12 and above.
+- `packaging` Python package (`pip install packaging`)
+- `ninja` Python package (`pip install ninja`) \*
+- Linux. Might work for Windows starting v2.3.2 (we've seen a few positive [reports](https://github.com/Dao-AILab/flash-attention/issues/595)) but Windows compilation still requires more testing. If you have ideas on how to set up prebuilt CUDA wheels for Windows, please reach out via Github issue.
 
 Make sure that `ninja` is installed and that it works correctly (e.g. `ninja --version` then `echo $?` should return exit code 0). If not (sometimes `ninja --version` then `echo $?` returns a nonzero exit code), uninstall then reinstall `ninja` (`pip uninstall -y ninja && pip install ninja`). Without `ninja`, compiling can take a very long time (2h) since it does not use multiple CPU cores. With `ninja` compiling takes 3-5 minutes on a 64-core machine using CUDA toolkit.
 
