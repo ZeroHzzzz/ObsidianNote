@@ -12,23 +12,19 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "hexo": "latest",
-    "hexo-cli": "latest",
-    "hexo-deployer-git": "latest",
-    "hexo-filter-mathjax": "latest",
-    "hexo-generator-archive": "latest",
-    "hexo-generator-category": "latest",
-    "hexo-generator-index": "latest",
-    "hexo-generator-tag": "latest",
-    "hexo-pagination": "latest",
-    "hexo-renderer-ejs": "latest",
-    "hexo-renderer-kramed": "latest",
-    "hexo-renderer-stylus": "latest",
-    "hexo-server": "latest",
-    "hexo-theme-landscape": "latest",
-    "lru-cache": "latest",
-    "@paralleldrive/cuid2": "latest",
-    "glob": "latest",
-    "highlight.js": "latest"
+    "hexo": "^7.3.0",
+    "hexo-cli": "^4.3.2",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-filter-mathjax": "^0.9.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.3.0",
+    "hexo-renderer-pandoc": "^0.4.0",
+    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-landscape": "^1.0.0"
   }
 }
