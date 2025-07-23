@@ -18,5 +18,6 @@
   "quick-latex",
   "homepage",
   "obsidian-format-code",
-  "templater-obsidian"
+  "templater-obsidian",
+  "copilot"
 ]
