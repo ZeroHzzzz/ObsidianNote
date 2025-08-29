@@ -1,7 +1,6 @@
 [
   "obsidian-kanban",
   "dataview",
-  "prettier",
   "omnisearch",
   "text-extractor",
   "pdf-plus",
@@ -19,5 +18,6 @@
   "homepage",
   "obsidian-format-code",
   "templater-obsidian",
-  "copilot"
+  "copilot",
+  "prettier"
 ]

@@ -2,7 +2,7 @@
 
 ## 使用订阅转换工具
 
-订阅的转换可以使用这个工具：[subconverter](https://github.com/tindy2013/subconverter)，而这个工具可以将各种代理协议（如 V2Ray、Shadowsocks、Trojan 等）的订阅链接转换成 Clash、Quantumult、Shadowrocket 等客户端支持的格式。
+订阅的转换可以使用这个工具：[subconverter](https://github.com/tindy2013/subconverter)，而这个工具可以将各种[[代理]]协议（如 V2Ray、Shadowsocks、Trojan 等）的订阅链接转换成 Clash、Quantumult、Shadowrocket 等客户端支持的格式。
 
 网上也有一些可以直接使用的在线转化工具，但是一般来说我并不是很建议使用，因为这些东西随时会提桶跑路，导致我们订阅更新失败。
 
