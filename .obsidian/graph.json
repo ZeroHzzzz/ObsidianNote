@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "dns",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -39,6 +39,6 @@
   "repelStrength": 20,
   "linkStrength": 0,
   "linkDistance": 500,
-  "scale": 0.798265456178031,
+  "scale": 1.4793184179159087,
   "close": false
 }
