@@ -2,43 +2,21 @@
   "collapse-filter": false,
   "search": "dns",
   "showTags": false,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:Note/计算机网络  ",
-      "color": {
-        "a": 1,
-        "rgb": 14048348
-      }
-    },
-    {
-      "query": "path:Blog",
-      "color": {
-        "a": 1,
-        "rgb": 2810597
-      }
-    },
-    {
-      "query": "path:随手记  ",
-      "color": {
-        "a": 1,
-        "rgb": 11392604
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
-  "showArrow": true,
-  "textFadeMultiplier": -2.6,
-  "nodeSizeMultiplier": 3.15135375055482,
-  "lineSizeMultiplier": 3.0416955017301,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.212408147161809,
-  "repelStrength": 20,
-  "linkStrength": 0,
-  "linkDistance": 500,
-  "scale": 0.316428683181469,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.0866870716587245,
   "close": false
 }
