@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "dns",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -14,9 +14,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "repelStrength": 15.8632933865957,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0866870716587245,
-  "close": false
+  "scale": 0.19751678954701765,
+  "close": true
 }
