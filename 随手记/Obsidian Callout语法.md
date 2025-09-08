@@ -27,8 +27,8 @@ obsidian 共提供了 13 种 callout
 
 ![image.png](https://cloud.intro-iu.top:738/d/ThreeBody/ZeroHzzzzPic/202409160304637.png)
 
--   他们是大小写不敏感的，例如> [!BUG],> [!bug] 和 > [!Bug] 的效果是一样的；
--   同一类型的 callout 可能有很多种别名，例如 > [!info] 和 > [!todo] 的样式是一样的
+- 他们是大小写不敏感的，例如> [!BUG],> [!bug] 和 > [!Bug] 的效果是一样的；
+- 同一类型的 callout 可能有很多种别名，例如 > [!info] 和 > [!todo] 的样式是一样的
 
 ## 高级使用
 
