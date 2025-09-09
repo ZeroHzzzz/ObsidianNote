@@ -10,11 +10,11 @@ networkingMode=mirrored # 默认为NAT，可选bridge，host-only
 
 特性：
 
--   IPv6 support
--   Connect to Windows servers from within Linux using the localhost address `127.0.0.1`
--   Connect to WSL directly from your local area network (LAN)
--   Improved networking compatibility for VPNs
--   Multicast support
+- IPv6 support
+- Connect to Windows servers from within Linux using the localhost address `127.0.0.1`
+- Connect to WSL directly from your local area network (LAN)
+- Improved networking compatibility for VPNs
+- Multicast support
 
 ## DNS隧道
 
