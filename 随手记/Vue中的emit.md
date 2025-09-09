@@ -35,6 +35,8 @@ function sayHello() {
 </script>
 ```
 
+此处，子组件可以通过 `emit('事件名', 数据)` 发出多个事件，父组件用 `@事件名="方法"` 来监听不同的事件。
+
 `emit` 可以传参数，事件可以携带数据，比如输入框的值、状态等。
 
 ```vue
@@ -46,7 +48,20 @@ emit('update-count', newCount)
 ```vue
 <Child @update-count="count = $event" />
 ```
+`"count = $event"`是一个内联表达式，`$event` 代表子组件传过来的参数，`count = $event`就是把子组件传来的值直接赋给父组件里的 `count`。上面写法其实是 **简写**，等价于：
+```vue
+<Child @update-count="val => count = val" />
+```
+或者更传统的写法：
+```vue
+<Child @update-count="handleUpdate" />
 
+<script setup>
+function handleUpdate(val) {
+  count = val
+}
+</script>
+```
 ## v-model
 
 Vue 3 里 `v-model` 本质上就是用 `prop` + `emit` 封装的。
