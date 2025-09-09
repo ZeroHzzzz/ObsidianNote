@@ -1,31 +1,31 @@
 在 Vue 的组件化开发中，组件之间经常需要传递数据。`props` 就是父组件向子组件传值的方式。在日常开发中，你可以把组件类比为函数：
+
 - **函数的参数**：外部传进来 → 内部使用。
 - **组件的 props**：父组件传进来 → 子组件使用。
-也就是说，`props` 就是**子组件的入口参数**。其特点在于他的单向数据流，只能由父组件传给子组件，子组件不能直接修改 `props`。
-
+    也就是说，`props` 就是**子组件的入口参数**。其特点在于他的单向数据流，只能由父组件传给子组件，子组件不能直接修改 `props`。
 
 ## 基础用法
 
 ```vue
 <!-- 父组件 -->
 <template>
-  <ChildComp :msg="parentMsg" :count="5" />
+    <ChildComp :msg="parentMsg" :count="5" />
 </template>
 
 <script setup>
 import ChildComp from './ChildComp.vue'
-const parentMsg = "来自父组件的数据"
+const parentMsg = '来自父组件的数据'
 </script>
 
 <!-- 子组件 -->
 <template>
-  <p>{{ msg }} - {{ count }}</p>
+    <p>{{ msg }} - {{ count }}</p>
 </template>
 
 <script setup>
 const props = defineProps({
-  msg: String,
-  count: Number
+    msg: String,
+    count: Number,
 })
 </script>
 ```
@@ -33,16 +33,17 @@ const props = defineProps({
 `:msg="parentMsg"`指的是动态绑定，即`v-bind:msg="parentMsg"`
 
 同时子组件可以对 `props` 的类型、默认值、必填做约束：
+
 ```js
 defineProps({
-  title: {
-    type: String,
-    default: '默认标题'
-  },
-  count: {
-    type: Number,
-    required: true
-  }
+    title: {
+        type: String,
+        default: '默认标题',
+    },
+    count: {
+        type: Number,
+        required: true,
+    },
 })
 ```
 
@@ -67,51 +68,57 @@ const props = defineProps({ name: String, age: Number })
 ## 动态 Props
 
 正常情况下，我们写的是这样：
+
 ```vue
 <ChildComp title="固定标题" />
 ```
+
 此时这里 `title` 是写死的字符串。如果要传一个变量，就写：
+
 ```vue
 <ChildComp :title="parentTitle" />
 ```
+
 此时这里的 `title` 是固定的 **属性名**，值是变量，相当于`v-bind:title="parentTitle"`
 
 有时候，我们连 **属性名** 都想动态决定，因此我们写成：
+
 ```vue
 <ChildComp :[propName]="value" />
 ```
+
 这里的 `propName` 是一个变量，表示 **属性名**。本质上，`[ ]` 里写的是 **JS 表达式**，结果会当作属性名。
 
 ```vue
 <!-- 父组件 -->
 <template>
-  <ChildComp :[currentProp]="propValue" />
-  <button @click="toggleProp">切换 Prop 名</button>
+    <ChildComp :[currentProp]="propValue" />
+    <button @click="toggleProp">切换 Prop 名</button>
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import ChildComp from './ChildComp.vue'
 
-const currentProp = ref("title")
-const propValue = ref("Hello Vue!")
+const currentProp = ref('title')
+const propValue = ref('Hello Vue!')
 
 function toggleProp() {
-  currentProp.value = currentProp.value === "title" ? "msg" : "title"
+    currentProp.value = currentProp.value === 'title' ? 'msg' : 'title'
 }
 </script>
 
 <!-- 子组件 -->
 <script setup>
 const props = defineProps({
-  title: String,
-  msg: String
+    title: String,
+    msg: String,
 })
 </script>
 
 <template>
-  <p>title: {{ title }}</p>
-  <p>msg: {{ msg }}</p>
+    <p>title: {{ title }}</p>
+    <p>msg: {{ msg }}</p>
 </template>
 ```
 
@@ -123,7 +130,7 @@ const props = defineProps({
 
 <script setup>
 function handleChange(val) {
-  console.log("子组件传来的值：", val)
+    console.log('子组件传来的值：', val)
 }
 </script>
 
@@ -138,6 +145,7 @@ const props = defineProps({ onChange: Function })
 ## Props 与 Emit 结合
 
 推荐的做法是：
+
 - **父组件**负责管理数据
 - **子组件**通过 `props` 接收、通过 `emit` 通知父组件
 
@@ -157,8 +165,8 @@ const emit = defineEmits(['update'])
 </script>
 
 <template>
-  <button @click="emit('update', props.count + 1)">
-    {{ props.count }}
-  </button>
+    <button @click="emit('update', props.count + 1)">
+        {{ props.count }}
+    </button>
 </template>
 ```
