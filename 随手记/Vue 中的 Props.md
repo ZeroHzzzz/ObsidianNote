@@ -114,3 +114,51 @@ const props = defineProps({
   <p>msg: {{ msg }}</p>
 </template>
 ```
+
+## 传递函数作为 Props
+
+```vue
+<!-- 父组件 -->
+<Counter :onChange="handleChange" />
+
+<script setup>
+function handleChange(val) {
+  console.log("子组件传来的值：", val)
+}
+</script>
+
+<!-- 子组件 -->
+<button @click="props.onChange(123)">点我</button>
+
+<script setup>
+const props = defineProps({ onChange: Function })
+</script>
+```
+
+## Props 与 Emit 结合
+
+推荐的做法是：
+- **父组件**负责管理数据
+- **子组件**通过 `props` 接收、通过 `emit` 通知父组件
+
+```vue
+<!-- 父组件 -->
+<Counter :count="num" @update="num = $event" />
+
+<script setup>
+import { ref } from 'vue'
+const num = ref(0)
+</script>
+
+<!-- 子组件 -->
+<script setup>
+const props = defineProps({ count: Number })
+const emit = defineEmits(['update'])
+</script>
+
+<template>
+  <button @click="emit('update', props.count + 1)">
+    {{ props.count }}
+  </button>
+</template>
+```
