@@ -47,6 +47,7 @@ function onInput(event) {
 ### .stop 阻止冒泡
 
 在浏览器里，事件是有“传播过程”的，分三步：
+
 1. **捕获阶段**：从最外层往目标元素走。
 2. **目标阶段**：事件到达目标元素（比如按钮）。
 3. **冒泡阶段**：从目标元素再往外层一层层冒上去。
@@ -55,23 +56,25 @@ function onInput(event) {
 所以当你点按钮时，按钮的 `click` 先执行，然后事件继续往外层 div 传，外层 div 的 `click` 也会被触发。
 
 因此加上`.stop`之后，点击按钮时，事件冒泡会被截断，也就是只会执行内层的事件。
+
 ```vue
 <template>
-  <div @click="onDivClick">
-    外层 div
-    <button @click.stop="onBtnClick">点我</button>
-  </div>
+    <div @click="onDivClick">
+        外层 div
+        <button @click.stop="onBtnClick">点我</button>
+    </div>
 </template>
 
 <script setup>
 function onDivClick() {
-  console.log('div 被点了')
+    console.log('div 被点了')
 }
 function onBtnClick() {
-  console.log('按钮被点了')
+    console.log('按钮被点了')
 }
 </script>
 ```
+
 这里点击按钮时，只有 `onBtnClick` 执行，**外层的 div 不会再触发 click**。
 
 ### .self 只有点到元素本身时才触发
@@ -82,23 +85,25 @@ function onBtnClick() {
 
 ```vue
 <template>
-  <div @click.self="onDivClick" style="padding:20px; background:lightblue">
-    这是外层 div
-    <button>点我</button>
-  </div>
+    <div @click.self="onDivClick" style="padding:20px; background:lightblue">
+        这是外层 div
+        <button>点我</button>
+    </div>
 </template>
 
 <script setup>
 function onDivClick() {
-  console.log('点到 div 本身了！')
+    console.log('点到 div 本身了！')
 }
 </script>
 ```
+
 在这个例子里，如果你点 **div 空白处**：事件目标是 `div` 本身 → 会触发 `onDivClick`；如果你点 **按钮**：事件目标是 `button` → div 上的事件监听器不会触发。
 
 他和`.stop`的区别就是，`.stop`无论事件目标是谁，都会先执行，然后阻止往外传播；`.self`则是根本不会触发监听器，除非点到的是元素本身。`.self` 就是用来 **过滤掉子元素触发的冒泡**，只保留元素自己被点到的情况。
 
 其实就是说`.stop`用于处理子组件向父组件的事件，用在子组件上；而`.self`用于让父组件不要处理子组件的事件，用在父组件上。
+
 - **`.stop` 更像是“子组件说：别把我的事件传给父组件了”。**
 - **`.self` 更像是“父组件说：我只认自己被点，子组件的事我不管”。**
 
@@ -108,28 +113,31 @@ function onDivClick() {
 
 ```vue
 <template>
-  <div @click.capture="onParentClick">
-    父元素
-    <button @click="onChildClick">子按钮</button>
-  </div>
+    <div @click.capture="onParentClick">
+        父元素
+        <button @click="onChildClick">子按钮</button>
+    </div>
 </template>
 
 <script setup>
 function onParentClick() {
-  console.log('父元素捕获到 click')
+    console.log('父元素捕获到 click')
 }
 function onChildClick() {
-  console.log('子按钮 click')
+    console.log('子按钮 click')
 }
 </script>
 ```
 
 点击按钮时会输出：
+
 ```log
 父元素捕获到 click
 子按钮 click
 ```
+
 如果 没有 `.capture`，顺序是：
+
 ```log
 子按钮 click
 父元素捕获到 click
@@ -140,6 +148,7 @@ function onChildClick() {
 ### .prevent 阻止默认行为
 
 在浏览器里，很多元素的事件本身就会带“自带的动作”，这就是 **默认行为**。以下是几个常见的例子：
+
 - **表单提交**：点击 `<button type="submit">` 时，会刷新页面。
 - **链接跳转**：点击 `<a href="...">` 时，会跳到新的地址。
 - **输入框**：在 `<input type="checkbox">` 点一下，会自动勾选或取消。
@@ -153,6 +162,7 @@ function onChildClick() {
   <button type="submit">提交</button>
 </form>
 ```
+
 如上所示，使用了`.prevent`之后，提交表单将不会刷新页面。
 
 ### .once 只触发一次
@@ -162,6 +172,7 @@ function onChildClick() {
 ```vue
 <button @click.stop.once="onClick">点我</button>
 ```
+
 一次点击时只触发按钮事件，且不冒泡；之后就什么都不会发生了。
 
 ## 按键修饰符
@@ -174,7 +185,8 @@ function onChildClick() {
 
 ## 组件自定义事件
 
-组件间可以用 `emit` 来触发事件，让父组件接收。
+组件间可以用 [[Vue中的emit|emit]] 来触发事件，让父组件接收。
+
 ```vue
 <!-- 父组件 -->
 <Child @say-hello="handleHello" />
