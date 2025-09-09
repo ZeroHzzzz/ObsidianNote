@@ -48,20 +48,56 @@ emit('update-count', newCount)
 ```vue
 <Child @update-count="count = $event" />
 ```
+
 `"count = $event"`是一个内联表达式，`$event` 代表子组件传过来的参数，`count = $event`就是把子组件传来的值直接赋给父组件里的 `count`。上面写法其实是 **简写**，等价于：
+
 ```vue
-<Child @update-count="val => count = val" />
+<Child @update-count="(val) => (count = val)" />
 ```
+
 或者更传统的写法：
+
 ```vue
 <Child @update-count="handleUpdate" />
 
 <script setup>
 function handleUpdate(val) {
-  count = val
+    count = val
 }
 </script>
 ```
+
+但是内联表达式的写法有个缺陷，那只能拿到 **第一个参数**。如果你需要多个参数，就要写成函数：
+
+```vue
+<!-- 父组件 -->
+<script setup>
+import Child from './Child.vue'
+
+function handleEvent(a, b, c) {
+    console.log('父组件收到的参数:', a, b, c)
+}
+</script>
+
+<template>
+    <!-- 监听子组件的事件 -->
+    <Child @custom-event="(a, b, c) => handleEvent(a, b, c)" />
+</template>
+
+<!-- 子组件 -->
+<script setup>
+const emit = defineEmits(['custom-event'])
+
+function sendData() {
+    emit('custom-event', '第一个参数', 42, { name: 'Vue' })
+}
+</script>
+
+<template>
+    <button @click="sendData">发送事件</button>
+</template>
+```
+
 ## v-model
 
 Vue 3 里 `v-model` 本质上就是用 `prop` + `emit` 封装的。
