@@ -19,6 +19,47 @@ const count = ref(0)
 
 这里`ref(0)` 创建了一个响应式数字。在模板里用 `{{ count }}`，Vue 会自动帮你解开 `.value`。 JS 里如果你要修改，就要写 `count.value++`。
 
+但是这里有一些需要注意的东西，就是在模板渲染上下文中，只有顶级的 ref 属性才会被解包。顶层就是你直接在 `setup()` 或 `<script setup>` 里声明并返回的那个变量，如果 `ref` 被包在一个普通对象里，就不是顶层了。在下面的例子中，`count` 和 `object` 是顶级属性，但 `object.id` 不是：
+```js
+const count = ref(0)
+const object = { id: ref(1) }
+```
+因此，这个表达式按预期工作：
+```js
+{{ count + 1 }}
+```
+但这个**不会**，因为 `object.id` 在模板里不会自动解包，相当于 `ref(1)` 这个对象，所以 `ref(1) + 1` 没法算。
+```js
+{{ object.id + 1 }}
+```
+因此这种情况下我们应该这么写：
+```js
+{{ object.id.value + 1 }}
+```
+或者是让`object` 本身是响应式的，这样 `object.id` 就是普通响应式属性，不需要 `.value`。
+```js
+import { reactive } from 'vue'
+
+const object = reactive({ id: 1 })
+```
+还有一种办法是用 `toRefs`，如果你一定要用 `ref` 包在对象里，可以用 `toRefs` 解开，这样 `id` 就是顶层的 ref 了，模板里 `{{ id + 1 }}` 没问题。
+```js
+import { reactive, toRefs } from 'vue'
+
+const object = reactive({ id: 1 })
+const { id } = toRefs(object)
+```
+
+但是！在 **文本插值** 的场景下（就是 `{{ ... }}` 里面，直接渲染到页面上的文字），Vue 给我们加了一个特性，就是如果最终值是一个 `ref`，Vue 会自动帮你 `.value`。
+```js
+const object = { id: ref(1) }
+
+{{ object.id }}
+```
+这种情况下，**虽然 `object.id` 不是顶层 ref**，但因为它是插值的最终结果，Vue 会解包，等价于`{{ object.id.value }}`。
+
+也就是说，**纯插值**`{{ object.id }}` 的时候，Vue 自动帮你解包；而参与运算`{{ object.id + 1 }}`的时候，Vue不会自动解包，你得自己处理。
+
 ## 绑定到 DOM 元素
 
 ```vue
