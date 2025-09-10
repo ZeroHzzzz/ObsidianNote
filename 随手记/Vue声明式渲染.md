@@ -15,4 +15,8 @@ import { ref } from 'vue'
 const message = ref('Hello Vue')
 </script>
 ```
-这里我们没写“DOM 怎么改”，只说了“我需要一个 p 标签，它的内容跟 message 绑定”。当 `message` 变化时，Vue 会自动更新 DOM。
+这里我们没写“DOM 怎么改”，只说了“我需要一个 p 标签，它的内容跟 message 绑定”。当 `message` 变化时，Vue 会自动更新 DOM。其实就是我们只需要描述UI 的最终状态，不需要手动操作 DOM。Vue 自动帮你处理数据和视图的同步。
+
+Vue 的声明式渲染依赖两点：
+- **响应式数据**（ref、reactive）：数据变了 Vue 能知道。
+- **模板语法**（{{ }} 插值、指令）：用声明的方式把数据和 DOM 绑定。
